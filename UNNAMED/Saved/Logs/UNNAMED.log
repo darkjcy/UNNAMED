@@ -1,9 +1,9 @@
-﻿Log file open, 10/28/16 00:50:14
+﻿Log file open, 10/28/16 00:59:42
 LogInit:Display: Running engine for game: UNNAMED
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1625797845) SRandInit(-1625797844).
+LogInit:Display: RandInit(-187193814) SRandInit(-187193814).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.079936
+LogStats: Stats thread started at 0.082212
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3039270
@@ -44,541 +44,771 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.10.27-15.50.15:037][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.27-15.50.15:037][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.10.27-15.50.15:052][  0]LogInit: Computer: DESKTOP-5I3HB32
-[2016.10.27-15.50.15:052][  0]LogInit: User: jcy
-[2016.10.27-15.50.15:052][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.10.27-15.50.15:052][  0]LogInit: High frequency timer resolution =2.533210 MHz
-[2016.10.27-15.50.15:052][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.10.27-15.50.15:052][  0]LogMemory: Platform Memory Stats for Windows
-[2016.10.27-15.50.15:052][  0]LogMemory: Process Physical Memory: 191.09 MB used, 191.09 MB peak
-[2016.10.27-15.50.15:052][  0]LogMemory: Process Virtual Memory: 195.29 MB used, 195.29 MB peak
-[2016.10.27-15.50.15:052][  0]LogMemory: Physical Memory: 3321.19 MB used, 8113.86 MB total
-[2016.10.27-15.50.15:052][  0]LogMemory: Virtual Memory: 553.26 MB used, 134217728.00 MB total
-[2016.10.27-15.50.15:533][  0]LogD3D11RHI: D3D11 adapters:
-[2016.10.27-15.50.16:153][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2016.10.27-15.50.16:153][  0]LogD3D11RHI:       2018/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2016.10.27-15.50.16:159][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2016.10.27-15.50.16:159][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2016.10.27-15.50.16:161][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.10.27-15.50.16:161][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.10.27-15.50.16:161][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.10.27-15.50.16:167][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.10.27-15.50.16:167][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2016.10.27-15.50.16:167][  0]LogWindows: EnumDisplayDevices:
-[2016.10.27-15.50.16:168][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2016.10.27-15.50.16:168][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
-[2016.10.27-15.50.16:168][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2016.10.27-15.50.16:169][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2016.10.27-15.50.16:169][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2016.10.27-15.50.16:169][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2016.10.27-15.50.16:169][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.10.27-15.50.16:169][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.10.27-15.50.16:694][  0]LogD3D11RHI: Async texture creation enabled
-[2016.10.27-15.50.16:736][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2016.10.27-15.50.16:736][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Intermediate/Shaders/WorkingDirectory/12552/).
-[2016.10.27-15.50.16:737][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jcy/AppData/Local/Temp/UnrealShaderWorkingDir/EDA7E0154F0DB31B7AB3F5A2692A8FE0/'.
-[2016.10.27-15.50.16:737][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.10.27-15.50.17:737][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.10.27-15.50.17:749][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.10.27-15.50.17:764][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.10.27-15.50.17:777][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.10.27-15.50.17:788][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.10.27-15.50.17:797][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.10.27-15.50.17:806][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.10.27-15.50.17:813][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.10.27-15.50.17:821][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.10.27-15.50.17:828][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.10.27-15.50.17:837][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.10.27-15.50.17:853][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.10.27-15.50.17:853][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.10.27-15.50.17:854][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.10.27-15.50.17:877][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.10.27-15.50.17:884][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.10.27-15.50.17:893][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.10.27-15.50.17:901][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.10.27-15.50.17:909][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.10.27-15.50.17:909][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.10.27-15.50.17:995][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.10.27-15.50.18:066][  0]LogDerivedDataCache: Loaded boot cache 0.07s 47MB C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.10.27-15.50.18:067][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.10.27-15.50.18:067][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.10.27-15.50.18:067][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.10.27-15.50.18:067][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.10.27-15.50.18:067][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.10.27-15.50.18:092][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.10.27-15.50.18:105][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jcy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.10.27-15.50.18:317][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.27-15.50.18:317][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.10.27-15.50.18:484][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.10.27-15.50.18:484][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.10.27-15.50.18:484][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.10.27-15.50.18:772][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
-[2016.10.27-15.50.18:792][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.017034 seconds
-[2016.10.27-15.50.18:802][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2016.10.27-15.50.18:802][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
-[2016.10.27-15.50.18:802][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.10.27-15.50.18:809][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.10.27-15.50.19:002][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.27-15.50.19:002][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.27-15.50.19:996][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.10.27-15.50.20:298][  0]SourceControl: Info Source control is disabled
-[2016.10.27-15.50.20:300][  0]SourceControl: Info Source control is disabled
-[2016.10.27-15.50.20:311][  0]SourceControl: Info Source control is disabled
-[2016.10.27-15.50.20:322][  0]SourceControl: Info Source control is disabled
-[2016.10.27-15.50.20:584][  0]LogEngine: Initializing Engine...
-[2016.10.27-15.50.20:585][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.10.27-15.50.20:586][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.10.27-15.50.20:738][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.10.27-15.50.20:744][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.10.27-15.50.20:870][  0]LogInit: FAudioDevice initialized.
-[2016.10.27-15.50.20:906][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.10.27-15.50.20:915][  0]LogInit: Texture streaming: Enabled
-[2016.10.27-15.50.20:946][  0]LogInit: Transaction tracking system initialized
-[2016.10.27-15.50.20:980][  0]BlueprintLog: New page: Editor Load
-[2016.10.27-15.50.21:075][  0]LocalizationService: Info Localization service is disabled
-[2016.10.27-15.50.21:155][  0]LogConsoleResponse:Display: 
-[2016.10.27-15.50.21:270][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.10.27-15.50.21:270][  0]LogCook:Display: Mobile HDR setting 1
-[2016.10.27-15.50.21:387][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/' took 0.02s
-[2016.10.27-15.50.21:387][  0]SourceControl: Info Source control is disabled
-[2016.10.27-15.50.21:387][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.10.27-15.50.21:388][  0]LightingResults: New page: Lighting Build
-[2016.10.27-15.50.21:391][  0]MapCheck: New page: Map Check
-[2016.10.27-15.50.21:392][  0]LightingResults: New page: Lighting Build
-[2016.10.27-15.50.22:296][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.10.27-15.50.22:304][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.10.27-15.50.22:304][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.10.27-15.50.22:413][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.256ms to complete.
-[2016.10.27-15.50.22:413][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.026
-[2016.10.27-15.50.22:624][  0]LogCollectionManager: Loaded 1 collections in 0.003969 seconds
-[2016.10.27-15.50.22:670][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Collections/' took 0.01s
-[2016.10.27-15.50.22:670][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Developers/jcy/Collections/' took 0.01s
-[2016.10.27-15.50.22:670][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Collections/' took 0.01s
-[2016.10.27-15.50.22:670][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
-[2016.10.27-15.50.22:670][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
-[2016.10.27-15.50.22:679][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2047 classes and 369 folders.
-[2016.10.27-15.50.22:684][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.10.27-15.50.22:684][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.10.27-15.50.22:684][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
-[2016.10.27-15.50.22:690][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.10.27-15.50.22:761][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.10.27-15.50.22:765][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.10.27-15.50.22:826][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.10.27-15.50.22:831][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.10.27-15.50.22:860][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.10.27-15.50.22:860][  0]LogLoad: Full Startup: 8.75 seconds (BP compile: 0.27 seconds)
-[2016.10.27-15.50.22:860][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.10.27-15.50.22:860][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.10.27-15.50.22:896][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2016.10.27-15.50.22:899][  0]LogOcInput: OculusInput pre-init called
-[2016.10.27-15.50.22:917][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.10.27-15.50.23:094][  0]LogRenderer: Reallocating scene render targets to support 1144x576 (Frame:2).
-[2016.10.27-15.50.23:481][  2]LogAssetRegistry: Asset discovery search completed in 4.7312 seconds
-[2016.10.27-15.50.23:481][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000009 seconds (found 0 objects)
-[2016.10.27-15.50.23:481][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000027 seconds (updated 0 objects)
-[2016.10.27-15.50.27:384][187]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 111 classes and 0 folders.
-[2016.10.27-15.52.25:804][475]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2016.10.27-15.52.26:208][475]BlueprintEditorCompileResults: Info [0132.10] Compile of ThirdPersonCharacter successful! [in 403 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2016.10.27-15.52.33:332][807]LogEditorTransaction: Undo Delete current selection
-[2016.10.27-15.52.35:383][885]LogEditorTransaction: Undo Delete current selection
-[2016.10.27-15.52.35:664][890]LogEditorTransaction: Undo Move Node
-[2016.10.27-15.52.37:072][944]LogEditorTransaction: Undo Move Node
-[2016.10.27-15.54.48:980][966]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2016.10.27-15.54.49:267][966]BlueprintEditorCompileResults: Info [0275.16] Compile of ThirdPersonCharacter successful! [in 286 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2016.10.27-15.54.54:127][198]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.10.27-15.54.54:127][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.10.27-15.54.54:138][198]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 9:54:54 AM)
-[2016.10.27-15.54.54:138][198]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
-[2016.10.27-15.54.54:145][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006575s)
-[2016.10.27-15.54.54:146][198]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.10.27-15.54.54:146][198]LogPlayLevel: PIE: World Init took: (0.000897s)
-[2016.10.27-15.54.54:146][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.007864s)
-[2016.10.27-15.54.54:187][198]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.10.27-15.54.54:226][198]LogInit: FAudioDevice initialized.
-[2016.10.27-15.54.54:318][198]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2016.10.27-15.54.54:323][198]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-00.54.54
-[2016.10.27-15.54.54:324][198]LogWorld: Bringing up level for play took: 0.004572
-[2016.10.27-15.54.54:336][198]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
-[2016.10.27-15.54.54:340][198]LogInit: WinSock: Socket queue 131072 / 131072
-[2016.10.27-15.54.54:343][198]LogInit: WinSock: I am DESKTOP-5I3HB32 (192.168.0.3:0)
-[2016.10.27-15.54.54:343][198]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2016.10.27-15.54.54:343][198]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2016.10.27-15.54.54:595][198]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.322
-[2016.10.27-15.54.54:602][198]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 9:54:54 AM)
-[2016.10.27-15.54.54:673][198]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
-[2016.10.27-15.54.54:673][198]LogInit: WinSock: Socket queue 32768 / 32768
-[2016.10.27-15.54.54:674][198]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2016.10.27-15.54.54:674][198]LogNet: Game client on port 7777, rate 10000
-[2016.10.27-15.54.54:674][198]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
-[2016.10.27-15.54.54:881][198]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 0.608
-[2016.10.27-15.54.54:887][198]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 9:54:54 AM)
-[2016.10.27-15.54.54:959][198]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
-[2016.10.27-15.54.54:959][198]LogInit: WinSock: Socket queue 32768 / 32768
-[2016.10.27-15.54.54:961][198]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2016.10.27-15.54.54:961][198]LogNet: Game client on port 7777, rate 10000
-[2016.10.27-15.54.54:961][198]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
-[2016.10.27-15.54.55:190][198]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 0.917
-[2016.10.27-15.54.55:196][198]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 9:54:55 AM)
-[2016.10.27-15.54.55:274][198]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
-[2016.10.27-15.54.55:275][198]LogInit: WinSock: Socket queue 32768 / 32768
-[2016.10.27-15.54.55:275][198]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2016.10.27-15.54.55:275][198]LogNet: Game client on port 7777, rate 10000
-[2016.10.27-15.54.55:276][198]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
-[2016.10.27-15.54.55:520][198]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 1.247
-[2016.10.27-15.54.55:703][198]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.10.27-15.54.55:703][198]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
-[2016.10.27-15.54.55:703][198]LogHandshake: SendConnectChallenge. Timestamp: 0.030088, Cookie: 140128031207067108224250146013108082192013048132076034184219
-[2016.10.27-15.54.55:704][198]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
-[2016.10.27-15.54.55:704][198]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
-[2016.10.27-15.54.55:704][198]LogHandshake: SendConnectChallenge. Timestamp: 0.030088, Cookie: 188200196179130162222156063004216004151245149141032201219003
-[2016.10.27-15.54.55:704][198]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
-[2016.10.27-15.54.55:704][198]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
-[2016.10.27-15.54.55:704][198]LogHandshake: SendConnectChallenge. Timestamp: 0.030088, Cookie: 182013235103167140201225236034111087232166175225190145026171
-[2016.10.27-15.54.55:704][198]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
-[2016.10.27-15.54.55:714][198]LogHandshake: SendChallengeResponse. Timestamp: 0.030088, Cookie: 140128031207067108224250146013108082192013048132076034184219
-[2016.10.27-15.54.55:715][198]LogHandshake: SendChallengeResponse. Timestamp: 0.030088, Cookie: 188200196179130162222156063004216004151245149141032201219003
-[2016.10.27-15.54.55:716][198]LogHandshake: SendChallengeResponse. Timestamp: 0.030088, Cookie: 182013235103167140201225236034111087232166175225190145026171
-[2016.10.27-15.54.55:763][198]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:1585).
-[2016.10.27-15.54.55:961][199]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
-[2016.10.27-15.54.55:961][199]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56468
-[2016.10.27-15.54.55:962][199]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2016.10.27-15.54.55:963][199]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 10/28/16 00:54:55, [UNetConnection] RemoteAddr: 127.0.0.1:56468, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2016.10.27-15.54.55:963][199]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56468, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2016.10.27-15.54.55:963][199]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
-[2016.10.27-15.54.55:963][199]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56469
-[2016.10.27-15.54.55:967][199]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2016.10.27-15.54.55:967][199]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 10/28/16 00:54:55, [UNetConnection] RemoteAddr: 127.0.0.1:56469, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2016.10.27-15.54.55:967][199]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56469, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2016.10.27-15.54.55:967][199]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
-[2016.10.27-15.54.55:967][199]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56470
-[2016.10.27-15.54.55:969][199]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2016.10.27-15.54.55:969][199]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 10/28/16 00:54:55, [UNetConnection] RemoteAddr: 127.0.0.1:56470, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2016.10.27-15.54.55:969][199]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56470, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2016.10.27-15.54.56:046][200]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
-[2016.10.27-15.54.56:046][200]LogNet: Remote platform little endian=1
-[2016.10.27-15.54.56:047][200]LogNet: This platform little endian=1
-[2016.10.27-15.54.56:047][200]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
-[2016.10.27-15.54.56:047][200]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
-[2016.10.27-15.54.56:047][200]LogNet: Remote platform little endian=1
-[2016.10.27-15.54.56:047][200]LogNet: This platform little endian=1
-[2016.10.27-15.54.56:047][200]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
-[2016.10.27-15.54.56:048][200]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
-[2016.10.27-15.54.56:048][200]LogNet: Remote platform little endian=1
-[2016.10.27-15.54.56:048][200]LogNet: This platform little endian=1
-[2016.10.27-15.54.56:048][200]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
-[2016.10.27-15.54.56:094][201]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap userId: Invalid
-[2016.10.27-15.54.56:095][201]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap userId: Invalid
-[2016.10.27-15.54.56:095][201]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap userId: Invalid
-[2016.10.27-15.54.56:097][201]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
-[2016.10.27-15.54.56:113][201]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
-[2016.10.27-15.54.56:162][201]Cmd: MEM
-[2016.10.27-15.54.56:189][201]LogMemory: Platform Memory Stats for Windows
-[2016.10.27-15.54.56:189][201]LogMemory: Process Physical Memory: 1073.63 MB used, 1122.61 MB peak
-[2016.10.27-15.54.56:189][201]LogMemory: Process Virtual Memory: 2246.74 MB used, 2246.74 MB peak
-[2016.10.27-15.54.56:189][201]LogMemory: Physical Memory: 4319.68 MB used, 8113.86 MB total
-[2016.10.27-15.54.56:189][201]LogMemory: Virtual Memory: 3010.31 MB used, 134217728.00 MB total
-[2016.10.27-15.54.56:189][201]LogMemory: 
-[2016.10.27-15.54.56:189][201]Allocator Stats for TBB: (not implemented)
-[2016.10.27-15.54.56:193][201]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
-[2016.10.27-15.54.56:194][201]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.10.27-15.54.56:205][201]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-00.54.56
-[2016.10.27-15.54.56:205][201]LogWorld: Bringing up level for play took: 0.010346
-[2016.10.27-15.54.56:206][201]LogLoad: Took 0.093607 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
-[2016.10.27-15.54.56:206][201]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
-[2016.10.27-15.54.56:232][201]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
-[2016.10.27-15.54.56:278][201]Cmd: MEM
-[2016.10.27-15.54.56:313][201]LogMemory: Platform Memory Stats for Windows
-[2016.10.27-15.54.56:313][201]LogMemory: Process Physical Memory: 1087.75 MB used, 1122.61 MB peak
-[2016.10.27-15.54.56:313][201]LogMemory: Process Virtual Memory: 2263.11 MB used, 2263.11 MB peak
-[2016.10.27-15.54.56:313][201]LogMemory: Physical Memory: 4335.78 MB used, 8113.86 MB total
-[2016.10.27-15.54.56:313][201]LogMemory: Virtual Memory: 3026.31 MB used, 134217728.00 MB total
-[2016.10.27-15.54.56:313][201]LogMemory: 
-[2016.10.27-15.54.56:313][201]Allocator Stats for TBB: (not implemented)
-[2016.10.27-15.54.56:319][201]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_3_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
-[2016.10.27-15.54.56:320][201]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.10.27-15.54.56:327][201]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_3_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-00.54.56
-[2016.10.27-15.54.56:327][201]LogWorld: Bringing up level for play took: 0.006365
-[2016.10.27-15.54.56:329][201]LogLoad: Took 0.096852 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
-[2016.10.27-15.54.56:329][201]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
-[2016.10.27-15.54.56:369][201]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
-[2016.10.27-15.54.56:394][201]Cmd: MEM
-[2016.10.27-15.54.56:418][201]LogMemory: Platform Memory Stats for Windows
-[2016.10.27-15.54.56:418][201]LogMemory: Process Physical Memory: 1113.86 MB used, 1122.61 MB peak
-[2016.10.27-15.54.56:418][201]LogMemory: Process Virtual Memory: 2263.63 MB used, 2263.63 MB peak
-[2016.10.27-15.54.56:418][201]LogMemory: Physical Memory: 4359.78 MB used, 8113.86 MB total
-[2016.10.27-15.54.56:418][201]LogMemory: Virtual Memory: 3026.31 MB used, 134217728.00 MB total
-[2016.10.27-15.54.56:418][201]LogMemory: 
-[2016.10.27-15.54.56:418][201]Allocator Stats for TBB: (not implemented)
-[2016.10.27-15.54.56:422][201]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_4_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
-[2016.10.27-15.54.56:422][201]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.10.27-15.54.56:428][201]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_4_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-00.54.56
-[2016.10.27-15.54.56:429][201]LogWorld: Bringing up level for play took: 0.005587
-[2016.10.27-15.54.56:429][201]LogLoad: Took 0.060038 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
-[2016.10.27-15.54.56:459][202]LogNet: Client netspeed is 10000
-[2016.10.27-15.54.56:459][202]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
-[2016.10.27-15.54.56:464][202]LogNet: Join succeeded: 257
-[2016.10.27-15.54.56:464][202]LogNet: Client netspeed is 10000
-[2016.10.27-15.54.56:464][202]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
-[2016.10.27-15.54.56:468][202]LogNet: Join succeeded: 258
-[2016.10.27-15.54.56:468][202]LogNet: Client netspeed is 10000
-[2016.10.27-15.54.56:468][202]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
-[2016.10.27-15.54.56:471][202]LogNet: Join succeeded: 259
-[2016.10.27-15.55.05:284][376]LogBlueprintUserMessages: [observer_C_0] Client 3: -1
-[2016.10.27-15.55.18:583][641]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: 4
-[2016.10.27-15.55.18:595][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.10.27-15.55.18:844][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.10.27-15.55.18:887][641]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: playercon_C_0, Owner: playercon_C_0
-[2016.10.27-15.55.18:887][641]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: playercon_C_0, Owner: playercon_C_0, Channels: 16, Time: 2016.10.27-15.55.18
-[2016.10.27-15.55.18:887][641]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: playercon_C_0, Owner: playercon_C_0
-[2016.10.27-15.55.18:889][641]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: playercon_C_0, Owner: playercon_C_0
-[2016.10.27-15.55.18:889][641]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: playercon_C_0, Owner: playercon_C_0, Channels: 15, Time: 2016.10.27-15.55.18
-[2016.10.27-15.55.18:889][641]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: playercon_C_0, Owner: playercon_C_0
-[2016.10.27-15.55.18:896][641]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56470, Name: IpConnection_5, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
-[2016.10.27-15.55.18:896][641]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56470, Name: IpConnection_5, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-15.55.18
-[2016.10.27-15.55.18:896][641]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56470, Name: IpConnection_5, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
-[2016.10.27-15.55.18:896][641]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56469, Name: IpConnection_4, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
-[2016.10.27-15.55.18:896][641]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56469, Name: IpConnection_4, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-15.55.18
-[2016.10.27-15.55.18:896][641]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56469, Name: IpConnection_4, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
-[2016.10.27-15.55.18:896][641]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56468, Name: IpConnection_3, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
-[2016.10.27-15.55.18:896][641]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56468, Name: IpConnection_3, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-15.55.18
-[2016.10.27-15.55.18:896][641]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56468, Name: IpConnection_3, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
-[2016.10.27-15.55.18:896][641]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
-[2016.10.27-15.55.18:896][641]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-15.55.18
-[2016.10.27-15.55.18:897][641]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
-[2016.10.27-15.55.18:904][641]LogExit: GameNetDriver None shut down
-[2016.10.27-15.55.18:904][641]LogExit: GameNetDriver None shut down
-[2016.10.27-15.55.18:905][641]LogExit: GameNetDriver None shut down
-[2016.10.27-15.55.18:908][641]LogExit: GameNetDriver None shut down
-[2016.10.27-15.55.55:667][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.10.27-15.56.06:928][887]LogSavePackage: Save=88.22ms
-[2016.10.27-15.56.06:928][887]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/ThirdPersonCharacterF2C687DF4B1A87D8491CE683534A6A2D.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2016.10.27-15.56.06:931][887]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2016.10.27-15.56.07:162][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.10.27-15.56.07:284][887]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2016.10.27-15.56.07:519][888]Cmd: QUIT_EDITOR
-[2016.10.27-15.56.08:375][888]LogExit: Preparing to exit.
-[2016.10.27-15.56.09:458][888]LogExit: Editor shut down
-[2016.10.27-15.56.09:458][888]LogExit: Transaction tracking system shut down
-[2016.10.27-15.56.09:656][888]LogObj: Freed 0b from 0 cluster array pools.
-[2016.10.27-15.56.09:656][888]LogExit: Object subsystem successfully closed.
-[2016.10.27-15.56.09:671][888]LogD3D11RHI: Shutdown
-[2016.10.27-15.56.09:671][888]LogD3D11RHI: CleanupD3DDevice
-[2016.10.27-15.56.09:747][888]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.10.27-15.56.09:768][888]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
-[2016.10.27-15.56.09:768][888]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
-[2016.10.27-15.56.09:768][888]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
-[2016.10.27-15.56.09:768][888]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
-[2016.10.27-15.56.09:768][888]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
-[2016.10.27-15.56.09:768][888]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
-[2016.10.27-15.56.09:768][888]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
-[2016.10.27-15.56.09:771][888]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
-[2016.10.27-15.56.09:771][888]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
-[2016.10.27-15.56.09:771][888]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
-[2016.10.27-15.56.09:771][888]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
-[2016.10.27-15.56.09:771][888]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module BspMode (198)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module SessionServices (188)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2016.10.27-15.56.09:772][888]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2016.10.27-15.56.09:773][888]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2016.10.27-15.56.09:773][888]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2016.10.27-15.56.09:773][888]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2016.10.27-15.56.09:773][888]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2016.10.27-15.56.10:248][888]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2016.10.27-15.56.10:249][888]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2016.10.27-15.56.10:249][888]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2016.10.27-15.56.10:249][888]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2016.10.27-15.56.10:249][888]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2016.10.27-15.56.10:249][888]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2016.10.27-15.56.10:249][888]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2016.10.27-15.56.10:250][888]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2016.10.27-15.56.10:250][888]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2016.10.27-15.56.10:250][888]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2016.10.27-15.56.10:250][888]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2016.10.27-15.56.10:250][888]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2016.10.27-15.56.10:250][888]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2016.10.27-15.56.10:250][888]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2016.10.27-15.56.10:292][888]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2016.10.27-15.56.10:292][888]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2016.10.27-15.56.10:292][888]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2016.10.27-15.56.10:292][888]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2016.10.27-15.56.10:292][888]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2016.10.27-15.56.10:293][888]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2016.10.27-15.56.10:293][888]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2016.10.27-15.56.10:293][888]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2016.10.27-15.56.10:293][888]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2016.10.27-15.56.10:293][888]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2016.10.27-15.56.10:293][888]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2016.10.27-15.56.10:293][888]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2016.10.27-15.56.10:293][888]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2016.10.27-15.56.10:294][888]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2016.10.27-15.56.10:473][888]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2016.10.27-15.56.10:473][888]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module SteamVR (125)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module OculusInput (122)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module CableComponent (120)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2016.10.27-15.56.10:474][888]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
-[2016.10.27-15.56.10:475][888]LogModuleManager: Shutting down and abandoning module HotReload (99)
-[2016.10.27-15.56.10:477][888]LogModuleManager: Shutting down and abandoning module MainFrame (98)
-[2016.10.27-15.56.10:477][888]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
-[2016.10.27-15.56.10:478][888]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2016.10.27-15.56.10:481][888]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2016.10.27-15.56.10:481][888]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module Paper2D (92)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module Media (90)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module VREditor (84)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module Sequencer (78)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module AssetTools (75)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module UMG (73)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module Slate (71)
-[2016.10.27-15.56.10:582][888]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
-[2016.10.27-15.56.10:586][888]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
-[2016.10.27-15.56.10:586][888]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
-[2016.10.27-15.56.10:586][888]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
-[2016.10.27-15.56.10:586][888]LogModuleManager: Shutting down and abandoning module Networking (65)
-[2016.10.27-15.56.10:586][888]LogModuleManager: Shutting down and abandoning module Core (64)
-[2016.10.27-15.56.10:586][888]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
-[2016.10.27-15.56.10:587][888]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
-[2016.10.27-15.56.10:789][888]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.10.27-15.56.10:789][888]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.10.27-15.56.10:789][888]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.10.27-15.56.10:789][888]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
-[2016.10.27-15.56.10:790][888]LogDerivedDataCache: Shutdown
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.10.27-15.56.10:790][888]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.10.27-15.56.12:294][888]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.10.27-15.56.12:294][888]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.10.27-15.56.12:294][888]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.10.27-15.56.12:294][888]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.10.27-15.56.12:295][888]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.10.27-15.56.12:295][888]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.10.27-15.56.12:295][888]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.10.27-15.56.12:305][888]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.10.27-15.56.12:305][888]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.10.27-15.56.12:305][888]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.10.27-15.56.12:305][888]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.10.27-15.56.12:305][888]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.10.27-15.56.12:305][888]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.10.27-15.56.12:306][888]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.10.27-15.56.12:306][888]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.10.27-15.56.12:306][888]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.10.27-15.56.12:306][888]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.10.27-15.56.12:311][888]LogExit: Exiting.
-[2016.10.27-15.56.12:315][888]Log file closed, 10/28/16 00:56:12
+[2016.10.27-15.59.42:930][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.27-15.59.42:930][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.27-15.59.42:939][  0]LogInit: Computer: DESKTOP-5I3HB32
+[2016.10.27-15.59.42:939][  0]LogInit: User: jcy
+[2016.10.27-15.59.42:939][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.27-15.59.42:939][  0]LogInit: High frequency timer resolution =2.533210 MHz
+[2016.10.27-15.59.42:939][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.10.27-15.59.42:939][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.27-15.59.42:939][  0]LogMemory: Process Physical Memory: 191.10 MB used, 191.10 MB peak
+[2016.10.27-15.59.42:939][  0]LogMemory: Process Virtual Memory: 195.25 MB used, 195.25 MB peak
+[2016.10.27-15.59.42:939][  0]LogMemory: Physical Memory: 3354.33 MB used, 8113.86 MB total
+[2016.10.27-15.59.42:939][  0]LogMemory: Virtual Memory: 553.26 MB used, 134217728.00 MB total
+[2016.10.27-15.59.43:414][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.27-15.59.44:002][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2016.10.27-15.59.44:003][  0]LogD3D11RHI:       2018/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.10.27-15.59.44:009][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.10.27-15.59.44:009][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.10.27-15.59.44:011][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.27-15.59.44:011][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.27-15.59.44:011][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.27-15.59.44:016][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.27-15.59.44:016][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2016.10.27-15.59.44:016][  0]LogWindows: EnumDisplayDevices:
+[2016.10.27-15.59.44:016][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2016.10.27-15.59.44:016][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2016.10.27-15.59.44:017][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.10.27-15.59.44:017][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.10.27-15.59.44:017][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2016.10.27-15.59.44:017][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.10.27-15.59.44:017][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.10.27-15.59.44:017][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.27-15.59.44:536][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.27-15.59.44:593][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.10.27-15.59.44:593][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Intermediate/Shaders/WorkingDirectory/8584/).
+[2016.10.27-15.59.44:594][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jcy/AppData/Local/Temp/UnrealShaderWorkingDir/8B5953BB4EC53F05F6EE998DCFE170D8/'.
+[2016.10.27-15.59.44:594][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.27-15.59.45:628][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.27-15.59.45:640][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.27-15.59.45:649][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.27-15.59.45:660][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.27-15.59.45:671][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.27-15.59.45:679][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.27-15.59.45:686][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.27-15.59.45:694][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.27-15.59.45:703][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.27-15.59.45:712][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.27-15.59.45:721][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.27-15.59.45:739][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.27-15.59.45:739][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.27-15.59.45:740][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.27-15.59.45:762][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.27-15.59.45:771][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.27-15.59.45:779][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.27-15.59.45:797][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.27-15.59.45:812][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.27-15.59.45:812][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.27-15.59.45:899][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.27-15.59.45:962][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.27-15.59.45:962][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.27-15.59.45:963][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.27-15.59.45:963][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.27-15.59.45:963][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.27-15.59.45:963][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.27-15.59.45:981][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.27-15.59.45:994][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jcy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.27-15.59.46:207][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.27-15.59.46:207][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.27-15.59.46:383][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.27-15.59.46:383][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.27-15.59.46:383][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.27-15.59.46:682][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2016.10.27-15.59.46:717][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.031908 seconds
+[2016.10.27-15.59.46:722][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.27-15.59.46:722][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.10.27-15.59.46:722][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.27-15.59.46:733][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.27-15.59.46:935][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.27-15.59.46:935][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.27-15.59.47:934][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.27-15.59.48:216][  0]SourceControl: Info Source control is disabled
+[2016.10.27-15.59.48:218][  0]SourceControl: Info Source control is disabled
+[2016.10.27-15.59.48:229][  0]SourceControl: Info Source control is disabled
+[2016.10.27-15.59.48:240][  0]SourceControl: Info Source control is disabled
+[2016.10.27-15.59.48:515][  0]LogEngine: Initializing Engine...
+[2016.10.27-15.59.48:516][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.27-15.59.48:516][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.27-15.59.48:663][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.27-15.59.48:669][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.27-15.59.48:809][  0]LogInit: FAudioDevice initialized.
+[2016.10.27-15.59.48:843][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.27-15.59.48:851][  0]LogInit: Texture streaming: Enabled
+[2016.10.27-15.59.48:878][  0]LogInit: Transaction tracking system initialized
+[2016.10.27-15.59.48:904][  0]BlueprintLog: New page: Editor Load
+[2016.10.27-15.59.49:001][  0]LocalizationService: Info Localization service is disabled
+[2016.10.27-15.59.49:078][  0]LogConsoleResponse:Display: 
+[2016.10.27-15.59.49:198][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.27-15.59.49:198][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.27-15.59.49:333][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/' took 0.02s
+[2016.10.27-15.59.49:333][  0]SourceControl: Info Source control is disabled
+[2016.10.27-15.59.49:333][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.27-15.59.49:334][  0]LightingResults: New page: Lighting Build
+[2016.10.27-15.59.49:344][  0]MapCheck: New page: Map Check
+[2016.10.27-15.59.49:344][  0]LightingResults: New page: Lighting Build
+[2016.10.27-15.59.50:323][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.27-15.59.50:333][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.27-15.59.50:335][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.27-15.59.50:481][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 145.554ms to complete.
+[2016.10.27-15.59.50:481][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.147
+[2016.10.27-15.59.50:698][  0]LogCollectionManager: Loaded 1 collections in 0.002884 seconds
+[2016.10.27-15.59.50:757][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Collections/' took 0.01s
+[2016.10.27-15.59.50:757][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Developers/jcy/Collections/' took 0.01s
+[2016.10.27-15.59.50:757][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Collections/' took 0.01s
+[2016.10.27-15.59.50:757][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000009 seconds
+[2016.10.27-15.59.50:757][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.10.27-15.59.50:766][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2047 classes and 369 folders.
+[2016.10.27-15.59.50:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.27-15.59.50:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.27-15.59.50:770][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.10.27-15.59.50:777][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.27-15.59.50:844][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.27-15.59.50:848][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.27-15.59.50:914][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.27-15.59.50:924][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.27-15.59.50:953][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.10.27-15.59.50:954][  0]LogLoad: Full Startup: 8.95 seconds (BP compile: 0.30 seconds)
+[2016.10.27-15.59.50:954][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.27-15.59.50:954][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.27-15.59.50:992][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.10.27-15.59.50:998][  0]LogOcInput: OculusInput pre-init called
+[2016.10.27-15.59.51:017][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.27-15.59.51:198][  0]LogRenderer: Reallocating scene render targets to support 1144x576 (Frame:2).
+[2016.10.27-15.59.51:541][  2]LogAssetRegistry: Asset discovery search completed in 4.8811 seconds
+[2016.10.27-15.59.51:541][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000011 seconds (found 0 objects)
+[2016.10.27-15.59.51:541][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000030 seconds (updated 0 objects)
+[2016.10.27-16.00.00:773][498]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 111 classes and 0 folders.
+[2016.10.27-16.00.09:291][772]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.010 s
+[2016.10.27-16.00.09:291][772]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: TabBeingDraggedPtr.IsValid() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Slate\Private\Framework\Docking\SDockingTabWell.cpp] [Line: 374]
+
+Stack: 
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+USER32.dll
+USER32.dll
+UE4Editor-Core.dll
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.10.27-16.00.09:291][772]LogStats:                SubmitErrorReport -  0.000 s
+[2016.10.27-16.00.16:571][772]LogStats:                    SendNewReport -  7.280 s
+[2016.10.27-16.00.16:571][772]LogStats:             FDebug::EnsureFailed -  7.291 s
+[2016.10.27-16.04.46:892][902]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-16.04.46:893][902]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.27-16.04.46:928][902]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2016.10.27-16.04.47:203][902]LogPlayLevel: PlayLevel: Blueprint regeneration took 309 ms (4 blueprints)
+[2016.10.27-16.04.47:207][902]LogPlayLevel: [PlayLevel] Compiling ThirdPersonGameMode before play...
+[2016.10.27-16.04.47:371][902]LogPlayLevel: PlayLevel: Blueprint regeneration took 478 ms (5 blueprints)
+[2016.10.27-16.04.47:372][902]LogPlayLevel: [PlayLevel] Compiling observer before play...
+[2016.10.27-16.04.47:531][902]LogPlayLevel: PlayLevel: Blueprint regeneration took 638 ms (5 blueprints)
+[2016.10.27-16.04.47:532][902]LogPlayLevel: [PlayLevel] Compiling PHUD before play...
+[2016.10.27-16.04.47:674][902]LogPlayLevel: PlayLevel: Blueprint regeneration took 781 ms (5 blueprints)
+[2016.10.27-16.04.47:675][902]LogPlayLevel: [PlayLevel] Compiling playercon before play...
+[2016.10.27-16.04.47:863][902]LogPlayLevel: PlayLevel: Blueprint regeneration took 970 ms (6 blueprints)
+[2016.10.27-16.04.47:863][902]LogPlayLevel: [PlayLevel] Compiling ChattingTXT before play...
+[2016.10.27-16.04.47:983][902]LogPlayLevel: PlayLevel: Blueprint regeneration took 1090 ms (6 blueprints)
+[2016.10.27-16.04.48:077][902]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 10:04:48 AM)
+[2016.10.27-16.04.48:077][902]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2016.10.27-16.04.48:082][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004414s)
+[2016.10.27-16.04.48:083][902]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.27-16.04.48:083][902]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2016.10.27-16.04.48:083][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.006044s)
+[2016.10.27-16.04.48:106][902]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.27-16.04.48:139][902]LogInit: FAudioDevice initialized.
+[2016.10.27-16.04.48:222][902]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.04.48:228][902]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-01.04.48
+[2016.10.27-16.04.48:228][902]LogWorld: Bringing up level for play took: 0.004407
+[2016.10.27-16.04.48:236][902]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2016.10.27-16.04.48:240][902]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.10.27-16.04.48:242][902]LogInit: WinSock: I am DESKTOP-5I3HB32 (192.168.0.3:0)
+[2016.10.27-16.04.48:242][902]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.04.48:242][902]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.10.27-16.04.48:443][902]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.17
+[2016.10.27-16.04.48:451][902]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 10:04:48 AM)
+[2016.10.27-16.04.48:518][902]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.10.27-16.04.48:518][902]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.10.27-16.04.48:518][902]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.04.48:518][902]LogNet: Game client on port 7777, rate 10000
+[2016.10.27-16.04.48:518][902]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.04.48:711][902]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 0.438
+[2016.10.27-16.04.48:720][902]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 10:04:48 AM)
+[2016.10.27-16.04.48:797][902]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.10.27-16.04.48:798][902]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.10.27-16.04.48:799][902]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.04.48:799][902]LogNet: Game client on port 7777, rate 10000
+[2016.10.27-16.04.48:799][902]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.04.49:001][902]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 0.728
+[2016.10.27-16.04.49:009][902]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 10:04:49 AM)
+[2016.10.27-16.04.49:088][902]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.10.27-16.04.49:089][902]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.10.27-16.04.49:089][902]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.04.49:089][902]LogNet: Game client on port 7777, rate 10000
+[2016.10.27-16.04.49:089][902]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.04.49:289][902]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 1.016
+[2016.10.27-16.04.49:469][902]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-16.04.49:470][902]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.04.49:470][902]LogHandshake: SendConnectChallenge. Timestamp: 0.030499, Cookie: 237166122098101196144020244067181073091149202237246170152023
+[2016.10.27-16.04.49:470][902]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.04.49:470][902]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.04.49:470][902]LogHandshake: SendConnectChallenge. Timestamp: 0.030499, Cookie: 090042089007029214115038092181094224148066078218159021006023
+[2016.10.27-16.04.49:470][902]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.04.49:470][902]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.04.49:470][902]LogHandshake: SendConnectChallenge. Timestamp: 0.030499, Cookie: 249251028167027040119191121247175202227127202250175078150101
+[2016.10.27-16.04.49:470][902]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.04.49:479][902]LogHandshake: SendChallengeResponse. Timestamp: 0.030499, Cookie: 237166122098101196144020244067181073091149202237246170152023
+[2016.10.27-16.04.49:481][902]LogHandshake: SendChallengeResponse. Timestamp: 0.030499, Cookie: 090042089007029214115038092181094224148066078218159021006023
+[2016.10.27-16.04.49:482][902]LogHandshake: SendChallengeResponse. Timestamp: 0.030499, Cookie: 249251028167027040119191121247175202227127202250175078150101
+[2016.10.27-16.04.49:687][902]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:943).
+[2016.10.27-16.04.49:931][903]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.04.49:931][903]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61722
+[2016.10.27-16.04.49:931][903]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.04.49:932][903]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 10/28/16 01:04:49, [UNetConnection] RemoteAddr: 127.0.0.1:61722, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.04.49:932][903]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61722, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.04.49:932][903]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.04.49:932][903]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61723
+[2016.10.27-16.04.49:932][903]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.04.49:932][903]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 10/28/16 01:04:49, [UNetConnection] RemoteAddr: 127.0.0.1:61723, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.04.49:932][903]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61723, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.04.49:932][903]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.04.49:932][903]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61724
+[2016.10.27-16.04.49:932][903]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.04.49:932][903]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 10/28/16 01:04:49, [UNetConnection] RemoteAddr: 127.0.0.1:61724, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.04.49:932][903]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61724, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.04.49:978][904]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.10.27-16.04.49:978][904]LogNet: Remote platform little endian=1
+[2016.10.27-16.04.49:978][904]LogNet: This platform little endian=1
+[2016.10.27-16.04.49:978][904]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.04.49:978][904]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.10.27-16.04.49:978][904]LogNet: Remote platform little endian=1
+[2016.10.27-16.04.49:978][904]LogNet: This platform little endian=1
+[2016.10.27-16.04.49:978][904]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.04.49:979][904]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.10.27-16.04.49:979][904]LogNet: Remote platform little endian=1
+[2016.10.27-16.04.49:979][904]LogNet: This platform little endian=1
+[2016.10.27-16.04.49:979][904]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.04.50:053][905]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap userId: Invalid
+[2016.10.27-16.04.50:053][905]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap userId: Invalid
+[2016.10.27-16.04.50:053][905]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap userId: Invalid
+[2016.10.27-16.04.50:054][905]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.10.27-16.04.50:073][905]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.10.27-16.04.50:109][905]Cmd: MEM
+[2016.10.27-16.04.50:134][905]LogMemory: Platform Memory Stats for Windows
+[2016.10.27-16.04.50:134][905]LogMemory: Process Physical Memory: 1131.66 MB used, 1131.66 MB peak
+[2016.10.27-16.04.50:134][905]LogMemory: Process Virtual Memory: 2128.02 MB used, 2128.02 MB peak
+[2016.10.27-16.04.50:134][905]LogMemory: Physical Memory: 4437.31 MB used, 8113.86 MB total
+[2016.10.27-16.04.50:134][905]LogMemory: Virtual Memory: 2888.58 MB used, 134217728.00 MB total
+[2016.10.27-16.04.50:134][905]LogMemory: 
+[2016.10.27-16.04.50:134][905]Allocator Stats for TBB: (not implemented)
+[2016.10.27-16.04.50:139][905]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.10.27-16.04.50:139][905]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.27-16.04.50:149][905]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-01.04.50
+[2016.10.27-16.04.50:149][905]LogWorld: Bringing up level for play took: 0.008978
+[2016.10.27-16.04.50:150][905]LogLoad: Took 0.077268 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2016.10.27-16.04.50:150][905]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.10.27-16.04.50:173][905]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.10.27-16.04.50:201][905]Cmd: MEM
+[2016.10.27-16.04.50:221][905]LogMemory: Platform Memory Stats for Windows
+[2016.10.27-16.04.50:221][905]LogMemory: Process Physical Memory: 1142.54 MB used, 1146.56 MB peak
+[2016.10.27-16.04.50:221][905]LogMemory: Process Virtual Memory: 2145.51 MB used, 2149.34 MB peak
+[2016.10.27-16.04.50:221][905]LogMemory: Physical Memory: 4445.71 MB used, 8113.86 MB total
+[2016.10.27-16.04.50:221][905]LogMemory: Virtual Memory: 2920.39 MB used, 134217728.00 MB total
+[2016.10.27-16.04.50:221][905]LogMemory: 
+[2016.10.27-16.04.50:221][905]Allocator Stats for TBB: (not implemented)
+[2016.10.27-16.04.50:225][905]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_3_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.10.27-16.04.50:226][905]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.27-16.04.50:235][905]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_3_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-01.04.50
+[2016.10.27-16.04.50:235][905]LogWorld: Bringing up level for play took: 0.008443
+[2016.10.27-16.04.50:236][905]LogLoad: Took 0.063153 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2016.10.27-16.04.50:237][905]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.10.27-16.04.50:281][905]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.10.27-16.04.50:308][905]Cmd: MEM
+[2016.10.27-16.04.50:331][905]LogMemory: Platform Memory Stats for Windows
+[2016.10.27-16.04.50:331][905]LogMemory: Process Physical Memory: 1166.79 MB used, 1166.80 MB peak
+[2016.10.27-16.04.50:331][905]LogMemory: Process Virtual Memory: 2145.99 MB used, 2149.34 MB peak
+[2016.10.27-16.04.50:331][905]LogMemory: Physical Memory: 4469.72 MB used, 8113.86 MB total
+[2016.10.27-16.04.50:331][905]LogMemory: Virtual Memory: 2920.39 MB used, 134217728.00 MB total
+[2016.10.27-16.04.50:331][905]LogMemory: 
+[2016.10.27-16.04.50:331][905]Allocator Stats for TBB: (not implemented)
+[2016.10.27-16.04.50:337][905]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_4_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.10.27-16.04.50:338][905]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.27-16.04.50:344][905]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_4_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-01.04.50
+[2016.10.27-16.04.50:344][905]LogWorld: Bringing up level for play took: 0.005135
+[2016.10.27-16.04.50:345][905]LogLoad: Took 0.063663 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2016.10.27-16.04.50:374][906]LogNet: Client netspeed is 10000
+[2016.10.27-16.04.50:374][906]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
+[2016.10.27-16.04.50:379][906]LogNet: Join succeeded: 257
+[2016.10.27-16.04.50:379][906]LogNet: Client netspeed is 10000
+[2016.10.27-16.04.50:379][906]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
+[2016.10.27-16.04.50:382][906]LogNet: Join succeeded: 258
+[2016.10.27-16.04.50:382][906]LogNet: Client netspeed is 10000
+[2016.10.27-16.04.50:382][906]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
+[2016.10.27-16.04.50:385][906]LogNet: Join succeeded: 259
+[2016.10.27-16.05.20:313][472]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: 4
+[2016.10.27-16.05.20:315][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-16.05.21:255][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-16.05.21:287][472]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61724, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.05.21:288][472]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61724, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.05.21
+[2016.10.27-16.05.21:288][472]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61724, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.05.21:288][472]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61723, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.05.21:288][472]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61723, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.05.21
+[2016.10.27-16.05.21:288][472]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61723, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.05.21:288][472]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61722, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.05.21:288][472]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61722, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.05.21
+[2016.10.27-16.05.21:288][472]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61722, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.05.21:288][472]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.05.21:288][472]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.05.21
+[2016.10.27-16.05.21:288][472]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.05.21:288][472]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.05.21:288][472]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.05.21
+[2016.10.27-16.05.21:288][472]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.05.21:288][472]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.05.21:288][472]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.05.21
+[2016.10.27-16.05.21:288][472]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.05.21:295][472]LogExit: GameNetDriver None shut down
+[2016.10.27-16.05.21:295][472]LogExit: GameNetDriver None shut down
+[2016.10.27-16.05.21:296][472]LogExit: GameNetDriver None shut down
+[2016.10.27-16.05.21:297][472]LogExit: GameNetDriver None shut down
+[2016.10.27-16.10.20:253][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (test)
+[2016.10.27-16.10.24:363][382]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.030
+[2016.10.27-16.10.24:369][382]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2016.10.27-16.10.24:369][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2016.10.27-16.10.24:516][382]LogSavePackage: Save=76.87ms
+[2016.10.27-16.10.24:516][382]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/ThirdPersonGameMode_Auto13D56352840FF924542318A83907081FB.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset'
+[2016.10.27-16.10.24:518][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset
+[2016.10.27-16.10.24:520][382]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2016.10.27-16.10.24:540][382]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2016.10.27-16.10.24:540][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2016.10.27-16.10.24:700][382]LogSavePackage: Save=91.12ms
+[2016.10.27-16.10.24:700][382]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/ThirdPersonCharacter_Auto1C90F3202482AC839D422E4851EE18D9C.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2016.10.27-16.10.24:703][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset
+[2016.10.27-16.10.24:703][382]LogFileHelpers: Auto-saving content packages took 0.338
+[2016.10.27-16.16.23:760][451]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-16.16.23:760][451]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.27-16.16.23:810][451]LogPlayLevel: [PlayLevel] Compiling ThirdPersonGameMode before play...
+[2016.10.27-16.16.24:005][451]LogPlayLevel: PlayLevel: Blueprint regeneration took 245 ms (3 blueprints)
+[2016.10.27-16.16.24:007][451]LogPlayLevel: [PlayLevel] Compiling playercon before play...
+[2016.10.27-16.16.24:190][451]LogPlayLevel: PlayLevel: Blueprint regeneration took 430 ms (5 blueprints)
+[2016.10.27-16.16.24:197][451]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2016.10.27-16.16.24:592][451]LogPlayLevel: PlayLevel: Blueprint regeneration took 832 ms (6 blueprints)
+[2016.10.27-16.16.24:593][451]LogPlayLevel: [PlayLevel] Compiling ChattingTXT before play...
+[2016.10.27-16.16.24:699][451]LogPlayLevel: PlayLevel: Blueprint regeneration took 939 ms (6 blueprints)
+[2016.10.27-16.16.24:700][451]LogPlayLevel: [PlayLevel] Compiling PHUD before play...
+[2016.10.27-16.16.24:825][451]LogPlayLevel: PlayLevel: Blueprint regeneration took 1065 ms (6 blueprints)
+[2016.10.27-16.16.24:826][451]LogPlayLevel: [PlayLevel] Compiling observer before play...
+[2016.10.27-16.16.24:981][451]LogPlayLevel: PlayLevel: Blueprint regeneration took 1221 ms (6 blueprints)
+[2016.10.27-16.16.25:030][451]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 10:16:25 AM)
+[2016.10.27-16.16.25:030][451]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2016.10.27-16.16.25:034][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004293s)
+[2016.10.27-16.16.25:035][451]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.27-16.16.25:035][451]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2016.10.27-16.16.25:035][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.005168s)
+[2016.10.27-16.16.25:062][451]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.27-16.16.25:093][451]LogInit: FAudioDevice initialized.
+[2016.10.27-16.16.25:159][451]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.27-16.16.25:165][451]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-01.16.25
+[2016.10.27-16.16.25:166][451]LogWorld: Bringing up level for play took: 0.004131
+[2016.10.27-16.16.25:168][451]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.10.27-16.16.25:169][451]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.16.25:169][451]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2016.10.27-16.16.25:396][451]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap 1.124
+[2016.10.27-16.16.25:403][451]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 10:16:25 AM)
+[2016.10.27-16.16.25:478][451]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.10.27-16.16.25:478][451]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.10.27-16.16.25:479][451]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.16.25:479][451]LogNet: Game client on port 7777, rate 10000
+[2016.10.27-16.16.25:479][451]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.16.25:697][451]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 1.424
+[2016.10.27-16.16.25:706][451]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 10:16:25 AM)
+[2016.10.27-16.16.25:782][451]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.10.27-16.16.25:782][451]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.10.27-16.16.25:783][451]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.16.25:783][451]LogNet: Game client on port 7777, rate 10000
+[2016.10.27-16.16.25:783][451]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.16.25:995][451]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 1.722
+[2016.10.27-16.16.26:001][451]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 28, 2016, 10:16:26 AM)
+[2016.10.27-16.16.26:073][451]LogNet: Browse: 127.0.0.1//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2016.10.27-16.16.26:074][451]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.10.27-16.16.26:074][451]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.16.26:074][451]LogNet: Game client on port 7777, rate 10000
+[2016.10.27-16.16.26:074][451]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.16.26:280][451]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 2.007
+[2016.10.27-16.16.26:441][451]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-16.16.26:441][451]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.16.26:441][451]LogHandshake: SendConnectChallenge. Timestamp: 0.034896, Cookie: 057042175045023234216189026232166095217116203211254224074003
+[2016.10.27-16.16.26:442][451]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.16.26:442][451]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.16.26:442][451]LogHandshake: SendConnectChallenge. Timestamp: 0.034896, Cookie: 066114196191071090199170234098036050171042009247031163008076
+[2016.10.27-16.16.26:442][451]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.16.26:442][451]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.16.26:442][451]LogHandshake: SendConnectChallenge. Timestamp: 0.034896, Cookie: 253181139056060245110037067250173221188013113233137155237152
+[2016.10.27-16.16.26:442][451]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.16.26:443][451]LogHandshake: SendChallengeResponse. Timestamp: 0.034896, Cookie: 057042175045023234216189026232166095217116203211254224074003
+[2016.10.27-16.16.26:444][451]LogHandshake: SendChallengeResponse. Timestamp: 0.034896, Cookie: 066114196191071090199170234098036050171042009247031163008076
+[2016.10.27-16.16.26:445][451]LogHandshake: SendChallengeResponse. Timestamp: 0.034896, Cookie: 253181139056060245110037067250173221188013113233137155237152
+[2016.10.27-16.16.26:832][452]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.16.26:832][452]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53563
+[2016.10.27-16.16.26:832][452]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.16.26:832][452]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 10/28/16 01:16:26, [UNetConnection] RemoteAddr: 127.0.0.1:53563, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.16.26:832][452]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53563, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.16.26:832][452]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.16.26:832][452]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53564
+[2016.10.27-16.16.26:832][452]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.16.26:832][452]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 10/28/16 01:16:26, [UNetConnection] RemoteAddr: 127.0.0.1:53564, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.16.26:832][452]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53564, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.16.26:832][452]LogNet: NotifyAcceptingConnection: Server ThirdPersonExampleMap accept
+[2016.10.27-16.16.26:832][452]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53565
+[2016.10.27-16.16.26:832][452]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.10.27-16.16.26:832][452]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 10/28/16 01:16:26, [UNetConnection] RemoteAddr: 127.0.0.1:53565, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.16.26:833][452]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53565, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2016.10.27-16.16.26:872][453]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.10.27-16.16.26:872][453]LogNet: Remote platform little endian=1
+[2016.10.27-16.16.26:872][453]LogNet: This platform little endian=1
+[2016.10.27-16.16.26:872][453]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.16.26:872][453]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.10.27-16.16.26:872][453]LogNet: Remote platform little endian=1
+[2016.10.27-16.16.26:872][453]LogNet: This platform little endian=1
+[2016.10.27-16.16.26:872][453]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.16.26:872][453]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2016.10.27-16.16.26:872][453]LogNet: Remote platform little endian=1
+[2016.10.27-16.16.26:872][453]LogNet: This platform little endian=1
+[2016.10.27-16.16.26:872][453]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 3039270, ProjectName: unnamed, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1745645396
+[2016.10.27-16.16.26:930][454]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap userId: Invalid
+[2016.10.27-16.16.26:930][454]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap userId: Invalid
+[2016.10.27-16.16.26:930][454]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap userId: Invalid
+[2016.10.27-16.16.26:931][454]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.10.27-16.16.26:952][454]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.10.27-16.16.26:997][454]Cmd: MEM
+[2016.10.27-16.16.27:030][454]LogMemory: Platform Memory Stats for Windows
+[2016.10.27-16.16.27:030][454]LogMemory: Process Physical Memory: 825.64 MB used, 1247.38 MB peak
+[2016.10.27-16.16.27:030][454]LogMemory: Process Virtual Memory: 2163.14 MB used, 2163.14 MB peak
+[2016.10.27-16.16.27:030][454]LogMemory: Physical Memory: 4683.82 MB used, 8113.86 MB total
+[2016.10.27-16.16.27:030][454]LogMemory: Virtual Memory: 2967.04 MB used, 134217728.00 MB total
+[2016.10.27-16.16.27:030][454]LogMemory: 
+[2016.10.27-16.16.27:030][454]Allocator Stats for TBB: (not implemented)
+[2016.10.27-16.16.27:034][454]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.10.27-16.16.27:035][454]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.27-16.16.27:042][454]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-01.16.27
+[2016.10.27-16.16.27:042][454]LogWorld: Bringing up level for play took: 0.006176
+[2016.10.27-16.16.27:043][454]LogLoad: Took 0.091470 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2016.10.27-16.16.27:043][454]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.10.27-16.16.27:063][454]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.10.27-16.16.27:085][454]Cmd: MEM
+[2016.10.27-16.16.27:113][454]LogMemory: Platform Memory Stats for Windows
+[2016.10.27-16.16.27:113][454]LogMemory: Process Physical Memory: 831.88 MB used, 1247.38 MB peak
+[2016.10.27-16.16.27:113][454]LogMemory: Process Virtual Memory: 2215.65 MB used, 2215.65 MB peak
+[2016.10.27-16.16.27:113][454]LogMemory: Physical Memory: 4691.77 MB used, 8113.86 MB total
+[2016.10.27-16.16.27:113][454]LogMemory: Virtual Memory: 3003.04 MB used, 134217728.00 MB total
+[2016.10.27-16.16.27:113][454]LogMemory: 
+[2016.10.27-16.16.27:113][454]Allocator Stats for TBB: (not implemented)
+[2016.10.27-16.16.27:121][454]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_3_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.10.27-16.16.27:123][454]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.27-16.16.27:131][454]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_3_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-01.16.27
+[2016.10.27-16.16.27:132][454]LogWorld: Bringing up level for play took: 0.006648
+[2016.10.27-16.16.27:132][454]LogLoad: Took 0.069008 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2016.10.27-16.16.27:133][454]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.10.27-16.16.27:175][454]LogLoad: LoadMap: 127.0.0.1//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.10.27-16.16.27:203][454]Cmd: MEM
+[2016.10.27-16.16.27:228][454]LogMemory: Platform Memory Stats for Windows
+[2016.10.27-16.16.27:228][454]LogMemory: Process Physical Memory: 863.46 MB used, 1247.38 MB peak
+[2016.10.27-16.16.27:228][454]LogMemory: Process Virtual Memory: 2216.20 MB used, 2216.20 MB peak
+[2016.10.27-16.16.27:228][454]LogMemory: Physical Memory: 4720.69 MB used, 8113.86 MB total
+[2016.10.27-16.16.27:228][454]LogMemory: Virtual Memory: 3003.04 MB used, 134217728.00 MB total
+[2016.10.27-16.16.27:228][454]LogMemory: 
+[2016.10.27-16.16.27:228][454]Allocator Stats for TBB: (not implemented)
+[2016.10.27-16.16.27:232][454]LogWorld: PIE: Copying PIE streaming level from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_4_ThirdPersonExampleMap.ThirdPersonExampleMap. OwningWorld: None
+[2016.10.27-16.16.27:233][454]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.27-16.16.27:239][454]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_4_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.10.28-01.16.27
+[2016.10.27-16.16.27:240][454]LogWorld: Bringing up level for play took: 0.005938
+[2016.10.27-16.16.27:241][454]LogLoad: Took 0.065744 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2016.10.27-16.16.27:278][455]LogNet: Client netspeed is 10000
+[2016.10.27-16.16.27:278][455]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
+[2016.10.27-16.16.27:284][455]LogNet: Join succeeded: 261
+[2016.10.27-16.16.27:284][455]LogNet: Client netspeed is 10000
+[2016.10.27-16.16.27:284][455]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
+[2016.10.27-16.16.27:287][455]LogNet: Join succeeded: 262
+[2016.10.27-16.16.27:287][455]LogNet: Client netspeed is 10000
+[2016.10.27-16.16.27:287][455]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?SplitscreenCount=1
+[2016.10.27-16.16.27:290][455]LogNet: Join succeeded: 263
+[2016.10.27-16.16.36:956][612]LogBlueprintUserMessages: [observer_C_0] Client 2: -1
+[2016.10.27-16.16.37:579][625]LogBlueprintUserMessages: [observer_C_0] Client 2: 0
+[2016.10.27-16.16.38:364][639]LogBlueprintUserMessages: [observer_C_0] Client 2: -1
+[2016.10.27-16.16.38:885][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-16.16.39:399][650]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: 씨바 씨바
+[2016.10.27-16.16.39:399][650]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] Server: 3
+[2016.10.27-16.16.39:399][650]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.10.27-16.16.39:500][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.27-16.16.39:530][650]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53565, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.16.39:530][650]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53565, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.16.39
+[2016.10.27-16.16.39:530][650]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53565, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.16.39:530][650]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53564, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.16.39:531][650]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53564, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.16.39
+[2016.10.27-16.16.39:531][650]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53564, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.16.39:531][650]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53563, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.16.39:531][650]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53563, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.16.39
+[2016.10.27-16.16.39:531][650]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53563, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2016.10.27-16.16.39:532][650]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.16.39:532][650]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.16.39
+[2016.10.27-16.16.39:532][650]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.16.39:532][650]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.16.39:533][650]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.16.39
+[2016.10.27-16.16.39:533][650]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.16.39:533][650]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.16.39:533][650]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2016.10.27-16.16.39
+[2016.10.27-16.16.39:533][650]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2016.10.27-16.16.39:539][650]LogExit: GameNetDriver None shut down
+[2016.10.27-16.16.39:539][650]LogExit: GameNetDriver None shut down
+[2016.10.27-16.16.39:540][650]LogExit: GameNetDriver None shut down
+[2016.10.27-16.16.39:541][650]LogExit: GameNetDriver None shut down
+[2016.10.27-16.16.45:023][862]LogSavePackage: Save=94.49ms
+[2016.10.27-16.16.45:023][862]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/ThirdPersonGameModeAAA6F48147F605AFAB4A7BB2EE3000BD.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2016.10.27-16.16.45:027][862]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2016.10.27-16.16.48:576][958]LogSavePackage: Save=100.68ms
+[2016.10.27-16.16.48:576][958]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/ThirdPersonCharacterB833FA7A4461802199ECF3B8A8DF0A1B.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.10.27-16.16.48:580][958]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.10.27-16.16.48:810][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.27-16.16.48:939][958]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.10.27-16.16.49:242][959]Cmd: QUIT_EDITOR
+[2016.10.27-16.16.49:549][959]LogExit: Preparing to exit.
+[2016.10.27-16.16.50:266][959]LogExit: Editor shut down
+[2016.10.27-16.16.50:268][959]LogExit: Transaction tracking system shut down
+[2016.10.27-16.16.50:559][959]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.27-16.16.50:559][959]LogExit: Object subsystem successfully closed.
+[2016.10.27-16.16.50:601][959]LogD3D11RHI: Shutdown
+[2016.10.27-16.16.50:601][959]LogD3D11RHI: CleanupD3DDevice
+[2016.10.27-16.16.50:703][959]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.27-16.16.50:741][959]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2016.10.27-16.16.50:741][959]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.10.27-16.16.50:741][959]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.10.27-16.16.50:741][959]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.10.27-16.16.50:741][959]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.10.27-16.16.50:741][959]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.10.27-16.16.50:741][959]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.27-16.16.50:748][959]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.27-16.16.50:749][959]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.27-16.16.51:585][959]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.27-16.16.51:585][959]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.27-16.16.51:585][959]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.27-16.16.51:585][959]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.27-16.16.51:585][959]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.27-16.16.51:585][959]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.27-16.16.51:585][959]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.27-16.16.51:585][959]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.27-16.16.51:586][959]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.27-16.16.51:586][959]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.27-16.16.51:586][959]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.27-16.16.51:586][959]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.27-16.16.51:586][959]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.27-16.16.51:586][959]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.27-16.16.51:586][959]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.27-16.16.51:587][959]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.27-16.16.51:587][959]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.27-16.16.51:588][959]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.27-16.16.51:588][959]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.27-16.16.51:588][959]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.27-16.16.51:588][959]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.27-16.16.51:589][959]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.27-16.16.51:589][959]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.27-16.16.51:589][959]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.27-16.16.51:589][959]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.27-16.16.51:631][959]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.27-16.16.51:631][959]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.27-16.16.51:631][959]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.27-16.16.51:632][959]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.27-16.16.51:632][959]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.27-16.16.51:632][959]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.27-16.16.51:632][959]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.27-16.16.51:633][959]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.27-16.16.51:633][959]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.27-16.16.51:633][959]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.27-16.16.51:634][959]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.27-16.16.51:634][959]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.27-16.16.51:634][959]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.27-16.16.51:634][959]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.27-16.16.51:634][959]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.27-16.16.51:634][959]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.27-16.16.51:634][959]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.27-16.16.51:634][959]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.27-16.16.51:635][959]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.27-16.16.51:635][959]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.27-16.16.51:635][959]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.27-16.16.51:635][959]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.27-16.16.51:635][959]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.27-16.16.51:635][959]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.27-16.16.51:635][959]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.27-16.16.51:635][959]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.27-16.16.51:768][959]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.27-16.16.51:769][959]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.27-16.16.51:771][959]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.27-16.16.51:772][959]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.27-16.16.51:772][959]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.27-16.16.51:873][959]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.27-16.16.51:874][959]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.27-16.16.51:874][959]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.27-16.16.51:874][959]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.27-16.16.51:874][959]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.27-16.16.51:874][959]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.27-16.16.51:878][959]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.27-16.16.51:878][959]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.27-16.16.51:878][959]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.27-16.16.51:878][959]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.27-16.16.51:878][959]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.27-16.16.51:878][959]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.27-16.16.51:883][959]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.27-16.16.52:003][959]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.27-16.16.52:003][959]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.27-16.16.52:003][959]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.27-16.16.52:003][959]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.27-16.16.52:060][959]LogDerivedDataCache: Shutdown
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.27-16.16.52:060][959]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.27-16.16.52:061][959]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.27-16.16.55:570][959]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.27-16.16.55:570][959]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.27-16.16.55:570][959]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.27-16.16.55:570][959]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.27-16.16.55:570][959]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.27-16.16.55:570][959]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.27-16.16.55:570][959]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.27-16.16.55:580][959]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.27-16.16.55:580][959]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.27-16.16.55:580][959]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.27-16.16.55:580][959]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.27-16.16.55:580][959]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.27-16.16.55:580][959]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.27-16.16.55:580][959]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.27-16.16.55:580][959]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.27-16.16.55:580][959]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.27-16.16.55:580][959]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.27-16.16.55:582][959]LogExit: Exiting.
+[2016.10.27-16.16.55:587][959]Log file closed, 10/28/16 01:16:55
