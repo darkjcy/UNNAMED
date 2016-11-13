@@ -1,0 +1,525 @@
+﻿Log file open, 11/12/16 01:42:37
+LogInit:Display: Running engine for game: UNNAMED
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2074219752) SRandInit(-2074219749).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.089284
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.11-16.42.37:462][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.11-16.42.37:462][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.11-16.42.37:478][  0]LogInit: Computer: DESKTOP-5I3HB32
+[2016.11.11-16.42.37:478][  0]LogInit: User: jcy
+[2016.11.11-16.42.37:478][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.11-16.42.37:478][  0]LogInit: High frequency timer resolution =2.533208 MHz
+[2016.11.11-16.42.37:478][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.11.11-16.42.37:478][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-16.42.37:478][  0]LogMemory: Process Physical Memory: 190.90 MB used, 190.90 MB peak
+[2016.11.11-16.42.37:478][  0]LogMemory: Process Virtual Memory: 195.22 MB used, 195.22 MB peak
+[2016.11.11-16.42.37:478][  0]LogMemory: Physical Memory: 4523.42 MB used, 8113.86 MB total
+[2016.11.11-16.42.37:478][  0]LogMemory: Virtual Memory: 553.27 MB used, 134217728.00 MB total
+[2016.11.11-16.42.38:219][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.11-16.42.38:843][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2016.11.11-16.42.38:843][  0]LogD3D11RHI:       2018/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2016.11.11-16.42.38:852][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.11.11-16.42.38:852][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.11.11-16.42.38:854][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.11-16.42.38:854][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.11-16.42.38:854][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.11-16.42.38:860][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.11-16.42.38:860][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2016.11.11-16.42.38:860][  0]LogWindows: EnumDisplayDevices:
+[2016.11.11-16.42.38:860][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2016.11.11-16.42.38:860][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2016.11.11-16.42.38:860][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2016.11.11-16.42.38:861][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.11.11-16.42.38:861][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2016.11.11-16.42.38:861][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.11.11-16.42.38:861][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.11.11-16.42.38:861][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.11-16.42.39:395][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.11-16.42.39:485][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.11.11-16.42.39:485][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Intermediate/Shaders/WorkingDirectory/1580/).
+[2016.11.11-16.42.39:486][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jcy/AppData/Local/Temp/UnrealShaderWorkingDir/32505F674EC412E329FE8186EA658D77/'.
+[2016.11.11-16.42.39:486][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.11-16.42.41:439][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.11-16.42.41:450][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.11-16.42.41:460][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.11-16.42.41:470][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.11-16.42.41:479][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.11-16.42.41:488][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.11-16.42.41:499][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.11-16.42.41:507][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.11-16.42.41:514][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.11-16.42.41:524][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.11-16.42.41:534][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.11-16.42.41:550][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.11-16.42.41:550][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.11-16.42.41:552][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.11-16.42.41:576][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.11-16.42.41:583][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.11-16.42.41:591][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.11-16.42.41:600][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.11-16.42.41:636][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.11-16.42.41:636][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.11-16.42.41:742][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.11-16.42.42:175][  0]LogDerivedDataCache: Loaded boot cache 0.43s 50MB C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.11-16.42.42:175][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.11.11-16.42.42:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.11-16.42.42:175][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.11-16.42.42:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.11-16.42.42:175][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.11-16.42.42:192][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.11-16.42.42:205][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jcy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.11-16.42.42:461][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.11-16.42.42:470][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.11-16.42.42:656][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.11-16.42.42:656][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.11-16.42.42:656][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.11-16.42.43:165][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2016.11.11-16.42.43:226][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.058028 seconds
+[2016.11.11-16.42.43:232][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.11.11-16.42.43:232][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.11.11-16.42.43:232][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.11-16.42.43:240][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.11-16.42.43:642][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.11-16.42.43:642][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.11-16.42.59:895][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.11-16.43.00:467][  0]SourceControl: Info Source control is disabled
+[2016.11.11-16.43.00:469][  0]SourceControl: Info Source control is disabled
+[2016.11.11-16.43.00:482][  0]SourceControl: Info Source control is disabled
+[2016.11.11-16.43.00:494][  0]SourceControl: Info Source control is disabled
+[2016.11.11-16.43.00:890][  0]LogEngine: Initializing Engine...
+[2016.11.11-16.43.00:892][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.11-16.43.00:893][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.11-16.43.01:086][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.11-16.43.01:096][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-16.43.01:410][  0]LogInit: FAudioDevice initialized.
+[2016.11.11-16.43.01:473][  0]LogDerivedDataCache: Saved boot cache 0.06s 50MB C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.11-16.43.01:489][  0]LogInit: Texture streaming: Enabled
+[2016.11.11-16.43.01:527][  0]LogInit: Transaction tracking system initialized
+[2016.11.11-16.43.01:563][  0]BlueprintLog: New page: Editor Load
+[2016.11.11-16.43.01:676][  0]LocalizationService: Info Localization service is disabled
+[2016.11.11-16.43.01:890][  0]LogConsoleResponse:Display: 
+[2016.11.11-16.43.02:374][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.11.11-16.43.02:374][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.11-16.43.03:702][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/' took 0.02s
+[2016.11.11-16.43.03:820][  0]SourceControl: Info Source control is disabled
+[2016.11.11-16.43.03:821][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Map/dd.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-16.43.03:900][  0]LightingResults: New page: Lighting Build
+[2016.11.11-16.43.03:904][  0]MapCheck: New page: Map Check
+[2016.11.11-16.43.03:905][  0]LightingResults: New page: Lighting Build
+[2016.11.11-16.43.06:722][  0]LogAIModule: Creating AISystem for world dd
+[2016.11.11-16.43.06:736][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-16.43.06:736][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-16.43.06:852][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 116.016ms to complete.
+[2016.11.11-16.43.06:852][  0]LogFileHelpers: Loading map 'dd' took 3.032
+[2016.11.11-16.43.07:202][  0]LogCollectionManager: Loaded 1 collections in 0.005325 seconds
+[2016.11.11-16.43.07:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Collections/' took 0.01s
+[2016.11.11-16.43.07:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Developers/jcy/Collections/' took 0.01s
+[2016.11.11-16.43.07:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Collections/' took 0.01s
+[2016.11.11-16.43.07:286][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000040 seconds
+[2016.11.11-16.43.07:287][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000004 seconds
+[2016.11.11-16.43.07:300][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2047 classes and 369 folders.
+[2016.11.11-16.43.07:310][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.11-16.43.07:310][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.11-16.43.07:310][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.11.11-16.43.07:328][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.11.11-16.43.08:317][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.11.11-16.43.08:324][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.11.11-16.43.08:455][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.11-16.43.08:462][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.11-16.43.08:492][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.11.11-16.43.08:492][  0]LogLoad: Full Startup: 32.18 seconds (BP compile: 0.26 seconds)
+[2016.11.11-16.43.08:492][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.11-16.43.08:492][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.11-16.43.08:528][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.11.11-16.43.08:538][  0]LogOcInput: OculusInput pre-init called
+[2016.11.11-16.43.08:577][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.11-16.43.08:851][  0]LogRenderer: Reallocating scene render targets to support 1144x576 (Frame:2).
+[2016.11.11-16.43.09:031][  2]LogAssetRegistry: Asset discovery search completed in 25.8879 seconds
+[2016.11.11-16.43.09:031][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000015 seconds (found 0 objects)
+[2016.11.11-16.43.09:031][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000040 seconds (updated 0 objects)
+[2016.11.11-16.58.57:336][340]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2016.11.11-17.01.45:735][537]BlueprintLog: New page: Compile MP_HostGame
+[2016.11.11-17.01.46:001][537]BlueprintEditorCompileResults: Info [1149.69] Compile of MP_HostGame successful! [in 265 ms] (/Game/server/MP_HostGame.MP_HostGame)
+[2016.11.11-17.03.51:766][905]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/dd' took 0.029
+[2016.11.11-17.03.51:769][905]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/MP_HostGame] ([1] browsable assets)...
+[2016.11.11-17.03.51:769][905]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/MP_HostGame]
+[2016.11.11-17.03.51:912][905]LogSavePackage: Save=30.00ms
+[2016.11.11-17.03.51:912][905]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_HostGame_Auto1FD8359954E234FE41198D7ADE9273274.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_HostGame_Auto1.uasset'
+[2016.11.11-17.03.51:914][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_HostGame_Auto1.uasset
+[2016.11.11-17.03.51:915][905]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/MP_Find_Button] ([1] browsable assets)...
+[2016.11.11-17.03.51:915][905]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/MP_Find_Button]
+[2016.11.11-17.03.51:922][905]LogSavePackage: Save=5.43ms
+[2016.11.11-17.03.51:922][905]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_Find_Button_Auto1F85092C9435FF534307C6A89670F1FA1.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_Find_Button_Auto1.uasset'
+[2016.11.11-17.03.51:925][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_Find_Button_Auto1.uasset
+[2016.11.11-17.03.51:925][905]LogFileHelpers: Auto-saving content packages took 0.157
+[2016.11.11-17.09.38:071][427]BlueprintLog: New page: Compile MP_Find_Button
+[2016.11.11-17.09.38:272][427]BlueprintEditorCompileResults: Info [1621.96] Compile of MP_Find_Button successful! [in 200 ms] (/Game/server/MP_Find_Button.MP_Find_Button)
+[2016.11.11-17.13.37:382][257]BlueprintLog: New page: Compile MP_Find_Button
+[2016.11.11-17.13.37:415][257]LogBlueprint:Error: Compiler Error Could not find a function named "JoinSelectedServer" in 'MyGameinstance_C'.
+Make sure 'MyGameinstance_C' has been compiled for  Join Selected Server 
+[2016.11.11-17.13.37:731][257]LogBlueprint:Warning: Compiler Warning [1861.42] Compile of MP_Find_Button failed. 1 Fatal Issue(s) 0 Warning(s) [in 348 ms] (/Game/server/MP_Find_Button.MP_Find_Button)
+[2016.11.11-17.13.37:731][257]BlueprintEditorCompileResults:Error: Error Could not find a function named "JoinSelectedServer" in 'MyGameinstance_C'.
+Make sure 'MyGameinstance_C' has been compiled for  Join Selected Server 
+[2016.11.11-17.13.37:731][257]BlueprintEditorCompileResults:Warning: Warning [1861.42] Compile of MP_Find_Button failed. 1 Fatal Issue(s) 0 Warning(s) [in 348 ms] (/Game/server/MP_Find_Button.MP_Find_Button)
+[2016.11.11-17.14.03:027][955]BlueprintLog: New page: Compile MyGameinstance
+[2016.11.11-17.14.03:296][955]BlueprintEditorCompileResults: Info [1886.99] Compile of MyGameinstance successful! [in 268 ms] (/Game/BP/MyGameinstance.MyGameinstance)
+[2016.11.11-17.14.28:039][306]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/dd' took 0.034
+[2016.11.11-17.14.28:042][306]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/MP_Find_Button] ([1] browsable assets)...
+[2016.11.11-17.14.28:042][306]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/MP_Find_Button]
+[2016.11.11-17.14.28:074][306]LogSavePackage: Save=31.25ms
+[2016.11.11-17.14.28:074][306]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_Find_Button_Auto280CA6B9E471697EC7AE34BBDF24046C5.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_Find_Button_Auto2.uasset'
+[2016.11.11-17.14.28:076][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_Find_Button_Auto2.uasset
+[2016.11.11-17.14.28:125][306]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/MyGameinstance] ([1] browsable assets)...
+[2016.11.11-17.14.28:125][306]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/MyGameinstance]
+[2016.11.11-17.14.28:125][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyGameinstance" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/MyGameinstance_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.11-17.14.28:334][306]LogSavePackage: Save=24.56ms
+[2016.11.11-17.14.28:334][306]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MyGameinstance_Auto2FF846FD0413A247538E271AF11479802.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/MyGameinstance_Auto2.uasset'
+[2016.11.11-17.14.28:355][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/MyGameinstance_Auto2.uasset
+[2016.11.11-17.14.28:356][306]LogFileHelpers: Auto-saving content packages took 0.316
+[2016.11.11-17.25.56:952][378]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.11.11-17.25.57:170][378]BlueprintEditorCompileResults: Info [2600.86] Compile of MP_ServerBrowser successful! [in 217 ms] (/Game/server/MP_ServerBrowser.MP_ServerBrowser)
+[2016.11.11-17.27.24:392][878]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/dd' took 0.047
+[2016.11.11-17.27.24:395][878]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/MP_Find_Button] ([1] browsable assets)...
+[2016.11.11-17.27.24:395][878]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/MP_Find_Button]
+[2016.11.11-17.27.24:442][878]LogSavePackage: Save=44.97ms
+[2016.11.11-17.27.24:442][878]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_Find_Button_Auto3962E8F3D4994689BFA82C39434B7E285.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_Find_Button_Auto3.uasset'
+[2016.11.11-17.27.24:444][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_Find_Button_Auto3.uasset
+[2016.11.11-17.27.24:445][878]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/MP_ServerBrowser] ([1] browsable assets)...
+[2016.11.11-17.27.24:445][878]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/MP_ServerBrowser]
+[2016.11.11-17.27.24:467][878]LogSavePackage: Save=19.99ms
+[2016.11.11-17.27.24:467][878]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_ServerBrowser_Auto341B6EFFF42D9A40EA84427852CE464EC.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_ServerBrowser_Auto3.uasset'
+[2016.11.11-17.27.24:468][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_ServerBrowser_Auto3.uasset
+[2016.11.11-17.27.24:468][878]LogFileHelpers: Auto-saving content packages took 0.075
+[2016.11.11-17.38.10:921][621]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/dd' took 0.053
+[2016.11.11-17.38.10:924][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/MP_ServerBrowser] ([1] browsable assets)...
+[2016.11.11-17.38.10:924][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/MP_ServerBrowser]
+[2016.11.11-17.38.11:039][621]LogSavePackage: Save=113.33ms
+[2016.11.11-17.38.11:039][621]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_ServerBrowser_Auto4CCADA6F54EC7443AF6E9F8AC198BC2EA.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_ServerBrowser_Auto4.uasset'
+[2016.11.11-17.38.11:042][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_ServerBrowser_Auto4.uasset
+[2016.11.11-17.38.11:042][621]LogFileHelpers: Auto-saving content packages took 0.120
+[2016.11.11-17.38.20:581][922]LogClass:Warning: Type mismatch in FindServers of SKEL_MP_ServerBrowser_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2016.11.11-17.43.25:943][196]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.11.11-17.43.25:995][196]LogBlueprint:Error: Compiler Error Could not find a function named "SetCurrentSession" in 'MP_Find_Button_C'.
+Make sure 'MP_Find_Button_C' has been compiled for  Set Current Session 
+[2016.11.11-17.43.26:299][196]LogBlueprint:Warning: Compiler Warning [3649.99] Compile of MP_ServerBrowser failed. 1 Fatal Issue(s) 0 Warning(s) [in 355 ms] (/Game/server/MP_ServerBrowser.MP_ServerBrowser)
+[2016.11.11-17.43.26:299][196]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetCurrentSession" in 'MP_Find_Button_C'.
+Make sure 'MP_Find_Button_C' has been compiled for  Set Current Session 
+[2016.11.11-17.43.26:299][196]BlueprintEditorCompileResults:Warning: Warning [3649.99] Compile of MP_ServerBrowser failed. 1 Fatal Issue(s) 0 Warning(s) [in 355 ms] (/Game/server/MP_ServerBrowser.MP_ServerBrowser)
+[2016.11.11-17.43.43:012][496]BlueprintLog: New page: Compile MP_Find_Button
+[2016.11.11-17.43.43:276][496]BlueprintEditorCompileResults: Info [3666.97] Compile of MP_Find_Button successful! [in 264 ms] (/Game/server/MP_Find_Button.MP_Find_Button)
+[2016.11.11-17.48.14:267][992]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/dd' took 0.049
+[2016.11.11-17.48.14:270][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/MP_Find_Button] ([1] browsable assets)...
+[2016.11.11-17.48.14:270][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/MP_Find_Button]
+[2016.11.11-17.48.14:310][992]LogSavePackage: Save=38.60ms
+[2016.11.11-17.48.14:310][992]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_Find_Button_Auto505286A3A44521A540E63E2891B659FDB.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_Find_Button_Auto5.uasset'
+[2016.11.11-17.48.14:312][992]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_Find_Button_Auto5.uasset
+[2016.11.11-17.48.14:316][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/MP_ServerBrowser] ([1] browsable assets)...
+[2016.11.11-17.48.14:316][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/MP_ServerBrowser]
+[2016.11.11-17.48.14:432][992]LogSavePackage: Save=113.78ms
+[2016.11.11-17.48.14:432][992]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_ServerBrowser_Auto5EFCF376B41FD70050190ADBBA7AFFDD3.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_ServerBrowser_Auto5.uasset'
+[2016.11.11-17.48.14:435][992]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_ServerBrowser_Auto5.uasset
+[2016.11.11-17.48.14:435][992]LogFileHelpers: Auto-saving content packages took 0.166
+[2016.11.11-17.49.30:005][408]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.11.11-17.49.30:245][408]BlueprintEditorCompileResults: Info [4013.97] Compile of MP_ServerBrowser successful! [in 240 ms] (/Game/server/MP_ServerBrowser.MP_ServerBrowser)
+[2016.11.11-17.58.14:648][201]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/dd' took 0.056
+[2016.11.11-17.58.14:652][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/MP_ServerBrowser] ([1] browsable assets)...
+[2016.11.11-17.58.14:652][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/MP_ServerBrowser]
+[2016.11.11-17.58.14:759][201]LogSavePackage: Save=104.15ms
+[2016.11.11-17.58.14:759][201]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_ServerBrowser_Auto687C08DA54F44078C80E778A09C1C0849.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_ServerBrowser_Auto6.uasset'
+[2016.11.11-17.58.14:763][201]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_ServerBrowser_Auto6.uasset
+[2016.11.11-17.58.14:764][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/MP_MENU] ([1] browsable assets)...
+[2016.11.11-17.58.14:764][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/MP_MENU]
+[2016.11.11-17.58.14:764][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/MP_MENU" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_MENU_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2016.11.11-17.58.14:772][201]LogSavePackage: Save=6.75ms
+[2016.11.11-17.58.14:772][201]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_MENU_Auto6D224E7B44870AC3E26023C98259C6E5D.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_MENU_Auto6.uasset'
+[2016.11.11-17.58.14:774][201]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/MP_MENU_Auto6.uasset
+[2016.11.11-17.58.14:774][201]LogFileHelpers: Auto-saving content packages took 0.124
+[2016.11.12-00.14.03:879][911]LogRenderer: Reallocating scene render targets to support 1144x600 (Frame:1178).
+[2016.11.12-14.40.18:590][969]LogHttp:Warning: Timeout processing Http request. 0000015F3CD1C400
+[2016.11.12-14.41.32:065][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyGameinstance" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/MyGameinstance.uasset" SILENT=true
+[2016.11.12-14.41.32:162][182]LogSavePackage: Save=18.36ms
+[2016.11.12-14.41.32:162][182]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MyGameinstance5608B2E34FF3EAACD4545EA5D9C51C6C.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/MyGameinstance.uasset'
+[2016.11.12-14.41.32:165][182]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/MyGameinstance.uasset
+[2016.11.12-14.41.32:180][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/MP_Find_Button" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_Find_Button.uasset" SILENT=true
+[2016.11.12-14.41.32:212][182]LogSavePackage: Save=28.34ms
+[2016.11.12-14.41.32:212][182]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_Find_ButtonCF107607445498D3A3C587861ACA08E0.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_Find_Button.uasset'
+[2016.11.12-14.41.32:215][182]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_Find_Button.uasset
+[2016.11.12-14.41.32:222][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/MP_HostGame" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_HostGame.uasset" SILENT=true
+[2016.11.12-14.41.32:329][182]LogSavePackage: Save=30.72ms
+[2016.11.12-14.41.32:329][182]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_HostGame162BDA994AB2557E0A0190A704E09660.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_HostGame.uasset'
+[2016.11.12-14.41.32:331][182]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_HostGame.uasset
+[2016.11.12-14.41.32:338][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/MP_MENU" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_MENU.uasset" SILENT=true
+[2016.11.12-14.41.32:346][182]LogSavePackage: Save=6.28ms
+[2016.11.12-14.41.32:346][182]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_MENU060B972D42A468D521883F9A1CB24BC6.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_MENU.uasset'
+[2016.11.12-14.41.32:348][182]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_MENU.uasset
+[2016.11.12-14.41.32:360][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/MP_ServerBrowser" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_ServerBrowser.uasset" SILENT=true
+[2016.11.12-14.41.32:443][182]LogSavePackage: Save=80.92ms
+[2016.11.12-14.41.32:443][182]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MP_ServerBrowserB57C41814768FD8E22EECB80A8CA268A.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_ServerBrowser.uasset'
+[2016.11.12-14.41.32:446][182]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/MP_ServerBrowser.uasset
+[2016.11.12-14.41.32:799][182]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.11.12-14.41.33:721][183]Cmd: QUIT_EDITOR
+[2016.11.12-14.41.34:320][183]LogExit: Preparing to exit.
+[2016.11.12-14.41.36:214][183]LogExit: Editor shut down
+[2016.11.12-14.41.36:215][183]LogExit: Transaction tracking system shut down
+[2016.11.12-14.41.43:131][183]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.12-14.41.43:132][183]LogExit: Object subsystem successfully closed.
+[2016.11.12-14.41.44:299][183]LogD3D11RHI: Shutdown
+[2016.11.12-14.41.44:300][183]LogD3D11RHI: CleanupD3DDevice
+[2016.11.12-14.41.45:016][183]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.12-14.41.47:060][183]LogModuleManager: Shutting down and abandoning module SequencerWidgets (215)
+[2016.11.12-14.41.47:060][183]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.11.12-14.41.47:060][183]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.11.12-14.41.47:070][183]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.11.12-14.41.47:070][183]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.11.12-14.41.47:093][183]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.11.12-14.41.47:136][183]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.11.12-14.41.47:217][183]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.11.12-14.41.47:217][183]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.11.12-14.41.47:217][183]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.11.12-14.41.47:231][183]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.11.12-14.41.47:251][183]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.11.12-14.41.47:264][183]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.11.12-14.41.47:310][183]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.11.12-14.41.47:310][183]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.11.12-14.41.47:310][183]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.11.12-14.41.47:310][183]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.11.12-14.41.47:311][183]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.11.12-14.41.47:335][183]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.11.12-14.41.47:347][183]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.11.12-14.41.47:347][183]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.11.12-14.41.47:418][183]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.11.12-14.41.47:418][183]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.11.12-14.41.47:433][183]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.11.12-14.41.47:474][183]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.11.12-14.41.47:628][183]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.11.12-14.41.47:628][183]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.11.12-14.41.47:628][183]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.11.12-14.41.47:628][183]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.11.12-14.41.47:628][183]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.11.12-14.41.47:733][183]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.11.12-14.41.47:826][183]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.11.12-14.41.47:890][183]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.11.12-14.41.47:890][183]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.11.12-14.41.47:919][183]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.11.12-14.41.47:919][183]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.11.12-14.41.48:846][183]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.11.12-14.41.48:866][183]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.11.12-14.41.48:866][183]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.11.12-14.41.48:866][183]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.11.12-14.41.48:900][183]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.11.12-14.41.48:900][183]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.11.12-14.41.48:913][183]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.11.12-14.41.48:936][183]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.11.12-14.41.48:952][183]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.11.12-14.41.49:007][183]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.11.12-14.41.49:030][183]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.11.12-14.41.49:043][183]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.11.12-14.41.49:068][183]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.11.12-14.41.49:068][183]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.11.12-14.41.49:092][183]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.11.12-14.41.49:096][183]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.11.12-14.41.49:114][183]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.11.12-14.41.49:114][183]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.11.12-14.41.49:206][183]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.11.12-14.41.49:206][183]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.11.12-14.41.49:234][183]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.11.12-14.41.49:288][183]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.11.12-14.41.49:313][183]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.11.12-14.41.49:784][183]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.11.12-14.41.49:784][183]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.11.12-14.41.49:883][183]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.11.12-14.41.50:100][183]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.11.12-14.41.50:609][183]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.11.12-14.41.51:328][183]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.11.12-14.41.51:328][183]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.11.12-14.41.51:480][183]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.11.12-14.41.51:480][183]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.11.12-14.41.52:626][183]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.11.12-14.41.53:038][183]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.11.12-14.41.53:039][183]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.11.12-14.41.53:041][183]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.11.12-14.41.53:283][183]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.11.12-14.41.53:394][183]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.11.12-14.41.53:497][183]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.11.12-14.41.53:672][183]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.11.12-14.41.54:644][183]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.11.12-14.41.54:646][183]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.11.12-14.41.54:646][183]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.11.12-14.41.54:646][183]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.11.12-14.41.54:646][183]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.11.12-14.41.54:646][183]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.11.12-14.41.54:646][183]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.11.12-14.41.54:646][183]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.11.12-14.41.54:664][183]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.11.12-14.41.54:695][183]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.11.12-14.41.54:696][183]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.11.12-14.41.54:875][183]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.11.12-14.41.55:037][183]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.11.12-14.41.55:037][183]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.11.12-14.41.55:037][183]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.11.12-14.41.55:037][183]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.11.12-14.41.55:037][183]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.11.12-14.41.55:037][183]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.11.12-14.41.55:037][183]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.11.12-14.41.55:037][183]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.11.12-14.41.55:037][183]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.11.12-14.41.55:037][183]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.11.12-14.41.55:120][183]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.11.12-14.41.55:120][183]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.11.12-14.41.55:120][183]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.11.12-14.41.55:120][183]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.11.12-14.41.55:120][183]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.11.12-14.41.55:158][183]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.11.12-14.41.55:159][183]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.11.12-14.41.55:267][183]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.11.12-14.41.55:280][183]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.11.12-14.41.55:280][183]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.11.12-14.41.55:287][183]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.11.12-14.41.55:353][183]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.11.12-14.41.55:378][183]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.11.12-14.41.55:433][183]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.11.12-14.41.55:433][183]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.11.12-14.41.55:457][183]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.11.12-14.41.55:457][183]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.11.12-14.41.55:535][183]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.11.12-14.41.55:712][183]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.11.12-14.41.55:723][183]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.11.12-14.41.55:741][183]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.11.12-14.41.55:760][183]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.11.12-14.41.55:761][183]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.11.12-14.41.55:861][183]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.11.12-14.41.55:962][183]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.11.12-14.41.55:962][183]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.11.12-14.41.56:005][183]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.11.12-14.41.56:005][183]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.11.12-14.41.56:005][183]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.11.12-14.41.56:019][183]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.11.12-14.41.56:019][183]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.11.12-14.41.56:027][183]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.11.12-14.41.56:027][183]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.11.12-14.41.56:027][183]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.11.12-14.41.56:073][183]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.11.12-14.41.56:073][183]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.11.12-14.41.56:093][183]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.11.12-14.41.56:150][183]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.11.12-14.41.56:150][183]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.11.12-14.41.56:182][183]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.11.12-14.41.56:182][183]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.11.12-14.41.56:182][183]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.11.12-14.41.56:182][183]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.11.12-14.41.56:244][183]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.11.12-14.41.56:244][183]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.11.12-14.41.56:244][183]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.11.12-14.41.56:324][183]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.11.12-14.41.56:324][183]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.11.12-14.41.56:327][183]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.11.12-14.41.56:328][183]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.11.12-14.41.56:328][183]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.11.12-14.41.56:328][183]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.11.12-14.41.56:328][183]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.11.12-14.41.56:328][183]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.11.12-14.41.56:334][183]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.11.12-14.41.56:620][183]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.11.12-14.41.56:620][183]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.11.12-14.41.57:070][183]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.11.12-14.41.57:778][183]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.11.12-14.41.57:788][183]LogDerivedDataCache: Shutdown
+[2016.11.12-14.41.57:788][183]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.11.12-14.41.57:847][183]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.11.12-14.41.58:298][183]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.11.12-14.41.58:314][183]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.11.12-14.41.58:358][183]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.11.12-14.41.58:358][183]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.11.12-14.41.58:461][183]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.11.12-14.41.58:844][183]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.11.12-14.41.58:927][183]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.11.12-14.41.58:927][183]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.11.12-14.41.58:927][183]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.11.12-14.41.58:927][183]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.11.12-14.41.59:011][183]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.11.12-14.41.59:077][183]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.11.12-14.41.59:077][183]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.11.12-14.41.59:077][183]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.11.12-14.41.59:099][183]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.11.12-14.41.59:108][183]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.11.12-14.41.59:108][183]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.11.12-14.41.59:108][183]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.11.12-14.41.59:108][183]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.11.12-14.41.59:108][183]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.11.12-14.41.59:108][183]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.11.12-14.41.59:147][183]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.11.12-14.41.59:147][183]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.11.12-14.41.59:147][183]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.11.12-14.41.59:147][183]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.11.12-14.41.59:147][183]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.11.12-14.41.59:147][183]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.11.12-14.41.59:147][183]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.11.12-14.41.59:147][183]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.11.12-14.41.59:167][183]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.11.12-14.41.59:180][183]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.11.12-14.41.59:212][183]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.11.12-14.41.59:212][183]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.11.12-14.41.59:228][183]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.11.12-14.41.59:229][183]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.11.12-14.41.59:229][183]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.11.12-14.41.59:577][183]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.11.12-14.42.05:312][183]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.11.12-14.42.05:357][183]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.11.12-14.42.05:392][183]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.11.12-14.42.05:392][183]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.12-14.42.05:414][183]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.12-14.42.05:414][183]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.12-14.42.05:414][183]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.12-14.42.05:523][183]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.12-14.42.05:552][183]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.12-14.42.05:552][183]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.12-14.42.05:552][183]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.12-14.42.05:552][183]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.12-14.42.05:552][183]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.12-14.42.05:552][183]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.12-14.42.05:589][183]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.12-14.42.05:589][183]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.12-14.42.05:620][183]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.12-14.42.05:760][183]LogExit: Exiting.
+[2016.11.12-14.42.05:766][183]Log file closed, 11/12/16 23:42:05
