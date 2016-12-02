@@ -1,0 +1,645 @@
+﻿Log file open, 12/02/16 21:48:09
+LogInit:Display: Running engine for game: UNNAMED
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-567620316) SRandInit(-567620314).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.150176
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogVoice:Warning: Failed to initialize voice interface
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.02-12.48.09:965][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.02-12.48.09:965][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.02-12.48.10:056][  0]LogInit: Computer: DESKTOP-5I3HB32
+[2016.12.02-12.48.10:056][  0]LogInit: User: jcy
+[2016.12.02-12.48.10:056][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.02-12.48.10:056][  0]LogInit: High frequency timer resolution =2.533210 MHz
+[2016.12.02-12.48.10:056][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.12.02-12.48.10:056][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.02-12.48.10:056][  0]LogMemory: Process Physical Memory: 193.31 MB used, 193.31 MB peak
+[2016.12.02-12.48.10:056][  0]LogMemory: Process Virtual Memory: 195.61 MB used, 195.61 MB peak
+[2016.12.02-12.48.10:057][  0]LogMemory: Physical Memory: 4495.48 MB used, 8113.86 MB total
+[2016.12.02-12.48.10:057][  0]LogMemory: Virtual Memory: 556.81 MB used, 134217728.00 MB total
+[2016.12.02-12.48.12:465][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.02-12.48.14:026][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2016.12.02-12.48.14:026][  0]LogD3D11RHI:       2018/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.12.02-12.48.14:042][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.12.02-12.48.14:042][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.12.02-12.48.14:045][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.02-12.48.14:045][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.02-12.48.14:045][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.02-12.48.14:058][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.02-12.48.14:058][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2016.12.02-12.48.14:058][  0]LogWindows: EnumDisplayDevices:
+[2016.12.02-12.48.14:058][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2016.12.02-12.48.14:059][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2016.12.02-12.48.14:059][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.12.02-12.48.14:060][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.12.02-12.48.14:060][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2016.12.02-12.48.14:060][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.12.02-12.48.14:060][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.12.02-12.48.14:060][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.02-12.48.15:561][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.02-12.48.16:315][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.12.02-12.48.16:316][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Intermediate/Shaders/WorkingDirectory/6908/).
+[2016.12.02-12.48.16:317][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jcy/AppData/Local/Temp/UnrealShaderWorkingDir/CA693385471BAADDD901298EA8CC71F8/'.
+[2016.12.02-12.48.16:317][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.02-12.48.22:302][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.02-12.48.22:337][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.02-12.48.22:373][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.02-12.48.22:401][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.02-12.48.22:428][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.02-12.48.22:460][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.02-12.48.22:484][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.02-12.48.22:508][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.02-12.48.22:530][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.02-12.48.22:554][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.02-12.48.22:577][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.02-12.48.22:624][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.02-12.48.22:624][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.02-12.48.22:626][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.02-12.48.22:672][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.02-12.48.22:694][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.02-12.48.22:716][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.02-12.48.22:737][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.02-12.48.22:822][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.02-12.48.22:822][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.02-12.48.23:103][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.02-12.48.23:247][  0]LogDerivedDataCache: Loaded boot cache 0.14s 48MB C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.12.02-12.48.23:248][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.12.02-12.48.23:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.02-12.48.23:248][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.02-12.48.23:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.02-12.48.23:248][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.02-12.48.23:297][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.02-12.48.23:312][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jcy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.02-12.48.23:830][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.02-12.48.23:832][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.02-12.48.24:296][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.02-12.48.24:296][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.02-12.48.24:296][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.02-12.48.25:096][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2016.12.02-12.48.25:147][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.039272 seconds
+[2016.12.02-12.48.25:161][  0]LogUObjectArray: 28746 objects as part of root set at end of initial load.
+[2016.12.02-12.48.25:161][  0]LogUObjectAllocator: 6069104 out of 0 bytes used by permanent object pool.
+[2016.12.02-12.48.25:161][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.02-12.48.26:025][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.02-12.48.26:025][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.02-12.48.50:945][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.02-12.48.51:890][  0]SourceControl: Info Source control is disabled
+[2016.12.02-12.48.51:893][  0]SourceControl: Info Source control is disabled
+[2016.12.02-12.48.51:923][  0]SourceControl: Info Source control is disabled
+[2016.12.02-12.48.51:952][  0]SourceControl: Info Source control is disabled
+[2016.12.02-12.48.52:955][  0]LogEngine: Initializing Engine...
+[2016.12.02-12.48.52:957][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.12.02-12.48.52:959][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.12.02-12.48.53:337][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.12.02-12.48.53:350][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.02-12.48.53:421][  0]LogInit: FAudioDevice initialized.
+[2016.12.02-12.48.53:488][  0]LogDerivedDataCache: Saved boot cache 0.07s 48MB C:/Users/jcy/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.12.02-12.48.53:510][  0]LogInit: Texture streaming: Enabled
+[2016.12.02-12.48.53:594][  0]LogInit: Transaction tracking system initialized
+[2016.12.02-12.48.53:679][  0]BlueprintLog: New page: Editor Load
+[2016.12.02-12.48.53:972][  0]LocalizationService: Info Localization service is disabled
+[2016.12.02-12.48.54:443][  0]LogConsoleResponse:Display: 
+[2016.12.02-12.48.55:041][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.12.02-12.48.55:041][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.02-12.48.55:948][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/' took 0.03s
+[2016.12.02-12.48.55:948][  0]SourceControl: Info Source control is disabled
+[2016.12.02-12.48.55:948][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.02-12.48.55:970][  0]LightingResults: New page: Lighting Build
+[2016.12.02-12.48.55:980][  0]MapCheck: New page: Map Check
+[2016.12.02-12.48.55:980][  0]LightingResults: New page: Lighting Build
+[2016.12.02-12.48.58:815][  0]LogAIModule: Creating AISystem for world Main
+[2016.12.02-12.48.58:817][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.02-12.48.58:818][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.02-12.48.58:951][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 132.676ms to complete.
+[2016.12.02-12.48.58:951][  0]LogFileHelpers: Loading map 'Main' took 3.003
+[2016.12.02-12.48.59:514][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.02-12.48.59:589][  0]LogCollectionManager: Loaded 1 collections in 0.015035 seconds
+[2016.12.02-12.48.59:665][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Collections/' took 0.01s
+[2016.12.02-12.48.59:665][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Developers/jcy/Collections/' took 0.01s
+[2016.12.02-12.48.59:665][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Collections/' took 0.01s
+[2016.12.02-12.48.59:665][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000012 seconds
+[2016.12.02-12.48.59:665][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2016.12.02-12.48.59:688][  0]LogContentBrowser: Native class hierarchy populated in 0.0229 seconds. Added 2050 classes and 373 folders.
+[2016.12.02-12.48.59:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.02-12.48.59:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.02-12.48.59:706][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0016 seconds. Added 12 classes and 0 folders.
+[2016.12.02-12.48.59:729][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.12.02-12.49.00:672][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2016.12.02-12.49.00:685][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.02-12.49.00:727][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2016.12.02-12.49.00:728][  0]LogLoad: Full Startup: 53.45 seconds (BP compile: 1.07 seconds)
+[2016.12.02-12.49.00:728][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.02-12.49.00:728][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.02-12.49.00:761][  0]LogOcInput: OculusInput pre-init called
+[2016.12.02-12.49.00:784][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.02-12.49.01:299][  0]LogRenderer: Reallocating scene render targets to support 1144x924 (Frame:2).
+[2016.12.02-12.49.01:740][  4]LogAssetRegistry: Asset discovery search completed in 36.6657 seconds
+[2016.12.02-12.49.01:740][  4]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000011 seconds (found 0 objects)
+[2016.12.02-12.49.01:740][  4]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000053 seconds (updated 0 objects)
+[2016.12.02-12.49.02:884][  6]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 111 classes and 0 folders.
+[2016.12.02-12.59.10:597][ 58]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.160
+[2016.12.02-12.59.10:600][ 58]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/W_mainMenu] ([1] browsable assets)...
+[2016.12.02-12.59.10:600][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/W_mainMenu]
+[2016.12.02-12.59.10:600][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/W_mainMenu" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_mainMenu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.12.02-12.59.10:715][ 58]LogSavePackage: Save=110.07ms
+[2016.12.02-12.59.10:715][ 58]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_mainMenu_Auto199F7803348D9D4CE97258690109166B0.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_mainMenu_Auto1.uasset'
+[2016.12.02-12.59.10:719][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_mainMenu_Auto1.uasset
+[2016.12.02-12.59.10:719][ 58]LogFileHelpers: Auto-saving content packages took 0.121
+[2016.12.02-13.15.05:178][138]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.052
+[2016.12.02-13.15.05:182][138]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/W_mainMenu] ([1] browsable assets)...
+[2016.12.02-13.15.05:182][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/W_mainMenu]
+[2016.12.02-13.15.05:182][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/W_mainMenu" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_mainMenu_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.12.02-13.15.05:344][138]LogSavePackage: Save=157.59ms
+[2016.12.02-13.15.05:344][138]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_mainMenu_Auto219919BEC4F146E80A34EB9A0FFD8F7A2.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_mainMenu_Auto2.uasset'
+[2016.12.02-13.15.05:348][138]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_mainMenu_Auto2.uasset
+[2016.12.02-13.15.05:348][138]LogFileHelpers: Auto-saving content packages took 0.169
+[2016.12.02-13.18.18:329][700]BlueprintLog: New page: Compile W_mainMenu
+[2016.12.02-13.18.18:668][700]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.12.02-13.18.18:668][700]BlueprintEditorCompileResults: Info [1811.39] Compile of W_mainMenu successful! [in 337 ms] (/Game/server/W_mainMenu.W_mainMenu)
+[2016.12.02-13.19.17:923][433]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_1 or K2Node_DynamicCast /Game/server/W_mainMenu.W_mainMenu:EventGraph.K2Node_DynamicCast_1
+[2016.12.02-13.19.17:923][433]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_1.EdGraphPin_56''
+[2016.12.02-13.19.52:954][401]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_1 or K2Node_DynamicCast /Game/server/W_mainMenu.W_mainMenu:EventGraph.K2Node_DynamicCast_1
+[2016.12.02-13.19.52:954][401]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_1.EdGraphPin_56''
+[2016.12.02-13.22.19:674][573]BlueprintLog: New page: Compile MyGameinstance
+[2016.12.02-13.22.20:491][573]BlueprintEditorCompileResults: Info [2053.21] Compile of MyGameinstance successful! [in 816 ms] (/Game/BP/MyGameinstance.MyGameinstance)
+[2016.12.02-13.25.13:120][519]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.079
+[2016.12.02-13.25.13:124][519]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/MyGameinstance] ([1] browsable assets)...
+[2016.12.02-13.25.13:124][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/MyGameinstance]
+[2016.12.02-13.25.13:124][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyGameinstance" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/MyGameinstance_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.12.02-13.25.13:529][519]LogSavePackage: Save=192.61ms
+[2016.12.02-13.25.13:529][519]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MyGameinstance_Auto3DCDC2D00477071FDEBC3B5AEABCD09E2.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/MyGameinstance_Auto3.uasset'
+[2016.12.02-13.25.13:536][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/MyGameinstance_Auto3.uasset
+[2016.12.02-13.25.13:540][519]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/W_mainMenu] ([1] browsable assets)...
+[2016.12.02-13.25.13:540][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/W_mainMenu]
+[2016.12.02-13.25.13:540][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/W_mainMenu" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_mainMenu_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.12.02-13.25.13:694][519]LogSavePackage: Save=148.78ms
+[2016.12.02-13.25.13:694][519]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_mainMenu_Auto31048326A4FABAEA896CAF88812CF0313.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_mainMenu_Auto3.uasset'
+[2016.12.02-13.25.13:700][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_mainMenu_Auto3.uasset
+[2016.12.02-13.25.13:700][519]LogFileHelpers: Auto-saving content packages took 0.578
+[2016.12.02-13.35.14:600][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.074
+[2016.12.02-13.35.14:604][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/MyGameinstance] ([1] browsable assets)...
+[2016.12.02-13.35.14:604][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/MyGameinstance]
+[2016.12.02-13.35.14:604][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyGameinstance" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/MyGameinstance_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.12.02-13.35.14:963][866]LogSavePackage: Save=185.29ms
+[2016.12.02-13.35.14:963][866]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MyGameinstance_Auto45028F9A2495595535F24D3B84E415F08.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/MyGameinstance_Auto4.uasset'
+[2016.12.02-13.35.14:967][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/MyGameinstance_Auto4.uasset
+[2016.12.02-13.35.14:967][866]LogFileHelpers: Auto-saving content packages took 0.366
+[2016.12.02-13.40.53:436][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_HostGame.MP_HostGame:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_18.WidgetTree_18.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_18.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_17.WidgetTree_17.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_14.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_17.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_16.WidgetTree_16.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_16.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_15.WidgetTree_15.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_15.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_14.WidgetTree_14.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_HostGame.MP_HostGame_C:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_MENU.MP_MENU_C:WidgetTree.MP_ServerBrowser_300.WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_MENU.MP_MENU_C:WidgetTree.MP_HostGame_35.WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_19.WidgetTree_19.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_20.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_20.WidgetTree_20.HorizontalBox_1
+[2016.12.02-13.40.53:437][687]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1.HorizontalBoxSlot_5) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2016.12.02-13.40.53:437][687]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_1.HorizontalBoxSlot_5''
+[2016.12.02-13.40.53:438][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_HostGame.MP_HostGame:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:438][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_18.WidgetTree_18.HorizontalBox_1
+[2016.12.02-13.40.53:438][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_18.HorizontalBox_1
+[2016.12.02-13.40.53:438][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_17.WidgetTree_17.HorizontalBox_1
+[2016.12.02-13.40.53:438][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_14.HorizontalBox_1
+[2016.12.02-13.40.53:438][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:438][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_17.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_16.WidgetTree_16.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_16.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_15.WidgetTree_15.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_15.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_14.WidgetTree_14.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_HostGame.MP_HostGame_C:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_MENU.MP_MENU_C:WidgetTree.MP_ServerBrowser_300.WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_MENU.MP_MENU_C:WidgetTree.MP_HostGame_35.WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_19.WidgetTree_19.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_20.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_20.WidgetTree_20.HorizontalBox_1
+[2016.12.02-13.40.53:439][687]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1.HorizontalBoxSlot_6) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_3).  Import failed...
+[2016.12.02-13.40.53:439][687]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_1.HorizontalBoxSlot_6''
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_HostGame.MP_HostGame:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_18.WidgetTree_18.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_18.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_17.WidgetTree_17.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_14.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_17.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_16.WidgetTree_16.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_16.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_15.WidgetTree_15.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_15.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_14.WidgetTree_14.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_HostGame.MP_HostGame_C:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_MENU.MP_MENU_C:WidgetTree.MP_ServerBrowser_300.WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_MENU.MP_MENU_C:WidgetTree.MP_HostGame_35.WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_19.WidgetTree_19.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_20.HorizontalBox_1
+[2016.12.02-13.40.59:911][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_20.WidgetTree_20.HorizontalBox_1
+[2016.12.02-13.40.59:912][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_21.HorizontalBox_1
+[2016.12.02-13.40.59:912][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_21.WidgetTree_21.HorizontalBox_1
+[2016.12.02-13.40.59:912][836]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1.HorizontalBoxSlot_5) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2016.12.02-13.40.59:912][836]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_1.HorizontalBoxSlot_5''
+[2016.12.02-13.40.59:912][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_HostGame.MP_HostGame:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:912][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_18.WidgetTree_18.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_18.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_17.WidgetTree_17.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_14.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_17.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_16.WidgetTree_16.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_16.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_15.WidgetTree_15.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_15.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_14.WidgetTree_14.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_HostGame.MP_HostGame_C:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_MENU.MP_MENU_C:WidgetTree.MP_ServerBrowser_300.WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_MENU.MP_MENU_C:WidgetTree.MP_HostGame_35.WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_19.WidgetTree_19.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_20.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_20.WidgetTree_20.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_21.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_8:W_serverlist_C_21.WidgetTree_21.HorizontalBox_1
+[2016.12.02-13.40.59:913][836]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/server/W_serverlist.W_serverlist_C:WidgetTree_19.HorizontalBox_1.HorizontalBoxSlot_6) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_3).  Import failed...
+[2016.12.02-13.40.59:913][836]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_1.HorizontalBoxSlot_6''
+[2016.12.02-13.46.40:101][382]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.070
+[2016.12.02-13.46.40:105][382]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/W_serverlist] ([1] browsable assets)...
+[2016.12.02-13.46.40:105][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/W_serverlist]
+[2016.12.02-13.46.40:260][382]LogSavePackage: Save=150.74ms
+[2016.12.02-13.46.40:260][382]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_serverlist_Auto5295C98BE4640C4F8010A849BAFF19692.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto5.uasset'
+[2016.12.02-13.46.40:264][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto5.uasset
+[2016.12.02-13.46.40:265][382]LogFileHelpers: Auto-saving content packages took 0.162
+[2016.12.02-13.56.40:537][ 80]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.069
+[2016.12.02-13.56.40:540][ 80]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/W_serverlist] ([1] browsable assets)...
+[2016.12.02-13.56.40:540][ 80]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/W_serverlist]
+[2016.12.02-13.56.40:709][ 80]LogSavePackage: Save=164.23ms
+[2016.12.02-13.56.40:709][ 80]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_serverlist_Auto6F8A2F9324556F770E218BD80573255A0.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto6.uasset'
+[2016.12.02-13.56.40:714][ 80]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto6.uasset
+[2016.12.02-13.56.40:714][ 80]LogFileHelpers: Auto-saving content packages took 0.176
+[2016.12.02-14.08.20:520][390]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.084
+[2016.12.02-14.08.20:527][390]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/W_serverlist] ([1] browsable assets)...
+[2016.12.02-14.08.20:527][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/W_serverlist]
+[2016.12.02-14.08.20:763][390]LogSavePackage: Save=231.80ms
+[2016.12.02-14.08.20:763][390]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_serverlist_Auto7EF3F5DF449105635A774E3906E642F37.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto7.uasset'
+[2016.12.02-14.08.20:767][390]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto7.uasset
+[2016.12.02-14.08.20:767][390]LogFileHelpers: Auto-saving content packages took 0.244
+[2016.12.02-14.19.54:766][219]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.081
+[2016.12.02-14.19.54:770][219]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/W_serverlist] ([1] browsable assets)...
+[2016.12.02-14.19.54:770][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/W_serverlist]
+[2016.12.02-14.19.55:357][219]LogSavePackage: Save=582.82ms
+[2016.12.02-14.19.55:357][219]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_serverlist_Auto827912A824BEFE0742CAB8A998F7F15C0.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto8.uasset'
+[2016.12.02-14.19.55:362][219]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto8.uasset
+[2016.12.02-14.19.55:362][219]LogFileHelpers: Auto-saving content packages took 0.595
+[2016.12.02-14.20.41:626][568]BlueprintLog: New page: Compile W_serverlist
+[2016.12.02-14.20.42:072][568]BlueprintEditorCompileResults: Info [5554.79] Compile of W_serverlist successful! [in 446 ms] (/Game/server/W_serverlist.W_serverlist)
+[2016.12.02-14.20.57:086][ 27]BlueprintLog: New page: Compile W_serverlist
+[2016.12.02-14.20.57:426][ 27]BlueprintEditorCompileResults: Info [5570.15] Compile of W_serverlist successful! [in 339 ms] (/Game/server/W_serverlist.W_serverlist)
+[2016.12.02-14.29.56:040][132]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.077
+[2016.12.02-14.29.56:044][132]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/W_serverlist] ([1] browsable assets)...
+[2016.12.02-14.29.56:044][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/W_serverlist]
+[2016.12.02-14.29.56:225][132]LogSavePackage: Save=177.35ms
+[2016.12.02-14.29.56:225][132]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_serverlist_Auto92D4027ED45018C94A06DC2B31F7DDEF0.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto9.uasset'
+[2016.12.02-14.29.56:229][132]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto9.uasset
+[2016.12.02-14.29.56:229][132]LogFileHelpers: Auto-saving content packages took 0.188
+[2016.12.02-14.32.35:215][827]BlueprintLog: New page: Compile W_serverlist
+[2016.12.02-14.32.35:560][827]BlueprintEditorCompileResults: Info [6268.28] Compile of W_serverlist successful! [in 344 ms] (/Game/server/W_serverlist.W_serverlist)
+[2016.12.02-14.40.33:047][875]LogClass:Warning: Type mismatch in playerCount of SKEL_W_ServerRow_C - Previous (StructProperty) Current(StrProperty) for package:  FObjectReader
+[2016.12.02-14.41.05:551][449]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.110
+[2016.12.02-14.41.05:555][449]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/W_serverlist] ([1] browsable assets)...
+[2016.12.02-14.41.05:555][449]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/W_serverlist]
+[2016.12.02-14.41.05:681][449]LogSavePackage: Save=120.92ms
+[2016.12.02-14.41.05:681][449]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_serverlist_Auto005B35D6749B5D9EE1C4D9A834D0E753B.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto0.uasset'
+[2016.12.02-14.41.05:685][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_serverlist_Auto0.uasset
+[2016.12.02-14.41.05:687][449]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/server/W_ServerRow] ([1] browsable assets)...
+[2016.12.02-14.41.05:687][449]OBJ SavePackage: Finished generating thumbnails for package [/Game/server/W_ServerRow]
+[2016.12.02-14.41.05:820][449]LogSavePackage: Save=129.51ms
+[2016.12.02-14.41.05:821][449]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_ServerRow_Auto027FBD7F6425FFA331B06EBADA7B43C4C.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_ServerRow_Auto0.uasset'
+[2016.12.02-14.41.05:824][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/server/W_ServerRow_Auto0.uasset
+[2016.12.02-14.41.05:824][449]LogFileHelpers: Auto-saving content packages took 0.271
+[2016.12.02-14.42.45:500][625]BlueprintLog: New page: Compile MyGameinstance
+[2016.12.02-14.42.46:899][625]BlueprintEditorCompileResults: Info [6879.62] Compile of MyGameinstance successful! [in 1,398 ms] (/Game/BP/MyGameinstance.MyGameinstance)
+[2016.12.02-14.43.36:928][ 61]BlueprintLog: New page: Compile MyGameinstance
+[2016.12.02-14.43.37:653][ 61]BlueprintEditorCompileResults: Info [6930.37] Compile of MyGameinstance successful! [in 725 ms] (/Game/BP/MyGameinstance.MyGameinstance)
+[2016.12.02-14.43.53:415][529]BlueprintLog: New page: Compile W_ServerRow
+[2016.12.02-14.43.53:775][529]BlueprintEditorCompileResults: Info [6946.49] Compile of W_ServerRow successful! [in 359 ms] (/Game/server/W_ServerRow.W_ServerRow)
+[2016.12.02-14.43.54:434][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/W_ServerRow" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_ServerRow.uasset" SILENT=true
+[2016.12.02-14.43.54:542][545]LogSavePackage: Save=89.98ms
+[2016.12.02-14.43.54:542][545]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_ServerRowAD203D6741D80F03A171F5B107157D88.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_ServerRow.uasset'
+[2016.12.02-14.43.54:567][545]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_ServerRow.uasset
+[2016.12.02-14.49.57:108][942]BlueprintLog: New page: Compile W_serverlist
+[2016.12.02-14.49.57:604][942]BlueprintEditorCompileResults: Info [7310.32] Compile of W_serverlist successful! [in 495 ms] (/Game/server/W_serverlist.W_serverlist)
+[2016.12.02-14.52.14:877][985]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.02-14.56.22:737][558]BlueprintLog: New page: Compile W_ServerRow
+[2016.12.02-14.56.23:510][558]BlueprintEditorCompileResults: Info [7696.23] Compile of W_ServerRow successful! [in 772 ms] (/Game/server/W_ServerRow.W_ServerRow)
+[2016.12.02-14.56.24:236][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/W_ServerRow" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_ServerRow.uasset" SILENT=true
+[2016.12.02-14.56.24:567][573]LogSavePackage: Save=114.47ms
+[2016.12.02-14.56.24:567][573]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_ServerRowDE41E3DB48688911D3789A842A40FCEE.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_ServerRow.uasset'
+[2016.12.02-14.56.24:590][573]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_ServerRow.uasset
+[2016.12.02-14.56.26:810][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/W_serverlist" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_serverlist.uasset" SILENT=true
+[2016.12.02-14.56.27:015][622]LogSavePackage: Save=197.47ms
+[2016.12.02-14.56.27:017][622]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_serverlistC2BFCDDE4386452A90385E85E6093BB6.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_serverlist.uasset'
+[2016.12.02-14.56.27:033][622]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_serverlist.uasset
+[2016.12.02-14.57.52:434][883]BlueprintLog: New page: Compile W_serverlist
+[2016.12.02-14.57.52:867][883]BlueprintEditorCompileResults: Info [7785.59] Compile of W_serverlist successful! [in 432 ms] (/Game/server/W_serverlist.W_serverlist)
+[2016.12.02-14.58.28:735][666]BlueprintLog: New page: Compile W_serverlist
+[2016.12.02-14.58.29:230][666]BlueprintEditorCompileResults: Info [7821.95] Compile of W_serverlist successful! [in 494 ms] (/Game/server/W_serverlist.W_serverlist)
+[2016.12.02-14.58.30:078][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/W_serverlist" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_serverlist.uasset" SILENT=true
+[2016.12.02-14.58.30:440][681]LogSavePackage: Save=172.30ms
+[2016.12.02-14.58.30:440][681]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_serverlistC61557C94D365D8DD09D85BD928A7971.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_serverlist.uasset'
+[2016.12.02-14.58.30:450][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_serverlist.uasset
+[2016.12.02-14.58.36:581][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyGameinstance" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/MyGameinstance.uasset" SILENT=true
+[2016.12.02-14.58.36:944][832]LogSavePackage: Save=194.84ms
+[2016.12.02-14.58.36:945][832]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/MyGameinstanceAC4E6B7E4A1421937A66D0A1F4E9C62E.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/MyGameinstance.uasset'
+[2016.12.02-14.58.36:958][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/MyGameinstance.uasset
+[2016.12.02-14.58.36:965][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/server/W_mainMenu" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_mainMenu.uasset" SILENT=true
+[2016.12.02-14.58.37:072][832]LogSavePackage: Save=103.20ms
+[2016.12.02-14.58.37:072][832]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/W_mainMenu5FAC3F0D41B595B1E5C7528C0F3F1EFE.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_mainMenu.uasset'
+[2016.12.02-14.58.37:084][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/server/W_mainMenu.uasset
+[2016.12.02-14.58.38:667][832]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.12.02-14.58.39:050][833]Cmd: QUIT_EDITOR
+[2016.12.02-14.58.39:245][833]LogExit: Preparing to exit.
+[2016.12.02-14.58.40:839][833]LogExit: Editor shut down
+[2016.12.02-14.58.40:843][833]LogExit: Transaction tracking system shut down
+[2016.12.02-14.58.41:545][833]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.02-14.58.41:546][833]LogExit: Object subsystem successfully closed.
+[2016.12.02-14.58.41:592][833]LogD3D11RHI: Shutdown
+[2016.12.02-14.58.41:592][833]LogD3D11RHI: CleanupD3DDevice
+[2016.12.02-14.58.41:771][833]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.02-14.58.41:811][833]LogModuleManager: Shutting down and abandoning module SequencerWidgets (218)
+[2016.12.02-14.58.41:811][833]LogModuleManager: Shutting down and abandoning module BlueprintGraph (217)
+[2016.12.02-14.58.41:811][833]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (216)
+[2016.12.02-14.58.41:811][833]LogModuleManager: Shutting down and abandoning module WidgetCarousel (215)
+[2016.12.02-14.58.41:811][833]LogModuleManager: Shutting down and abandoning module AddContentDialog (214)
+[2016.12.02-14.58.41:828][833]LogModuleManager: Shutting down and abandoning module GameplayTags (213)
+[2016.12.02-14.58.41:828][833]LogModuleManager: Shutting down and abandoning module EditorWidgets (212)
+[2016.12.02-14.58.41:828][833]LogModuleManager: Shutting down and abandoning module CollectionManager (211)
+[2016.12.02-14.58.41:829][833]LogModuleManager: Shutting down and abandoning module CrashTracker (210)
+[2016.12.02-14.58.41:829][833]LogModuleManager: Shutting down and abandoning module SceneOutliner (209)
+[2016.12.02-14.58.41:829][833]LogModuleManager: Shutting down and abandoning module StatsViewer (208)
+[2016.12.02-14.58.41:829][833]LogModuleManager: Shutting down and abandoning module FoliageEdit (207)
+[2016.12.02-14.58.41:829][833]LogModuleManager: Shutting down and abandoning module LandscapeEditor (206)
+[2016.12.02-14.58.41:829][833]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (205)
+[2016.12.02-14.58.41:830][833]LogModuleManager: Shutting down and abandoning module ActorPickerMode (204)
+[2016.12.02-14.58.41:830][833]LogModuleManager: Shutting down and abandoning module GeometryMode (203)
+[2016.12.02-14.58.41:830][833]LogModuleManager: Shutting down and abandoning module TextureAlignMode (202)
+[2016.12.02-14.58.41:830][833]LogModuleManager: Shutting down and abandoning module BspMode (201)
+[2016.12.02-14.58.41:830][833]LogModuleManager: Shutting down and abandoning module HardwareSurvey (200)
+[2016.12.02-14.58.41:830][833]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (199)
+[2016.12.02-14.58.41:830][833]LogModuleManager: Shutting down and abandoning module SequenceRecorder (198)
+[2016.12.02-14.58.41:830][833]LogModuleManager: Shutting down and abandoning module AutomationWorker (197)
+[2016.12.02-14.58.41:830][833]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (196)
+[2016.12.02-14.58.41:830][833]LogModuleManager: Shutting down and abandoning module PlacementMode (195)
+[2016.12.02-14.58.41:831][833]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (194)
+[2016.12.02-14.58.41:831][833]LogModuleManager: Shutting down and abandoning module CharacterAI (193)
+[2016.12.02-14.58.41:831][833]LogModuleManager: Shutting down and abandoning module SmartSnapping (192)
+[2016.12.02-14.58.41:831][833]LogModuleManager: Shutting down and abandoning module SessionServices (191)
+[2016.12.02-14.58.41:831][833]LogModuleManager: Shutting down and abandoning module ViewportSnapping (190)
+[2016.12.02-14.58.41:832][833]LogModuleManager: Shutting down and abandoning module LogVisualizer (189)
+[2016.12.02-14.58.41:832][833]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (188)
+[2016.12.02-14.58.41:832][833]LogModuleManager: Shutting down and abandoning module IntroTutorials (187)
+[2016.12.02-14.58.41:833][833]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (186)
+[2016.12.02-14.58.41:833][833]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (185)
+[2016.12.02-14.58.41:833][833]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (184)
+[2016.12.02-14.58.41:833][833]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (183)
+[2016.12.02-14.58.42:370][833]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (182)
+[2016.12.02-14.58.42:370][833]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (181)
+[2016.12.02-14.58.42:370][833]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (180)
+[2016.12.02-14.58.42:370][833]LogModuleManager: Shutting down and abandoning module MergeActors (179)
+[2016.12.02-14.58.42:370][833]LogModuleManager: Shutting down and abandoning module SizeMap (178)
+[2016.12.02-14.58.42:370][833]LogModuleManager: Shutting down and abandoning module TreeMap (177)
+[2016.12.02-14.58.42:370][833]LogModuleManager: Shutting down and abandoning module ReferenceViewer (176)
+[2016.12.02-14.58.42:370][833]LogModuleManager: Shutting down and abandoning module LocalizationService (175)
+[2016.12.02-14.58.42:371][833]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (174)
+[2016.12.02-14.58.42:371][833]LogModuleManager: Shutting down and abandoning module HardwareTargeting (173)
+[2016.12.02-14.58.42:371][833]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (172)
+[2016.12.02-14.58.42:371][833]LogModuleManager: Shutting down and abandoning module UndoHistory (171)
+[2016.12.02-14.58.42:371][833]LogModuleManager: Shutting down and abandoning module UserFeedback (170)
+[2016.12.02-14.58.42:371][833]LogModuleManager: Shutting down and abandoning module XmlParser (169)
+[2016.12.02-14.58.42:371][833]LogModuleManager: Shutting down and abandoning module Blutility (168)
+[2016.12.02-14.58.42:371][833]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (167)
+[2016.12.02-14.58.42:372][833]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (166)
+[2016.12.02-14.58.42:372][833]LogModuleManager: Shutting down and abandoning module InputBindingEditor (165)
+[2016.12.02-14.58.42:373][833]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (164)
+[2016.12.02-14.58.42:373][833]LogModuleManager: Shutting down and abandoning module SettingsEditor (163)
+[2016.12.02-14.58.42:373][833]LogModuleManager: Shutting down and abandoning module ProjectLauncher (162)
+[2016.12.02-14.58.42:373][833]LogModuleManager: Shutting down and abandoning module SessionFrontend (161)
+[2016.12.02-14.58.42:374][833]LogModuleManager: Shutting down and abandoning module ProfilerClient (160)
+[2016.12.02-14.58.42:374][833]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (159)
+[2016.12.02-14.58.42:374][833]LogModuleManager: Shutting down and abandoning module DeviceManager (158)
+[2016.12.02-14.58.42:418][833]LogModuleManager: Shutting down and abandoning module AutomationController (157)
+[2016.12.02-14.58.42:418][833]LogModuleManager: Shutting down and abandoning module AutomationWindow (156)
+[2016.12.02-14.58.42:418][833]LogModuleManager: Shutting down and abandoning module Layers (155)
+[2016.12.02-14.58.42:418][833]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (154)
+[2016.12.02-14.58.42:418][833]LogModuleManager: Shutting down and abandoning module DetailCustomizations (153)
+[2016.12.02-14.58.42:419][833]LogModuleManager: Shutting down and abandoning module PackagesDialog (152)
+[2016.12.02-14.58.42:419][833]LogModuleManager: Shutting down and abandoning module Persona (151)
+[2016.12.02-14.58.42:419][833]LogModuleManager: Shutting down and abandoning module Kismet (150)
+[2016.12.02-14.58.42:419][833]LogModuleManager: Shutting down and abandoning module GraphEditor (149)
+[2016.12.02-14.58.42:420][833]LogModuleManager: Shutting down and abandoning module ClassViewer (148)
+[2016.12.02-14.58.42:426][833]LogModuleManager: Shutting down and abandoning module Toolbox (147)
+[2016.12.02-14.58.42:426][833]LogModuleManager: Shutting down and abandoning module ModuleUI (146)
+[2016.12.02-14.58.42:426][833]LogModuleManager: Shutting down and abandoning module MovieSceneTools (145)
+[2016.12.02-14.58.42:426][833]LogModuleManager: Shutting down and abandoning module OutputLog (144)
+[2016.12.02-14.58.42:427][833]LogModuleManager: Shutting down and abandoning module GammaUI (143)
+[2016.12.02-14.58.42:427][833]LogModuleManager: Shutting down and abandoning module Documentation (142)
+[2016.12.02-14.58.42:428][833]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (141)
+[2016.12.02-14.58.42:428][833]LogModuleManager: Shutting down and abandoning module AnalyticsET (140)
+[2016.12.02-14.58.42:428][833]LogModuleManager: Shutting down and abandoning module Analytics (139)
+[2016.12.02-14.58.42:428][833]LogModuleManager: Shutting down and abandoning module PortalServices (138)
+[2016.12.02-14.58.42:428][833]LogModuleManager: Shutting down and abandoning module PortalRpc (137)
+[2016.12.02-14.58.42:428][833]LogModuleManager: Shutting down and abandoning module MessagingRpc (136)
+[2016.12.02-14.58.42:428][833]LogModuleManager: Shutting down and abandoning module GameplayDebugger (135)
+[2016.12.02-14.58.42:428][833]LogModuleManager: Shutting down and abandoning module AITestSuite (134)
+[2016.12.02-14.58.42:428][833]LogModuleManager: Shutting down and abandoning module AIModule (133)
+[2016.12.02-14.58.42:428][833]LogModuleManager: Shutting down and abandoning module ProfilerService (132)
+[2016.12.02-14.58.42:633][833]LogModuleManager: Shutting down and abandoning module TaskGraph (131)
+[2016.12.02-14.58.42:633][833]LogModuleManager: Shutting down and abandoning module SlateRemote (130)
+[2016.12.02-14.58.42:633][833]LogModuleManager: Shutting down and abandoning module SteamVRController (129)
+[2016.12.02-14.58.42:633][833]LogModuleManager: Shutting down and abandoning module SteamVR (128)
+[2016.12.02-14.58.42:633][833]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (127)
+[2016.12.02-14.58.42:633][833]LogModuleManager: Shutting down and abandoning module OculusLibrary (126)
+[2016.12.02-14.58.42:633][833]LogModuleManager: Shutting down and abandoning module OculusInput (125)
+[2016.12.02-14.58.42:633][833]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (124)
+[2016.12.02-14.58.42:633][833]LogModuleManager: Shutting down and abandoning module CableComponent (123)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (122)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (121)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module HTML5Networking (120)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module SuperSearch (119)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (118)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (117)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module PluginBrowser (116)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2016.12.02-14.58.42:634][833]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2016.12.02-14.58.42:635][833]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2016.12.02-14.58.42:635][833]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2016.12.02-14.58.42:635][833]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2016.12.02-14.58.42:635][833]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2016.12.02-14.58.42:635][833]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2016.12.02-14.58.42:635][833]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2016.12.02-14.58.42:635][833]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2016.12.02-14.58.42:635][833]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2016.12.02-14.58.42:635][833]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2016.12.02-14.58.42:636][833]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2016.12.02-14.58.42:637][833]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2016.12.02-14.58.42:640][833]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.12.02-14.58.42:645][833]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2016.12.02-14.58.42:646][833]LogModuleManager: Shutting down and abandoning module UdpMessaging (97)
+[2016.12.02-14.58.42:746][833]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (96)
+[2016.12.02-14.58.42:746][833]LogModuleManager: Shutting down and abandoning module Paper2D (95)
+[2016.12.02-14.58.42:746][833]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (94)
+[2016.12.02-14.58.42:746][833]LogModuleManager: Shutting down and abandoning module Media (93)
+[2016.12.02-14.58.42:746][833]LogModuleManager: Shutting down and abandoning module WmfMedia (92)
+[2016.12.02-14.58.42:747][833]LogModuleManager: Shutting down and abandoning module MediaAssets (91)
+[2016.12.02-14.58.42:747][833]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (90)
+[2016.12.02-14.58.42:747][833]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (89)
+[2016.12.02-14.58.42:747][833]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (88)
+[2016.12.02-14.58.42:747][833]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.12.02-14.58.42:747][833]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.12.02-14.58.42:747][833]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.12.02-14.58.42:749][833]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.12.02-14.58.42:749][833]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.12.02-14.58.42:750][833]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.12.02-14.58.42:750][833]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.12.02-14.58.42:750][833]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.12.02-14.58.42:750][833]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.12.02-14.58.42:750][833]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.12.02-14.58.42:750][833]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.12.02-14.58.42:750][833]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.12.02-14.58.42:750][833]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.12.02-14.58.42:750][833]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.12.02-14.58.42:750][833]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.12.02-14.58.42:761][833]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.12.02-14.58.42:761][833]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.12.02-14.58.42:761][833]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.12.02-14.58.42:761][833]LogModuleManager: Shutting down and abandoning module Networking (69)
+[2016.12.02-14.58.42:761][833]LogModuleManager: Shutting down and abandoning module Core (68)
+[2016.12.02-14.58.42:761][833]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (67)
+[2016.12.02-14.58.42:778][833]LogModuleManager: Shutting down and abandoning module AssetRegistry (66)
+[2016.12.02-14.58.43:079][833]LogModuleManager: Shutting down and abandoning module KismetCompiler (65)
+[2016.12.02-14.58.43:079][833]LogModuleManager: Shutting down and abandoning module PhysXFormats (64)
+[2016.12.02-14.58.43:079][833]LogModuleManager: Shutting down and abandoning module MeshUtilities (63)
+[2016.12.02-14.58.43:079][833]LogModuleManager: Shutting down and abandoning module DerivedDataCache (62)
+[2016.12.02-14.58.43:111][833]LogDerivedDataCache: Shutdown
+[2016.12.02-14.58.43:111][833]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (61)
+[2016.12.02-14.58.43:111][833]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (60)
+[2016.12.02-14.58.43:112][833]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (59)
+[2016.12.02-14.58.43:112][833]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (58)
+[2016.12.02-14.58.43:112][833]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (57)
+[2016.12.02-14.58.43:112][833]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (56)
+[2016.12.02-14.58.43:112][833]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (55)
+[2016.12.02-14.58.43:112][833]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.12.02-14.58.43:112][833]LogModuleManager: Shutting down and abandoning module ImageWrapper (53)
+[2016.12.02-14.58.43:112][833]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (52)
+[2016.12.02-14.58.43:112][833]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (51)
+[2016.12.02-14.58.43:112][833]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (50)
+[2016.12.02-14.58.43:112][833]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (49)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (48)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (47)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (46)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (45)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (44)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module Messaging (43)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (42)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (41)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (40)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (39)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (38)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (37)
+[2016.12.02-14.58.43:113][833]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (36)
+[2016.12.02-14.58.43:114][833]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (35)
+[2016.12.02-14.58.43:114][833]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (34)
+[2016.12.02-14.58.43:114][833]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (33)
+[2016.12.02-14.58.43:114][833]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (32)
+[2016.12.02-14.58.43:114][833]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (31)
+[2016.12.02-14.58.43:114][833]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (30)
+[2016.12.02-14.58.43:114][833]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (29)
+[2016.12.02-14.58.43:114][833]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (28)
+[2016.12.02-14.58.43:114][833]LogModuleManager: Shutting down and abandoning module TargetPlatform (27)
+[2016.12.02-14.58.43:114][833]LogModuleManager: Shutting down and abandoning module InputCore (26)
+[2016.12.02-14.58.43:114][833]LogModuleManager: Shutting down and abandoning module Settings (25)
+[2016.12.02-14.58.43:115][833]LogModuleManager: Shutting down and abandoning module Voice (23)
+[2016.12.02-14.58.43:115][833]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.12.02-14.58.43:115][833]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.12.02-14.58.43:116][833]LogOnline:Display: Unloading online subsystem: STEAM
+[2016.12.02-14.58.43:116][833]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.02-14.58.43:117][833]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.12.02-14.58.44:621][833]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.12.02-14.58.44:621][833]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.12.02-14.58.44:621][833]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.12.02-14.58.44:621][833]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.02-14.58.44:622][833]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.02-14.58.44:622][833]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.02-14.58.44:622][833]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.02-14.58.44:695][833]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.02-14.58.44:695][833]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.02-14.58.44:696][833]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.02-14.58.44:696][833]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.02-14.58.44:696][833]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.02-14.58.44:696][833]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.02-14.58.44:696][833]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.02-14.58.44:696][833]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.02-14.58.44:696][833]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.02-14.58.44:696][833]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.02-14.58.44:700][833]LogExit: Exiting.
+[2016.12.02-14.58.44:780][833]Log file closed, 12/02/16 23:58:44
