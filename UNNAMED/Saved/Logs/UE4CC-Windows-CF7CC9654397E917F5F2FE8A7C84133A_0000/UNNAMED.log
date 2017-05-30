@@ -1,0 +1,651 @@
+﻿Log file open, 05/30/17 15:21:44
+LogInit:Display: Running engine for game: UNNAMED
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(636116261) SRandInit(636116261).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088937
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.30-06.21.45:554][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.30-06.21.45:554][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.30-06.21.45:562][  0]LogInit: Computer: DESKTOP-5I3HB32
+[2017.05.30-06.21.45:562][  0]LogInit: User: jcy
+[2017.05.30-06.21.45:562][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.30-06.21.45:562][  0]LogInit: High frequency timer resolution =2.533206 MHz
+[2017.05.30-06.21.45:563][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.05.30-06.21.45:563][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.30-06.21.45:563][  0]LogMemory: Process Physical Memory: 267.33 MB used, 267.33 MB peak
+[2017.05.30-06.21.45:563][  0]LogMemory: Process Virtual Memory: 262.64 MB used, 262.64 MB peak
+[2017.05.30-06.21.45:563][  0]LogMemory: Physical Memory: 3498.50 MB used,  8711.36 MB free, 12209.86 MB total
+[2017.05.30-06.21.45:563][  0]LogMemory: Virtual Memory: 633.54 MB used,  8711.36 MB free, 134217728.00 MB total
+[2017.05.30-06.21.46:000][  0]LogInit: Overriding culture en with editor configuration.
+[2017.05.30-06.21.46:759][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.30-06.21.47:407][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.05.30-06.21.47:407][  0]LogD3D11RHI:       2019/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.30-06.21.47:412][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.30-06.21.47:412][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.30-06.21.47:413][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.30-06.21.47:413][  0]LogD3D11RHI:       0/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.30-06.21.47:413][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.30-06.21.47:419][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.30-06.21.47:419][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.05.30-06.21.47:419][  0]LogWindows: EnumDisplayDevices:
+[2017.05.30-06.21.47:419][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.05.30-06.21.47:419][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.05.30-06.21.47:419][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.30-06.21.47:420][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.30-06.21.47:420][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.05.30-06.21.47:420][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.30-06.21.47:420][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.30-06.21.47:420][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.30-06.21.48:013][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.30-06.21.48:047][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.30-06.21.48:047][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Intermediate/Shaders/WorkingDirectory/5476/).
+[2017.05.30-06.21.48:048][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jcy/AppData/Local/Temp/UnrealShaderWorkingDir/FCA3F3A9480EBE9D747FA9B945218E50/'.
+[2017.05.30-06.21.48:048][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.30-06.21.49:320][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.30-06.21.49:385][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.30-06.21.49:453][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.30-06.21.49:522][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.30-06.21.49:592][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.30-06.21.49:659][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.30-06.21.49:731][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.30-06.21.49:803][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.30-06.21.49:866][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.30-06.21.49:934][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.30-06.21.50:007][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.30-06.21.50:079][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.30-06.21.50:151][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.30-06.21.50:224][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.30-06.21.50:292][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.30-06.21.50:433][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.30-06.21.50:433][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.30-06.21.50:484][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.30-06.21.50:605][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.30-06.21.50:642][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.30-06.21.50:713][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.30-06.21.50:783][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.30-06.21.50:855][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.30-06.21.50:930][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.30-06.21.50:930][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.30-06.21.51:547][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.30-06.21.51:602][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.30-06.21.51:602][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.30-06.21.51:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.30-06.21.51:602][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.30-06.21.51:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.30-06.21.51:603][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.30-06.21.51:620][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.30-06.21.51:632][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jcy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.30-06.21.51:643][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.30-06.21.51:643][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.30-06.21.51:643][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.30-06.21.51:997][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.30-06.21.52:002][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.30-06.21.52:276][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.30-06.21.52:329][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.30-06.21.52:392][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.30-06.21.52:392][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.30-06.21.52:392][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.30-06.21.53:005][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: unnamed, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1184173371
+[2017.05.30-06.21.53:059][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.05.30-06.21.53:105][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.018262 seconds
+[2017.05.30-06.21.53:111][  0]LogUObjectArray: 32500 objects as part of root set at end of initial load.
+[2017.05.30-06.21.53:111][  0]LogUObjectAllocator: 7290880 out of 0 bytes used by permanent object pool.
+[2017.05.30-06.21.53:111][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.30-06.21.55:577][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.30-06.21.55:625][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.30-06.21.56:249][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.30-06.21.56:748][  0]SourceControl: Info Source control is disabled
+[2017.05.30-06.21.56:749][  0]SourceControl: Info Source control is disabled
+[2017.05.30-06.21.56:818][  0]SourceControl: Info Source control is disabled
+[2017.05.30-06.21.56:881][  0]SourceControl: Info Source control is disabled
+[2017.05.30-06.21.58:545][  0]LogEngine: Initializing Engine...
+[2017.05.30-06.21.58:545][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.30-06.21.58:844][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.30-06.21.58:851][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-06.21.58:983][  0]LogInit: FAudioDevice initialized.
+[2017.05.30-06.21.59:011][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.30-06.21.59:017][  0]LogInit: Texture streaming: Enabled
+[2017.05.30-06.21.59:139][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.30-06.21.59:262][  0]LogInit: Transaction tracking system initialized
+[2017.05.30-06.21.59:740][  0]BlueprintLog: New page: Editor Load
+[2017.05.30-06.22.00:977][  0]LocalizationService: Info Localization service is disabled
+[2017.05.30-06.22.02:112][  0]LogConsoleResponse:Display: 
+[2017.05.30-06.22.02:292][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.30-06.22.02:292][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.30-06.22.03:160][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/' took 0.09s
+[2017.05.30-06.22.04:173][  0]SourceControl: Info Source control is disabled
+[2017.05.30-06.22.04:173][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Map/map01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.30-06.22.04:174][  0]LightingResults: New page: Lighting Build
+[2017.05.30-06.22.04:251][  0]MapCheck: New page: Map Check
+[2017.05.30-06.22.04:251][  0]LightingResults: New page: Lighting Build
+[2017.05.30-06.22.05:417][  0]LogClass:Warning: Enum '/Game/BP/E_GameState.E_GameState' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.05.30-06.22.05:853][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning  dari_jump_Anim to TripleShot  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-06.22.05:853][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning  Idle to dari_shift_Anim  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-06.22.05:853][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning  dari_run_Anim to dari_shift_Anim  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-06.22.05:870][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning [0023.17] Compile of DariAniBP successful, but with 3 Warning(s) [in 29 ms] (/Game/C_Dari/DariAniBP.DariAniBP)
+[2017.05.30-06.22.05:871][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning [0023.17] Compile of DariAniBP successful, but with 4 Warning(s) [in 0 ms] (/Game/C_Dari/DariAniBP.DariAniBP)
+[2017.05.30-06.22.05:871][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning [0023.17] Compile of DariAniBP successful, but with 5 Warning(s) [in 0 ms] (/Game/C_Dari/DariAniBP.DariAniBP)
+[2017.05.30-06.22.07:400][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning  dari_jump_Anim to TripleShot  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-06.22.07:400][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning  Idle to dari_shift_Anim  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-06.22.07:400][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning  dari_run_Anim to dari_shift_Anim  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-06.22.07:412][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning [0024.71] Compile of DariAniBP successful, but with 3 Warning(s) [in 19 ms] (/Game/C_Dari/DariAniBP.DariAniBP)
+[2017.05.30-06.22.07:412][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning [0024.71] Compile of DariAniBP successful, but with 4 Warning(s) [in 0 ms] (/Game/C_Dari/DariAniBP.DariAniBP)
+[2017.05.30-06.22.07:412][  0]LogBlueprint:Warning: [Compiler DariAniBP] Warning [0024.71] Compile of DariAniBP successful, but with 5 Warning(s) [in 0 ms] (/Game/C_Dari/DariAniBP.DariAniBP)
+[2017.05.30-06.22.09:260][  0]LogAIModule: Creating AISystem for world map01
+[2017.05.30-06.22.09:317][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.30-06.22.09:318][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.30-06.22.09:513][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 194.677ms to complete.
+[2017.05.30-06.22.09:513][  0]LogFileHelpers: Loading map 'map01' took 5.340
+[2017.05.30-06.22.09:616][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.05.30-06.22.09:823][  0]LogCollectionManager: Loaded 1 collections in 0.005599 seconds
+[2017.05.30-06.22.09:983][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Collections/' took 0.01s
+[2017.05.30-06.22.09:983][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Developers/jcy/Collections/' took 0.01s
+[2017.05.30-06.22.09:983][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Collections/' took 0.01s
+[2017.05.30-06.22.09:983][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
+[2017.05.30-06.22.09:983][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2017.05.30-06.22.10:000][  0]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 2247 classes and 456 folders.
+[2017.05.30-06.22.10:006][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.30-06.22.10:007][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.30-06.22.10:125][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.30-06.22.10:210][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.05.30-06.22.10:285][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.05.30-06.22.10:521][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.30-06.22.10:534][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.30-06.22.10:654][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2017.05.30-06.22.10:655][  0]LogLoad: (Engine Initialization) Total time: 27.96 seconds
+[2017.05.30-06.22.10:655][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.14 seconds
+[2017.05.30-06.22.10:655][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.30-06.22.10:655][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.30-06.22.10:678][  0]LogOcInput: OculusInput pre-init called
+[2017.05.30-06.22.10:705][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.30-06.22.10:708][  0]LogSlate: Took 0.000648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.30-06.22.10:714][  0]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.30-06.22.10:727][  0]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.30-06.22.10:954][  0]LogSlate: Took 0.000411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.30-06.22.11:024][  0]LogRenderer: Reallocating scene render targets to support 1100x540 NumSamples 1 (Frame:2).
+[2017.05.30-06.22.11:415][  6]LogAssetRegistry: Asset discovery search completed in 18.3780 seconds
+[2017.05.30-06.22.11:415][  6]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000017 seconds (found 0 objects)
+[2017.05.30-06.22.11:415][  6]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000038 seconds (updated 0 objects)
+[2017.05.30-06.22.11:745][ 17]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.30-06.22.12:425][ 17]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.05.30-06.22.16:032][ 17]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.05.30-06.22.16:195][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.30-06.22.16:265][ 17]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.30-06.22.16:455][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.05.30-06.22.16:637][ 17]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.05.30-06.22.16:791][ 17]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.30-06.24.21:518][400]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-06.24.21:672][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.24.21:672][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-06.24.21:672][400]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-06.24.21:673][400]LogOnline:Warning: STEAM: Steam API disabled!
+[2017.05.30-06.24.21:673][400]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.05.30-06.24.21:686][400]PIE: New page: PIE session: map01 (May 31, 2017, 12:24:21 AM)
+[2017.05.30-06.24.21:688][400]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_map01
+[2017.05.30-06.24.21:766][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078218s)
+[2017.05.30-06.24.21:768][400]LogAIModule: Creating AISystem for world map01
+[2017.05.30-06.24.21:769][400]LogPlayLevel: PIE: World Init took: (0.003033s)
+[2017.05.30-06.24.21:770][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/map01.map01 to /Game/Map/UEDPIE_0_map01.map01 (0.082307s)
+[2017.05.30-06.24.22:177][400]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-06.24.22:298][400]LogInit: FAudioDevice initialized.
+[2017.05.30-06.24.22:374][400]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_b38_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_f80_0///####STATCAT_Advanced####
+[2017.05.30-06.24.22:444][400]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.30-06.24.22:456][400]LogWorld: Bringing World /Game/Map/UEDPIE_0_map01.map01 up for play (max tick rate 60) at 2017.05.30-15.24.22
+[2017.05.30-06.24.22:460][400]LogWorld: Bringing up level for play took: 0.014626
+[2017.05.30-06.24.22:663][400]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.05.30-06.24.22:663][400]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-06.24.22:663][400]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-06.24.22:663][400]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-06.24.22:676][400]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-6809
+[2017.05.30-06.24.22:683][400]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.05.30-06.24.22:684][400]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-06.24.22:695][400]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_map01 0.541
+[2017.05.30-06.24.22:696][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.24.22:740][400]LogSlate: Took 0.006802 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.05.30-06.24.22:869][400]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:19629).
+[2017.05.30-06.24.22:966][401]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.05.30-06.24.22:972][401]LogBlueprintUserMessages: [CharacterSelect_278] Dari_C
+[2017.05.30-06.24.26:097][465]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.24.26:198][465]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-06.24.26:201][465]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.30-06.24.26:202][465]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.24.26:443][466]LogPlayLevel:Display: Destroying online subsystem :Context_21
+[2017.05.30-06.24.26:443][466]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-06.24.30:955][594]LogEditorViewport: Clicking on Actor (LMB): Wolf_C (Wolf9)
+[2017.05.30-06.24.59:027][317]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-06.24.59:096][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.24.59:096][317]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.30-06.24.59:096][317]LogPlayLevel: [PlayLevel] Compiling RibeccaAniBP before play...
+[2017.05.30-06.24.59:480][317]LogPlayLevel: PlayLevel: Blueprint regeneration took 384 ms (1 blueprints)
+[2017.05.30-06.24.59:480][317]PIE: New page: PIE session: map01 (May 31, 2017, 12:24:59 AM)
+[2017.05.30-06.24.59:482][317]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_map01
+[2017.05.30-06.24.59:537][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055783s)
+[2017.05.30-06.24.59:539][317]LogAIModule: Creating AISystem for world map01
+[2017.05.30-06.24.59:539][317]LogPlayLevel: PIE: World Init took: (0.001742s)
+[2017.05.30-06.24.59:540][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/map01.map01 to /Game/Map/UEDPIE_0_map01.map01 (0.058149s)
+[2017.05.30-06.24.59:642][317]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-06.24.59:714][317]LogInit: FAudioDevice initialized.
+[2017.05.30-06.24.59:817][317]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.30-06.24.59:834][317]LogWorld: Bringing World /Game/Map/UEDPIE_0_map01.map01 up for play (max tick rate 60) at 2017.05.30-15.24.59
+[2017.05.30-06.24.59:838][317]LogWorld: Bringing up level for play took: 0.018930
+[2017.05.30-06.24.59:851][317]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-06.24.59:851][317]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-06.24.59:851][317]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-06.24.59:867][317]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-5541
+[2017.05.30-06.24.59:879][317]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.05.30-06.24.59:880][317]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-06.24.59:895][317]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_map01 1.742
+[2017.05.30-06.24.59:897][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.25.00:168][318]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.05.30-06.25.00:173][318]LogBlueprintUserMessages: [CharacterSelect_278] duek_C
+[2017.05.30-06.25.02:948][394]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.25.02:948][394]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-06.25.02:989][395]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.25.02:989][395]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-06.25.16:995][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.25.17:094][803]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-06.25.17:096][803]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.30-06.25.17:369][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.25.17:621][804]LogPlayLevel:Display: Destroying online subsystem :Context_22
+[2017.05.30-06.25.17:621][804]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-06.26.29:233][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.30-06.28.09:658][987]BlueprintLog: New page: Compile RibeccaAniBP
+[2017.05.30-06.28.46:896][963]LogSlate: Took 0.000576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.30-06.32.29:332][492]LogSlate: Took 0.000660 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.30-06.32.38:451][783]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/map01' took 0.073
+[2017.05.30-06.32.38:457][783]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Ribecca/RibeccaAniBP] ([1] browsable assets)...
+[2017.05.30-06.32.38:497][783]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Ribecca/RibeccaAniBP.RibeccaAniBP]
+[2017.05.30-06.32.38:497][783]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ribecca/RibeccaAniBP]
+[2017.05.30-06.32.38:807][783]LogSavePackage: Save=215.07ms
+[2017.05.30-06.32.38:808][783]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/RibeccaAniBP_Auto129F20E1044AE4D014A20AEA2ADA8CECA.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/Ribecca/RibeccaAniBP_Auto1.uasset'
+[2017.05.30-06.32.38:814][783]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/Ribecca/RibeccaAniBP_Auto1.uasset
+[2017.05.30-06.32.38:814][783]LogFileHelpers: Auto-saving content packages took 0.361
+[2017.05.30-06.58.17:147][289]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-06.58.17:217][289]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.58.17:217][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-06.58.17:217][289]PIE: New page: PIE session: map01 (May 31, 2017, 12:58:17 AM)
+[2017.05.30-06.58.17:218][289]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_map01
+[2017.05.30-06.58.17:257][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038325s)
+[2017.05.30-06.58.17:258][289]LogAIModule: Creating AISystem for world map01
+[2017.05.30-06.58.17:258][289]LogPlayLevel: PIE: World Init took: (0.001372s)
+[2017.05.30-06.58.17:258][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/map01.map01 to /Game/Map/UEDPIE_0_map01.map01 (0.040252s)
+[2017.05.30-06.58.17:314][289]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-06.58.17:361][289]LogInit: FAudioDevice initialized.
+[2017.05.30-06.58.17:446][289]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.30-06.58.17:460][289]LogWorld: Bringing World /Game/Map/UEDPIE_0_map01.map01 up for play (max tick rate 60) at 2017.05.30-15.58.17
+[2017.05.30-06.58.17:463][289]LogWorld: Bringing up level for play took: 0.015262
+[2017.05.30-06.58.17:476][289]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-06.58.17:476][289]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-06.58.17:476][289]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-06.58.17:485][289]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-B346
+[2017.05.30-06.58.17:491][289]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.05.30-06.58.17:493][289]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-06.58.17:501][289]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_map01 -0.652
+[2017.05.30-06.58.17:502][289]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.58.17:504][289]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.05.30-06.58.17:520][289]LogBlueprintUserMessages: [CharacterSelect_278] Ribecca_C
+[2017.05.30-06.58.20:077][377]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.58.20:077][377]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-06.58.20:102][378]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.58.20:102][378]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-06.58.20:130][379]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.58.20:130][379]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-06.58.31:533][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.58.31:603][843]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-06.58.31:603][843]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.30-06.58.31:682][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.58.31:836][844]LogPlayLevel:Display: Destroying online subsystem :Context_23
+[2017.05.30-06.58.31:836][844]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-06.58.58:812][893]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-06.58.58:871][893]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.58.58:871][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-06.58.58:871][893]PIE: New page: PIE session: map01 (May 31, 2017, 12:58:58 AM)
+[2017.05.30-06.58.58:872][893]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_map01
+[2017.05.30-06.58.58:912][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039948s)
+[2017.05.30-06.58.58:913][893]LogAIModule: Creating AISystem for world map01
+[2017.05.30-06.58.58:913][893]LogPlayLevel: PIE: World Init took: (0.001622s)
+[2017.05.30-06.58.58:914][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/map01.map01 to /Game/Map/UEDPIE_0_map01.map01 (0.042076s)
+[2017.05.30-06.58.58:968][893]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-06.58.59:014][893]LogInit: FAudioDevice initialized.
+[2017.05.30-06.58.59:094][893]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.30-06.58.59:105][893]LogWorld: Bringing World /Game/Map/UEDPIE_0_map01.map01 up for play (max tick rate 60) at 2017.05.30-15.58.59
+[2017.05.30-06.58.59:108][893]LogWorld: Bringing up level for play took: 0.012495
+[2017.05.30-06.58.59:121][893]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-06.58.59:121][893]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-06.58.59:121][893]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-06.58.59:129][893]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-B9EA
+[2017.05.30-06.58.59:134][893]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.05.30-06.58.59:136][893]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-06.58.59:145][893]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_map01 0.992
+[2017.05.30-06.58.59:146][893]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.58.59:289][894]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.05.30-06.58.59:292][894]LogBlueprintUserMessages: [CharacterSelect_278] Ribecca_C
+[2017.05.30-06.59.03:170][ 38]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.59.03:170][ 38]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-06.59.03:191][ 39]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.59.03:191][ 39]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.59.03:191][ 39]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-06.59.03:191][ 39]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-06.59.03:219][ 40]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.59.03:219][ 40]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-06.59.28:944][ 45]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.59.29:032][ 45]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-06.59.29:034][ 45]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.30-06.59.29:124][ 45]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.59.29:286][ 46]LogPlayLevel:Display: Destroying online subsystem :Context_24
+[2017.05.30-06.59.29:286][ 46]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-06.59.44:773][675]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-06.59.44:860][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.59.44:860][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-06.59.44:860][675]PIE: New page: PIE session: map01 (May 31, 2017, 12:59:44 AM)
+[2017.05.30-06.59.44:862][675]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_map01
+[2017.05.30-06.59.44:904][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041435s)
+[2017.05.30-06.59.44:905][675]LogAIModule: Creating AISystem for world map01
+[2017.05.30-06.59.44:905][675]LogPlayLevel: PIE: World Init took: (0.001163s)
+[2017.05.30-06.59.44:905][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/map01.map01 to /Game/Map/UEDPIE_0_map01.map01 (0.043136s)
+[2017.05.30-06.59.44:956][675]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-06.59.45:014][675]LogInit: FAudioDevice initialized.
+[2017.05.30-06.59.45:103][675]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.30-06.59.45:111][675]LogWorld: Bringing World /Game/Map/UEDPIE_0_map01.map01 up for play (max tick rate 60) at 2017.05.30-15.59.45
+[2017.05.30-06.59.45:113][675]LogWorld: Bringing up level for play took: 0.008921
+[2017.05.30-06.59.45:126][675]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-06.59.45:126][675]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-06.59.45:126][675]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-06.59.45:134][675]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-8733
+[2017.05.30-06.59.45:140][675]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.05.30-06.59.45:141][675]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-06.59.45:150][675]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_map01 0.997
+[2017.05.30-06.59.45:152][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-06.59.45:284][676]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.05.30-06.59.45:291][676]LogBlueprintUserMessages: [CharacterSelect_278] Ribecca_C
+[2017.05.30-06.59.48:263][783]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.59.48:263][783]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-06.59.48:290][784]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.59.48:290][784]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-06.59.48:312][785]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-06.59.48:312][785]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-07.00.19:711][972]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.00.19:793][972]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-07.00.19:794][972]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.30-07.00.19:898][972]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.00.20:084][973]LogPlayLevel:Display: Destroying online subsystem :Context_25
+[2017.05.30-07.00.20:084][973]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-07.00.32:105][362]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.05.30-07.00.32:310][362]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.05.30-07.01.52:102][314]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-07.01.52:190][314]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.01.52:191][314]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.30-07.01.52:191][314]LogPlayLevel: [PlayLevel] Compiling duekAni before play...
+[2017.05.30-07.01.52:639][314]LogPlayLevel: PlayLevel: Blueprint regeneration took 448 ms (1 blueprints)
+[2017.05.30-07.01.52:640][314]PIE: New page: PIE session: map01 (May 31, 2017, 1:01:52 AM)
+[2017.05.30-07.01.52:641][314]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_map01
+[2017.05.30-07.01.52:699][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057944s)
+[2017.05.30-07.01.52:702][314]LogAIModule: Creating AISystem for world map01
+[2017.05.30-07.01.52:703][314]LogPlayLevel: PIE: World Init took: (0.003786s)
+[2017.05.30-07.01.52:703][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/map01.map01 to /Game/Map/UEDPIE_0_map01.map01 (0.062489s)
+[2017.05.30-07.01.52:771][314]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-07.01.52:828][314]LogInit: FAudioDevice initialized.
+[2017.05.30-07.01.52:927][314]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.30-07.01.52:941][314]LogWorld: Bringing World /Game/Map/UEDPIE_0_map01.map01 up for play (max tick rate 60) at 2017.05.30-16.01.52
+[2017.05.30-07.01.52:946][314]LogWorld: Bringing up level for play took: 0.016191
+[2017.05.30-07.01.52:960][314]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-07.01.52:960][314]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-07.01.52:960][314]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-07.01.52:972][314]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-E706
+[2017.05.30-07.01.52:979][314]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.05.30-07.01.52:981][314]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-07.01.52:990][314]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_map01 0.837
+[2017.05.30-07.01.52:991][314]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.01.53:176][315]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.05.30-07.01.53:183][315]LogBlueprintUserMessages: [CharacterSelect_278] duek_C
+[2017.05.30-07.01.54:776][364]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-07.01.54:776][364]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-07.01.54:802][365]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-07.01.54:802][365]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-07.01.54:835][366]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-07.01.54:835][366]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-07.02.11:874][940]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.02.11:956][940]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-07.02.11:956][940]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.30-07.02.12:107][940]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.02.12:271][941]LogPlayLevel:Display: Destroying online subsystem :Context_33
+[2017.05.30-07.02.12:271][941]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-07.03.35:426][811]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-07.03.35:494][811]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.03.35:494][811]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.30-07.03.35:494][811]LogPlayLevel: [PlayLevel] Compiling duekAni before play...
+[2017.05.30-07.03.35:620][811]LogBlueprint:Warning: [Compiler duekAni] Warning  attack2 to duek_skill_Anim2  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-07.03.35:621][811]LogBlueprint:Warning: [Compiler duekAni] Warning  attack3 to duek_skill_Anim2  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-07.03.35:681][811]LogBlueprint:Warning: [Compiler duekAni] Warning [2512.98] Compile of duekAni successful, but with 2 Warning(s) [in 128 ms] (/Game/Duek/duekAni.duekAni)
+[2017.05.30-07.03.35:681][811]LogBlueprint:Warning: [Compiler duekAni] Warning [2512.98] Compile of duekAni successful, but with 3 Warning(s) [in 0 ms] (/Game/Duek/duekAni.duekAni)
+[2017.05.30-07.03.35:681][811]LogBlueprint:Warning: [Compiler duekAni] Warning [2512.98] Compile of duekAni successful, but with 4 Warning(s) [in 0 ms] (/Game/Duek/duekAni.duekAni)
+[2017.05.30-07.03.35:884][811]LogBlueprint:Warning: [Compiler duekAni] Warning [2513.19] Compile of duekAni successful, but with 5 Warning(s) [in 203 ms] (/Game/Duek/duekAni.duekAni)
+[2017.05.30-07.03.35:895][811]LogBlueprint:Warning: [Compiler duekAni] Warning [2513.20] Compile of duekAni successful, but with 6 Warning(s) [in 10 ms] (/Game/Duek/duekAni.duekAni)
+[2017.05.30-07.03.35:895][811]LogBlueprint:Warning: [Compiler duekAni] Warning [2513.20] Compile of duekAni successful, but with 7 Warning(s) [in 0 ms] (/Game/Duek/duekAni.duekAni)
+[2017.05.30-07.03.35:964][811]LogPlayLevel: PlayLevel: Blueprint regeneration took 469 ms (1 blueprints)
+[2017.05.30-07.03.35:964][811]PIE: New page: PIE session: map01 (May 31, 2017, 1:03:35 AM)
+[2017.05.30-07.03.35:965][811]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_map01
+[2017.05.30-07.03.36:000][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035055s)
+[2017.05.30-07.03.36:001][811]LogAIModule: Creating AISystem for world map01
+[2017.05.30-07.03.36:002][811]LogPlayLevel: PIE: World Init took: (0.001376s)
+[2017.05.30-07.03.36:002][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/map01.map01 to /Game/Map/UEDPIE_0_map01.map01 (0.036936s)
+[2017.05.30-07.03.36:056][811]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-07.03.36:115][811]LogInit: FAudioDevice initialized.
+[2017.05.30-07.03.36:195][811]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.30-07.03.36:203][811]LogWorld: Bringing World /Game/Map/UEDPIE_0_map01.map01 up for play (max tick rate 60) at 2017.05.30-16.03.36
+[2017.05.30-07.03.36:205][811]LogWorld: Bringing up level for play took: 0.008210
+[2017.05.30-07.03.36:218][811]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-07.03.36:218][811]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-07.03.36:218][811]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-07.03.36:226][811]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-5484
+[2017.05.30-07.03.36:233][811]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.05.30-07.03.36:234][811]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-07.03.36:243][811]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_map01 0.09
+[2017.05.30-07.03.36:244][811]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.03.36:480][812]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.05.30-07.03.36:484][812]LogBlueprintUserMessages: [CharacterSelect_278] duek_C
+[2017.05.30-07.03.38:544][875]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-07.03.38:544][875]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-07.03.38:572][876]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-07.03.38:572][876]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-07.03.38:608][877]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.05.30-07.03.38:608][877]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.05.30-07.04.02:515][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.04.02:599][674]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-07.04.02:601][674]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.30-07.04.02:692][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.04.02:852][675]LogPlayLevel:Display: Destroying online subsystem :Context_34
+[2017.05.30-07.04.02:852][675]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-07.05.04:104][830]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.30-07.05.04:208][830]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.05.04:208][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.30-07.05.04:208][830]PIE: New page: PIE session: map01 (May 31, 2017, 1:05:04 AM)
+[2017.05.30-07.05.04:209][830]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_map01
+[2017.05.30-07.05.04:259][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049599s)
+[2017.05.30-07.05.04:261][830]LogAIModule: Creating AISystem for world map01
+[2017.05.30-07.05.04:261][830]LogPlayLevel: PIE: World Init took: (0.002017s)
+[2017.05.30-07.05.04:262][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/map01.map01 to /Game/Map/UEDPIE_0_map01.map01 (0.052365s)
+[2017.05.30-07.05.04:353][830]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.30-07.05.04:429][830]LogInit: FAudioDevice initialized.
+[2017.05.30-07.05.04:523][830]LogLoad: Game class is 'MyGameMode_C'
+[2017.05.30-07.05.04:535][830]LogWorld: Bringing World /Game/Map/UEDPIE_0_map01.map01 up for play (max tick rate 60) at 2017.05.30-16.05.04
+[2017.05.30-07.05.04:538][830]LogWorld: Bringing up level for play took: 0.012619
+[2017.05.30-07.05.04:552][830]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-07.05.04:552][830]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.30-07.05.04:552][830]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-07.05.04:562][830]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-4FAA
+[2017.05.30-07.05.04:568][830]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.05.30-07.05.04:569][830]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.30-07.05.04:580][830]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_map01 0.427
+[2017.05.30-07.05.04:581][830]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.05.04:694][831]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.05.30-07.05.04:699][831]LogBlueprintUserMessages: [CharacterSelect_278] Ribecca_C
+[2017.05.30-07.05.06:749][889]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.05.06:829][889]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-07.05.06:829][889]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.30-07.05.06:917][889]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.05.30-07.05.07:124][890]LogPlayLevel:Display: Destroying online subsystem :Context_35
+[2017.05.30-07.05.07:124][890]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.30-07.05.09:166][957]BlueprintLog: New page: Compile duekAni
+[2017.05.30-07.05.09:367][957]LogBlueprint:Warning: [Compiler duekAni] Warning  attack2 to duek_skill_Anim2  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-07.05.09:367][957]LogBlueprint:Warning: [Compiler duekAni] Warning  attack3 to duek_skill_Anim2  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-07.05.09:667][957]BlueprintEditorCompileResults:Warning: Warning  attack2 to duek_skill_Anim2  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-07.05.09:667][957]BlueprintEditorCompileResults:Warning: Warning  attack3 to duek_skill_Anim2  will never be taken, please connect something to  Can Enter Transition
+[2017.05.30-07.05.09:667][957]LogBlueprint:Warning: [Compiler duekAni] Warning [2606.97] Compile of duekAni successful, but with 2 Warning(s) [in 500 ms] (/Game/Duek/duekAni.duekAni)
+[2017.05.30-07.05.30:263][690]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
