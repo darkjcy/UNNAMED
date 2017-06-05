@@ -1,0 +1,1385 @@
+﻿Log file open, 06/05/17 21:59:13
+LogInit:Display: Running engine for game: UNNAMED
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-978295318) SRandInit(-978295318).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 2.066904
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.05-12.59.15:688][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.05-12.59.15:689][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.05-12.59.15:728][  0]LogInit: Computer: DESKTOP-5I3HB32
+[2017.06.05-12.59.15:728][  0]LogInit: User: jcy
+[2017.06.05-12.59.15:728][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.05-12.59.15:728][  0]LogInit: High frequency timer resolution =2.533211 MHz
+[2017.06.05-12.59.15:728][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.06.05-12.59.15:728][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.05-12.59.15:728][  0]LogMemory: Process Physical Memory: 267.93 MB used, 267.93 MB peak
+[2017.06.05-12.59.15:728][  0]LogMemory: Process Virtual Memory: 262.68 MB used, 262.68 MB peak
+[2017.06.05-12.59.15:728][  0]LogMemory: Physical Memory: 4166.73 MB used,  8043.14 MB free, 12209.86 MB total
+[2017.06.05-12.59.15:728][  0]LogMemory: Virtual Memory: 633.54 MB used,  8043.14 MB free, 134217728.00 MB total
+[2017.06.05-12.59.16:123][  0]LogInit: Overriding culture en with editor configuration.
+[2017.06.05-12.59.18:029][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.05-12.59.18:676][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.06.05-12.59.18:676][  0]LogD3D11RHI:       2019/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.05-12.59.18:691][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.06.05-12.59.18:691][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.06.05-12.59.18:693][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.05-12.59.18:693][  0]LogD3D11RHI:       0/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.05-12.59.18:693][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.05-12.59.18:712][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.05-12.59.18:712][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.06.05-12.59.18:712][  0]LogWindows: EnumDisplayDevices:
+[2017.06.05-12.59.18:712][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.06.05-12.59.18:713][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.06.05-12.59.18:714][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.06.05-12.59.18:715][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.06.05-12.59.18:715][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.06.05-12.59.18:715][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.06.05-12.59.18:715][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.06.05-12.59.18:715][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.05-12.59.19:346][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.05-12.59.19:545][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.05-12.59.19:565][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Intermediate/Shaders/WorkingDirectory/9872/).
+[2017.06.05-12.59.19:566][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jcy/AppData/Local/Temp/UnrealShaderWorkingDir/029006CB469C38B614DF44A607530E82/'.
+[2017.06.05-12.59.19:566][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.05-12.59.24:405][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.05-12.59.24:481][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.05-12.59.24:557][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.05-12.59.24:637][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.05-12.59.24:722][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.05-12.59.24:798][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.05-12.59.24:875][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.05-12.59.24:951][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.05-12.59.25:017][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.05-12.59.25:107][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.05-12.59.25:199][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.05-12.59.25:281][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.05-12.59.25:355][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.05-12.59.25:428][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.05-12.59.25:524][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.05-12.59.25:673][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.05-12.59.25:673][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.05-12.59.25:731][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.05-12.59.25:896][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.05-12.59.25:939][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.05-12.59.26:020][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.05-12.59.26:101][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.05-12.59.26:174][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.05-12.59.26:255][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.05-12.59.26:255][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.05-12.59.27:474][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.05-12.59.28:232][  0]LogDerivedDataCache: Loaded boot cache 0.76s 50MB C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.05-12.59.28:232][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.05-12.59.28:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.05-12.59.28:233][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.05-12.59.28:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.05-12.59.28:233][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.05-12.59.28:291][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.05-12.59.28:328][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jcy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.05-12.59.28:492][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.05-12.59.28:518][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.05-12.59.28:518][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.05-12.59.37:193][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.05-12.59.37:230][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.05-12.59.38:269][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.05-12.59.38:400][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.05-12.59.38:476][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.05-12.59.38:476][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.05-12.59.38:476][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.05-12.59.42:261][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: unnamed, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1184173371
+[2017.06.05-12.59.42:551][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
+[2017.06.05-12.59.43:045][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.437294 seconds
+[2017.06.05-12.59.43:066][  0]LogUObjectArray: 32501 objects as part of root set at end of initial load.
+[2017.06.05-12.59.43:066][  0]LogUObjectAllocator: 7291104 out of 0 bytes used by permanent object pool.
+[2017.06.05-12.59.43:066][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.05-13.00.01:934][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.05-13.00.01:989][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.05-13.00.03:957][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.05-13.00.05:143][  0]SourceControl: Info Source control is disabled
+[2017.06.05-13.00.05:144][  0]SourceControl: Info Source control is disabled
+[2017.06.05-13.00.05:336][  0]SourceControl: Info Source control is disabled
+[2017.06.05-13.00.05:420][  0]SourceControl: Info Source control is disabled
+[2017.06.05-13.00.08:243][  0]LogEngine: Initializing Engine...
+[2017.06.05-13.00.08:302][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.05-13.00.09:239][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.05-13.00.09:294][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.05-13.00.09:387][  0]LogInit: FAudioDevice initialized.
+[2017.06.05-13.00.09:422][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.05-13.00.09:428][  0]LogInit: Texture streaming: Enabled
+[2017.06.05-13.00.09:674][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.05-13.00.09:882][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.05-13.00.10:056][  0]LogInit: Transaction tracking system initialized
+[2017.06.05-13.00.14:248][  0]BlueprintLog: New page: Editor Load
+[2017.06.05-13.00.17:941][  0]LocalizationService: Info Localization service is disabled
+[2017.06.05-13.00.20:203][  0]LogConsoleResponse:Display: 
+[2017.06.05-13.00.22:086][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.05-13.00.22:087][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.05-13.00.23:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/' took 0.07s
+[2017.06.05-13.00.25:055][  0]SourceControl: Info Source control is disabled
+[2017.06.05-13.00.25:110][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Map/map01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.05-13.00.25:124][  0]LightingResults: New page: Lighting Build
+[2017.06.05-13.00.25:462][  0]MapCheck: New page: Map Check
+[2017.06.05-13.00.25:462][  0]LightingResults: New page: Lighting Build
+[2017.06.05-13.00.33:650][  0]LogClass:Warning: Enum '/Game/BP/E_GameState.E_GameState' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.06.05-13.01.03:668][  0]LogAIModule: Creating AISystem for world map01
+[2017.06.05-13.01.06:882][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.05-13.01.07:223][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.05-13.01.07:552][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 329.558ms to complete.
+[2017.06.05-13.01.07:553][  0]LogFileHelpers: Loading map 'map01' took 42.481
+[2017.06.05-13.01.13:483][  0]LogCollectionManager: Loaded 1 collections in 0.014817 seconds
+[2017.06.05-13.01.14:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Collections/' took 0.01s
+[2017.06.05-13.01.14:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Developers/jcy/Collections/' took 0.01s
+[2017.06.05-13.01.14:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Collections/' took 0.01s
+[2017.06.05-13.01.14:314][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000014 seconds
+[2017.06.05-13.01.14:314][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.06.05-13.01.14:534][  0]LogContentBrowser: Native class hierarchy populated in 0.0409 seconds. Added 2247 classes and 456 folders.
+[2017.06.05-13.01.14:650][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.011 s
+[2017.06.05-13.01.14:651][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.05-13.01.14:762][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.05-13.01.15:953][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.05-13.01.16:196][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.05-13.01.17:438][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.05-13.01.17:734][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.05-13.01.17:937][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.05-13.01.17:937][  0]LogLoad: (Engine Initialization) Total time: 130.55 seconds
+[2017.06.05-13.01.17:938][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 4.30 seconds
+[2017.06.05-13.01.17:938][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.05-13.01.17:938][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.05-13.01.18:011][  0]LogOcInput: OculusInput pre-init called
+[2017.06.05-13.01.18:454][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.05-13.01.18:594][  0]LogSlate: Took 0.011015 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.05-13.01.18:613][  0]LogSlate: Took 0.014417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.05-13.01.18:706][  0]LogSlate: Took 0.012160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.05-13.01.19:828][  0]LogRenderer: Reallocating scene render targets to support 1160x576 NumSamples 1 (Frame:2).
+[2017.06.05-13.01.20:902][  1]LogSlate: Took 0.025858 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.05-13.01.21:084][  2]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.05-13.01.21:903][  2]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.06.05-13.01.25:290][  2]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.05-13.01.25:802][  2]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.05-13.01.26:602][  2]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.06.05-13.01.27:147][  2]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.05-13.01.27:255][  2]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.06.05-13.01.34:596][  2]LogRenderer: Reallocating scene render targets to support 1432x932 NumSamples 1 (Frame:8).
+[2017.06.05-13.01.36:339][ 36]LogAssetRegistry: Asset discovery search completed in 113.8100 seconds
+[2017.06.05-13.01.36:418][ 36]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.030070 seconds (found 0 objects)
+[2017.06.05-13.01.36:418][ 36]LogCollectionManager: Fixed up redirectors for 1 collections in 0.030111 seconds (updated 0 objects)
+[2017.06.05-13.01.45:949][488]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.05-13.01.46:045][488]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.06.05-13.01.46:068][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.05-13.01.46:113][488]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.01.46:117][488]LogOnline:Warning: STEAM: Steam API disabled!
+[2017.06.05-13.01.46:117][488]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.06.05-13.01.46:164][488]PIE: New page: PIE session: map01 (Jun 6, 2017, 7:01:46 AM)
+[2017.06.05-13.01.46:192][488]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_map01
+[2017.06.05-13.01.46:280][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087987s)
+[2017.06.05-13.01.46:281][488]LogAIModule: Creating AISystem for world map01
+[2017.06.05-13.01.46:281][488]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2017.06.05-13.01.46:289][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/map01.map01 to /Game/Map/UEDPIE_0_map01.map01 (0.106168s)
+[2017.06.05-13.01.46:604][488]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.05-13.01.46:684][488]LogInit: FAudioDevice initialized.
+[2017.06.05-13.01.46:738][488]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_371c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_27c4_0///####STATCAT_Advanced####
+[2017.06.05-13.01.46:816][488]LogLoad: Game class is 'MyGameMode_C'
+[2017.06.05-13.01.46:844][488]LogWorld: Bringing World /Game/Map/UEDPIE_0_map01.map01 up for play (max tick rate 0) at 2017.06.05-22.01.46
+[2017.06.05-13.01.46:994][488]LogWorld: Bringing up level for play took: 0.176245
+[2017.06.05-13.01.47:265][488]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.05-13.01.47:266][488]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.01.47:278][488]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.01.47:278][488]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.01.47:449][488]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-38AD
+[2017.06.05-13.01.47:493][488]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.06.05-13.01.47:506][488]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.01.47:581][488]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_map01 0.643
+[2017.06.05-13.01.47:589][488]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.06.05-13.01.47:789][488]LogSlate: Took 0.077148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.06.05-13.01.48:016][489]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.06.05-13.01.48:018][489]LogBlueprintUserMessages: [CharacterSelect_278] Ribecca_C
+[2017.06.05-13.01.58:495][232]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.01.58:495][232]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.02.04:052][701]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.07:057][958]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.10:069][219]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.13:076][475]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.18:486][936]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.21:492][176]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.24:501][432]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.26:547][594]LogBlueprintUserMessages: [Wolf9] 500
+[2017.06.05-13.02.26:549][594]LogBlueprintUserMessages: [Wolf4] 500
+[2017.06.05-13.02.26:776][607]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.26:777][607]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.27:345][655]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.27:345][655]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.27:831][696]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.28:231][730]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.28:232][730]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.28:571][758]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.28:571][758]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.29:115][804]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.29:150][807]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.29:749][857]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.29:750][857]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.29:750][857]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.30:444][915]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.30:444][915]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.30:444][915]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.30:836][948]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.31:319][990]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.31:319][990]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.31:320][990]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.31:666][ 19]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.31:667][ 19]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.31:667][ 19]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.32:335][ 75]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.32:335][ 75]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.32:336][ 75]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.33:210][150]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.33:211][150]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.33:211][150]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.33:543][178]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.33:543][178]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.33:543][178]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.33:838][203]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.34:219][235]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.34:220][235]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.34:220][235]LogBlueprintUserMessages: [Wolf9] 200
+[2017.06.05-13.02.35:104][311]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.35:104][311]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.35:452][341]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.35:452][341]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.36:110][397]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.36:110][397]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.36:846][461]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.36:996][474]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.36:996][474]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.37:336][503]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.37:336][503]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.37:997][560]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.37:997][560]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.38:885][636]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.38:885][636]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.39:846][720]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.40:414][767]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.40:414][767]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.42:099][912]LogBlueprintUserMessages: [Wolf7] 500
+[2017.06.05-13.02.42:100][912]LogBlueprintUserMessages: [Wolf9] 500
+[2017.06.05-13.02.42:100][912]LogBlueprintUserMessages: [Wolf4] 500
+[2017.06.05-13.02.42:127][914]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.42:127][914]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.42:856][977]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.42:980][988]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.42:980][988]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.43:866][ 65]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.43:867][ 65]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.44:214][ 94]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.44:215][ 94]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.44:891][153]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.44:891][153]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.45:776][230]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.45:777][230]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.45:858][237]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.46:110][258]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.46:111][258]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.46:790][317]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.46:790][317]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.47:678][394]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.47:678][394]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.48:013][423]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.48:013][423]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.48:687][477]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.48:687][477]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.48:862][492]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.50:082][597]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.50:083][597]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.50:906][668]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.50:906][668]LogBlueprintUserMessages: [Wolf4] 200
+[2017.06.05-13.02.51:863][741]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.54:412][934]LogBlueprintUserMessages: [duek_C_0] 99998368.0
+[2017.06.05-13.02.54:868][973]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.55:564][ 33]LogBlueprintUserMessages: [duek_C_0] 99998176.0
+[2017.06.05-13.02.57:586][204]LogBlueprintUserMessages: [Wolf7] 200
+[2017.06.05-13.02.57:868][228]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.02.59:990][405]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.06.05-13.03.00:194][405]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.03.00:195][405]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.06.05-13.03.00:196][405]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/map01.map01:PersistentLevel' has LevelScriptBlueprint '/Game/Map/map01.map01:PersistentLevel.map01' with GeneratedClass '/Game/Map/map01.map01_C' with ClassGeneratedBy '/Game/Map/map01.map01:PersistentLevel.map01'
+[2017.06.05-13.03.00:616][406]LogPlayLevel:Display: Destroying online subsystem :Context_23
+[2017.06.05-13.03.00:616][406]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.03.13:053][985]LogLinker:Warning: Can't find file '/Game/Landscapes/Materials/sue079'
+[2017.06.05-13.03.13:058][985]LogLinker:Warning: Can't find file for asset '/Game/Landscapes/Materials/sue079' while loading ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Landscapes/Materials/Mat_ground.uasset.
+[2017.06.05-13.03.13:058][985]LoadErrors:Error: Error /Game/Landscapes/Materials/Mat_ground : Can't find file for asset. /Game/Landscapes/Materials/sue079
+[2017.06.05-13.03.13:058][985]LogLinker:Warning: Can't find file '/Game/Landscapes/Materials/sup025'
+[2017.06.05-13.03.13:058][985]LogLinker:Warning: Can't find file for asset '/Game/Landscapes/Materials/sup025' while loading ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Landscapes/Materials/Mat_ground.uasset.
+[2017.06.05-13.03.13:058][985]LoadErrors:Error: Error /Game/Landscapes/Materials/Mat_ground : Can't find file for asset. /Game/Landscapes/Materials/sup025
+[2017.06.05-13.03.13:058][985]LogLinker:Warning: Can't find file '/Game/Landscapes/Materials/sup088'
+[2017.06.05-13.03.13:058][985]LogLinker:Warning: Can't find file for asset '/Game/Landscapes/Materials/sup088' while loading ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Landscapes/Materials/Mat_ground.uasset.
+[2017.06.05-13.03.13:058][985]LoadErrors:Error: Error /Game/Landscapes/Materials/Mat_ground : Can't find file for asset. /Game/Landscapes/Materials/sup088
+[2017.06.05-13.03.13:059][985]LogLinker:Warning: Can't find file '/Game/Landscapes/Materials/sue079'
+[2017.06.05-13.03.13:059][985]LogLinker:Warning: Can't find file for asset '/Game/Landscapes/Materials/sue079' while loading ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Landscapes/Materials/Mat_ground.uasset.
+[2017.06.05-13.03.13:059][985]LogLinker:Warning: Can't find file '/Game/Landscapes/Materials/sup025'
+[2017.06.05-13.03.13:059][985]LogLinker:Warning: Can't find file for asset '/Game/Landscapes/Materials/sup025' while loading ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Landscapes/Materials/Mat_ground.uasset.
+[2017.06.05-13.03.13:059][985]LogLinker:Warning: Can't find file '/Game/Landscapes/Materials/sup088'
+[2017.06.05-13.03.13:060][985]LogLinker:Warning: Can't find file for asset '/Game/Landscapes/Materials/sup088' while loading ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Landscapes/Materials/Mat_ground.uasset.
+[2017.06.05-13.03.13:097][985]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.05-13.03.20:092][985]LogLinker:Warning: Can't find file '/Game/Landscapes/Materials/sue079'
+[2017.06.05-13.03.20:092][985]LoadErrors: Info Failed to load /Game/Landscapes/Materials/sue079.sue079 Referenced by MaterialExpressionTextureSample_0
+[2017.06.05-13.03.20:092][985]LogLinker:Warning: Can't find file for asset '/Game/Landscapes/Materials/sue079' while loading NULL.
+[2017.06.05-13.03.20:092][985]LogLinker:Warning: Can't find file '/Game/Landscapes/Materials/sup025'
+[2017.06.05-13.03.20:092][985]LoadErrors: Info Failed to load /Game/Landscapes/Materials/sup025.sup025 Referenced by MaterialExpressionTextureSample_1
+[2017.06.05-13.03.20:093][985]LogLinker:Warning: Can't find file for asset '/Game/Landscapes/Materials/sup025' while loading NULL.
+[2017.06.05-13.03.20:093][985]LogLinker:Warning: Can't find file '/Game/Landscapes/Materials/sup088'
+[2017.06.05-13.03.20:094][985]LoadErrors: Info Failed to load /Game/Landscapes/Materials/sup088.sup088 Referenced by MaterialExpressionTextureSample_2
+[2017.06.05-13.03.20:094][985]LogLinker:Warning: Can't find file for asset '/Game/Landscapes/Materials/sup088' while loading NULL.
+[2017.06.05-13.03.20:606][985]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.06.05-13.03.20:606][985]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.06.05-13.03.20:809][985]LogPackageName: SearchForPackageOnDisk took   0.195s, but failed to resolve FX_Meshes.
+[2017.06.05-13.03.20:809][985]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2017.06.05-13.03.31:318][985]LogMaterial: Missing cached shader map for material Mat_ground, compiling. 
+[2017.06.05-13.03.31:367][985]LogMaterial:Warning: Failed to compile Material /Game/Landscapes/Materials/Mat_ground.Mat_ground for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.05-13.03.31:367][985]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.05-13.03.38:367][985]LogAIModule: Creating AISystem for world stage
+[2017.06.05-13.03.38:602][985]Cmd: MAP LOAD FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Map/stage.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.05-13.03.38:602][985]LightingResults: New page: Lighting Build
+[2017.06.05-13.03.38:604][985]LoadErrors: New page: Loading map: stage.umap
+[2017.06.05-13.03.38:615][985]MapCheck: New page: Map Check
+[2017.06.05-13.03.38:615][985]LightingResults: New page: Lighting Build
+[2017.06.05-13.03.40:604][985]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.05-13.03.40:658][985]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.05-13.03.41:023][985]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 365.407ms to complete.
+[2017.06.05-13.03.41:024][985]LogFileHelpers: Loading map 'stage' took 2.446
+[2017.06.05-13.03.48:842][361]LogEditorViewport: Clicking on Actor (LMB): stage_C (stage)
+[2017.06.05-13.03.55:001][606]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.05-13.03.57:088][670]LogSlate: Took 0.006863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.05-13.03.57:992][671]LogSlate: Took 0.012424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.05-13.05.38:332][724]BlueprintLog: New page: Compile stage
+[2017.06.05-13.05.57:809][615]BlueprintLog: New page: Compile stage
+[2017.06.05-13.06.04:049][894]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.05-13.06.04:110][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.06.04:110][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.05-13.06.04:110][894]PIE: New page: PIE session: stage (Jun 6, 2017, 7:06:04 AM)
+[2017.06.05-13.06.04:112][894]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_stage
+[2017.06.05-13.06.04:170][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058956s)
+[2017.06.05-13.06.04:172][894]LogAIModule: Creating AISystem for world stage
+[2017.06.05-13.06.04:172][894]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2017.06.05-13.06.04:172][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/stage.stage to /Game/Map/UEDPIE_0_stage.stage (0.061018s)
+[2017.06.05-13.06.04:246][894]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.05-13.06.04:345][894]LogInit: FAudioDevice initialized.
+[2017.06.05-13.06.04:415][894]LogLoad: Game class is 'MyGameMode_C'
+[2017.06.05-13.06.04:441][894]LogWorld: Bringing World /Game/Map/UEDPIE_0_stage.stage up for play (max tick rate 0) at 2017.06.05-22.06.04
+[2017.06.05-13.06.04:451][894]LogWorld: Bringing up level for play took: 0.035461
+[2017.06.05-13.06.04:470][894]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.06.04:470][894]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.06.04:470][894]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.06.04:481][894]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-3E53
+[2017.06.05-13.06.04:488][894]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.06.05-13.06.04:489][894]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.06.04:504][894]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_stage -0.434
+[2017.06.05-13.06.04:505][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.06.04:704][895]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.06.05-13.06.04:707][895]LogBlueprintUserMessages: [CharacterSelect_278] Dari_C
+[2017.06.05-13.06.08:376][ 37]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.06.08:376][ 37]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.06.08:404][ 38]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.06.08:404][ 38]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.06.08:432][ 39]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.06.08:432][ 39]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.06.12:966][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.06.13:107][236]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.06.13:107][236]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.06.05-13.06.13:157][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.06.13:795][237]LogPlayLevel:Display: Destroying online subsystem :Context_40
+[2017.06.05-13.06.13:795][237]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.06.17:104][376]LogEditorViewport: Clicking on Actor (LMB): stage_C (stage)
+[2017.06.05-13.06.17:831][407]Cmd: DELETE
+[2017.06.05-13.06.17:831][407]Cmd: ACTOR DELETE
+[2017.06.05-13.06.18:119][407]LogEditorActor: Deleted Actor: stage_C
+[2017.06.05-13.06.18:153][407]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2017.06.05-13.06.18:918][448]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.05-13.06.18:966][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.06.18:966][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.05-13.06.18:966][448]PIE: New page: PIE session: stage (Jun 6, 2017, 7:06:18 AM)
+[2017.06.05-13.06.18:966][448]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_stage
+[2017.06.05-13.06.19:013][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046681s)
+[2017.06.05-13.06.19:014][448]LogAIModule: Creating AISystem for world stage
+[2017.06.05-13.06.19:014][448]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2017.06.05-13.06.19:014][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/stage.stage to /Game/Map/UEDPIE_0_stage.stage (0.048062s)
+[2017.06.05-13.06.19:062][448]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.05-13.06.19:138][448]LogInit: FAudioDevice initialized.
+[2017.06.05-13.06.19:202][448]LogLoad: Game class is 'MyGameMode_C'
+[2017.06.05-13.06.19:221][448]LogWorld: Bringing World /Game/Map/UEDPIE_0_stage.stage up for play (max tick rate 0) at 2017.06.05-22.06.19
+[2017.06.05-13.06.19:223][448]LogWorld: Bringing up level for play took: 0.018786
+[2017.06.05-13.06.19:235][448]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.06.19:235][448]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.06.19:235][448]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.06.19:245][448]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-110A
+[2017.06.05-13.06.19:251][448]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.06.05-13.06.19:252][448]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.06.19:264][448]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_stage 0.327
+[2017.06.05-13.06.19:265][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.06.19:401][449]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.06.05-13.06.19:405][449]LogBlueprintUserMessages: [CharacterSelect_278] Ribecca_C
+[2017.06.05-13.06.21:669][628]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.06.21:669][628]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.06.21:680][629]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.06.21:680][629]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.06.21:694][630]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.06.21:694][630]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.06.21:706][631]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.06.21:706][631]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.06.21:718][632]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.06.21:718][632]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.06.21:728][633]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.06.21:728][633]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.06.21:741][634]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.06.21:741][634]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.07.05:934][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.07.06:046][ 57]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.07.06:046][ 57]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.06.05-13.07.06:047][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.07.06:648][ 58]LogPlayLevel:Display: Destroying online subsystem :Context_41
+[2017.06.05-13.07.06:648][ 58]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.14.08:120][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/stage" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/Map/stage_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.06.05-13.14.09:139][579]LogSavePackage: Save=947.05ms
+[2017.06.05-13.14.09:139][579]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/stage_Auto1B97E850B4A479ABC41111A994B8E977D.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/Map/stage_Auto1.umap'
+[2017.06.05-13.14.09:185][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/Map/stage_Auto1.umap
+[2017.06.05-13.14.09:295][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/stage' took 1.237
+[2017.06.05-13.14.09:295][579]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.237
+[2017.06.05-13.14.50:691][437]BlueprintLog: New page: Compile stage
+[2017.06.05-13.15.07:631][ 37]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.05-13.15.07:682][ 37]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.15.07:682][ 37]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.05-13.15.07:682][ 37]LogPlayLevel: [PlayLevel] Compiling stage before play...
+[2017.06.05-13.15.07:914][ 37]LogPlayLevel: PlayLevel: Blueprint regeneration took 232 ms (1 blueprints)
+[2017.06.05-13.15.07:914][ 37]PIE: New page: PIE session: stage (Jun 6, 2017, 7:15:07 AM)
+[2017.06.05-13.15.07:915][ 37]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_stage
+[2017.06.05-13.15.07:957][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042781s)
+[2017.06.05-13.15.07:958][ 37]LogAIModule: Creating AISystem for world stage
+[2017.06.05-13.15.07:958][ 37]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2017.06.05-13.15.07:959][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/stage.stage to /Game/Map/UEDPIE_0_stage.stage (0.044187s)
+[2017.06.05-13.15.08:004][ 37]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.05-13.15.08:082][ 37]LogInit: FAudioDevice initialized.
+[2017.06.05-13.15.08:163][ 37]LogLoad: Game class is 'MyGameMode_C'
+[2017.06.05-13.15.08:185][ 37]LogWorld: Bringing World /Game/Map/UEDPIE_0_stage.stage up for play (max tick rate 0) at 2017.06.05-22.15.08
+[2017.06.05-13.15.08:186][ 37]LogWorld: Bringing up level for play took: 0.022590
+[2017.06.05-13.15.08:199][ 37]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.15.08:199][ 37]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.15.08:199][ 37]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.15.08:212][ 37]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-9C27
+[2017.06.05-13.15.08:219][ 37]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.06.05-13.15.08:221][ 37]LogBlueprintUserMessages: [stage_C_1] Hello
+[2017.06.05-13.15.08:226][ 37]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.15.08:239][ 37]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_stage 1.301
+[2017.06.05-13.15.08:241][ 37]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.15.08:464][ 38]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.06.05-13.15.08:467][ 38]LogBlueprintUserMessages: [CharacterSelect_278] Dari_C
+[2017.06.05-13.15.13:279][224]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.15.13:398][224]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.15.13:400][224]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.06.05-13.15.13:401][224]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.15.13:999][225]LogPlayLevel:Display: Destroying online subsystem :Context_42
+[2017.06.05-13.15.13:999][225]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.15.16:350][310]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.05-13.15.16:400][310]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.15.16:400][310]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.05-13.15.16:400][310]LogPlayLevel: [PlayLevel] Compiling stage before play...
+[2017.06.05-13.15.16:629][310]LogPlayLevel: PlayLevel: Blueprint regeneration took 229 ms (1 blueprints)
+[2017.06.05-13.15.16:629][310]PIE: New page: PIE session: stage (Jun 6, 2017, 7:15:16 AM)
+[2017.06.05-13.15.16:630][310]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_stage
+[2017.06.05-13.15.16:671][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041162s)
+[2017.06.05-13.15.16:672][310]LogAIModule: Creating AISystem for world stage
+[2017.06.05-13.15.16:672][310]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2017.06.05-13.15.16:673][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/stage.stage to /Game/Map/UEDPIE_0_stage.stage (0.042637s)
+[2017.06.05-13.15.16:723][310]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.05-13.15.16:801][310]LogInit: FAudioDevice initialized.
+[2017.06.05-13.15.16:886][310]LogLoad: Game class is 'MyGameMode_C'
+[2017.06.05-13.15.16:909][310]LogWorld: Bringing World /Game/Map/UEDPIE_0_stage.stage up for play (max tick rate 0) at 2017.06.05-22.15.16
+[2017.06.05-13.15.16:912][310]LogWorld: Bringing up level for play took: 0.024987
+[2017.06.05-13.15.16:927][310]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.15.16:927][310]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.15.16:927][310]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.15.16:938][310]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-0180
+[2017.06.05-13.15.16:948][310]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.06.05-13.15.16:949][310]LogBlueprintUserMessages: [stage_C_2] qweqwe
+[2017.06.05-13.15.16:953][310]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.15.16:969][310]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_stage 0.032
+[2017.06.05-13.15.16:970][310]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.15.17:192][311]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.06.05-13.15.17:195][311]LogBlueprintUserMessages: [CharacterSelect_278] Dari_C
+[2017.06.05-13.15.20:420][429]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.15.20:420][429]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.15.20:442][430]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.15.20:442][430]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.15.20:472][431]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.15.20:472][431]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.16.04:693][ 89]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.16.04:822][ 89]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.16.04:823][ 89]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.06.05-13.16.04:824][ 89]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.16.05:402][ 90]LogPlayLevel:Display: Destroying online subsystem :Context_43
+[2017.06.05-13.16.05:402][ 90]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.18.32:869][439]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.05-13.18.32:922][439]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.18.32:922][439]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.05-13.18.32:922][439]LogPlayLevel: [PlayLevel] Compiling stage before play...
+[2017.06.05-13.18.33:192][439]LogPlayLevel: PlayLevel: Blueprint regeneration took 269 ms (1 blueprints)
+[2017.06.05-13.18.33:192][439]PIE: New page: PIE session: stage (Jun 6, 2017, 7:18:33 AM)
+[2017.06.05-13.18.33:193][439]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_stage
+[2017.06.05-13.18.33:242][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049055s)
+[2017.06.05-13.18.33:243][439]LogAIModule: Creating AISystem for world stage
+[2017.06.05-13.18.33:243][439]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2017.06.05-13.18.33:244][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/stage.stage to /Game/Map/UEDPIE_0_stage.stage (0.050532s)
+[2017.06.05-13.18.33:287][439]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.05-13.18.33:367][439]LogInit: FAudioDevice initialized.
+[2017.06.05-13.18.33:441][439]LogLoad: Game class is 'MyGameMode_C'
+[2017.06.05-13.18.33:463][439]LogWorld: Bringing World /Game/Map/UEDPIE_0_stage.stage up for play (max tick rate 0) at 2017.06.05-22.18.33
+[2017.06.05-13.18.33:464][439]LogWorld: Bringing up level for play took: 0.022136
+[2017.06.05-13.18.33:478][439]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.18.33:478][439]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.18.33:478][439]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.18.33:526][439]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-D164
+[2017.06.05-13.18.33:535][439]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.06.05-13.18.33:536][439]LogBlueprintUserMessages: [stage_C_2] qweqwe
+[2017.06.05-13.18.33:540][439]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.18.33:549][439]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_stage 0.611
+[2017.06.05-13.18.33:550][439]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.18.33:752][440]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.06.05-13.18.33:755][440]LogBlueprintUserMessages: [CharacterSelect_278] Dari_C
+[2017.06.05-13.18.36:255][532]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.18.36:255][532]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.18.36:280][533]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.18.36:280][533]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.18.36:300][534]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.18.36:300][534]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.18.50:602][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.18.50:686][ 84]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.18.50:687][ 84]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.06.05-13.18.50:688][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.18.50:855][ 85]LogPlayLevel:Display: Destroying online subsystem :Context_44
+[2017.06.05-13.18.50:855][ 85]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.18.59:524][439]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.05-13.18.59:580][439]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.18.59:580][439]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.05-13.18.59:580][439]LogPlayLevel: [PlayLevel] Compiling stage before play...
+[2017.06.05-13.18.59:785][439]LogPlayLevel: PlayLevel: Blueprint regeneration took 204 ms (1 blueprints)
+[2017.06.05-13.18.59:785][439]PIE: New page: PIE session: stage (Jun 6, 2017, 7:18:59 AM)
+[2017.06.05-13.18.59:786][439]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_stage
+[2017.06.05-13.18.59:825][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039329s)
+[2017.06.05-13.18.59:826][439]LogAIModule: Creating AISystem for world stage
+[2017.06.05-13.18.59:826][439]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2017.06.05-13.18.59:827][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/stage.stage to /Game/Map/UEDPIE_0_stage.stage (0.040851s)
+[2017.06.05-13.18.59:871][439]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.05-13.18.59:949][439]LogInit: FAudioDevice initialized.
+[2017.06.05-13.19.00:023][439]LogLoad: Game class is 'MyGameMode_C'
+[2017.06.05-13.19.00:044][439]LogWorld: Bringing World /Game/Map/UEDPIE_0_stage.stage up for play (max tick rate 0) at 2017.06.05-22.19.00
+[2017.06.05-13.19.00:045][439]LogWorld: Bringing up level for play took: 0.020550
+[2017.06.05-13.19.00:057][439]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.19.00:057][439]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.19.00:057][439]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.19.00:067][439]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-8467
+[2017.06.05-13.19.00:073][439]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.06.05-13.19.00:074][439]LogBlueprintUserMessages: [stage_C_2] qweqwe
+[2017.06.05-13.19.00:078][439]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.19.00:089][439]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_stage 1.151
+[2017.06.05-13.19.00:090][439]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.19.00:321][440]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.06.05-13.19.00:324][440]LogBlueprintUserMessages: [CharacterSelect_278] Ribecca_C
+[2017.06.05-13.19.02:369][516]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.19.02:369][516]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.19.02:388][517]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.19.02:388][517]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.19.02:419][518]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.19.02:419][518]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.19.03:534][561]LogBlueprintUserMessages: [Ribecca_C_0] 1499.0
+[2017.06.05-13.19.11:356][865]LogBlueprintUserMessages: [Ribecca_C_0] 1498.0
+[2017.06.05-13.19.33:392][719]LogBlueprintUserMessages: [Ribecca_C_0] 1997.0
+[2017.06.05-13.20.20:189][378]LogCharacterMovement: Ribecca_C_0 is stuck and failed to move! Velocity: X=-109.54 Y=-432.80 Z=0.00 Location: X=521.91 Y=-418.03 Z=90.15 Normal: X=-1.00 Y=0.04 Z=0.00 PenetrationDepth:53.745 Actor:Wolf_C_21 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2017.06.05-13.20.20:610][392]LogBlueprintUserMessages: [Wolf_C_23] 0.83
+[2017.06.05-13.20.20:611][392]LogBlueprintUserMessages: [Ribecca_C_0] 1996.0
+[2017.06.05-13.20.20:611][392]LogBlueprintUserMessages: [Wolf_C_21] 0.945
+[2017.06.05-13.20.20:611][392]LogBlueprintUserMessages: [Wolf_C_20] 0.907
+[2017.06.05-13.20.20:611][392]LogBlueprintUserMessages: [Wolf_C_24] 0.826
+[2017.06.05-13.20.20:612][392]LogBlueprintUserMessages: [Wolf_C_22] 0.763
+[2017.06.05-13.20.44:942][219]LogBlueprintUserMessages: [Ribecca_C_0] 2495.0
+[2017.06.05-13.20.44:942][219]LogBlueprintUserMessages: [Wolf_C_6] 0.672
+[2017.06.05-13.20.44:942][219]LogBlueprintUserMessages: [Wolf_C_8] 0.696
+[2017.06.05-13.20.44:943][219]LogBlueprintUserMessages: [Wolf_C_7] 0.768
+[2017.06.05-13.20.44:943][219]LogBlueprintUserMessages: [Wolf_C_5] 0.757
+[2017.06.05-13.20.44:943][219]LogBlueprintUserMessages: [Wolf_C_9] 0.737
+[2017.06.05-13.28.26:088][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.28.26:175][574]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.28.26:175][574]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.06.05-13.28.26:176][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.28.26:312][575]LogPlayLevel:Display: Destroying online subsystem :Context_45
+[2017.06.05-13.28.26:312][575]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.28.38:407][ 21]LogMaterial: Missing cached shader map for material M_Radius_Glow, compiling. 
+[2017.06.05-13.28.38:432][ 21]LogTemp:Display: Added material ShaderMap 0x000002332003E080 with Material 0x0000023465234E00 to ShaderMapsBeingCompiled
+[2017.06.05-13.28.38:478][ 21]LogTemp:Display: Kicking off shader compilation for M_Radius_Glow, GameThreadShaderMap 0x000002332003E080
+[2017.06.05-13.28.38:998][ 21]LogMaterial: Missing cached shader map for material M_Radius_Glow, compiling. 
+[2017.06.05-13.28.38:999][ 21]LogTemp:Display: Added material ShaderMap 0x000002345D3D9D00 with Material 0x0000023465234E00 to ShaderMapsBeingCompiled
+[2017.06.05-13.28.39:014][ 21]LogTemp:Display: Kicking off shader compilation for M_Radius_Glow, GameThreadShaderMap 0x000002345D3D9D00
+[2017.06.05-13.28.39:015][ 21]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.05-13.28.39:048][ 21]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2017.06.05-13.28.39:050][ 21]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.05-13.28.39:051][ 21]LogTemp:Display: Added material ShaderMap 0x000002345D696780 with Material 0x0000023309F10A00 to ShaderMapsBeingCompiled
+[2017.06.05-13.28.39:055][ 21]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000002345D696780
+[2017.06.05-13.28.39:057][ 21]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.06.05-13.28.39:058][ 21]LogTemp:Display: Added material ShaderMap 0x000002345D694F00 with Material 0x0000023309F13100 to ShaderMapsBeingCompiled
+[2017.06.05-13.28.39:062][ 21]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000002345D694F00
+[2017.06.05-13.28.39:998][ 23]LogTemp:Display: Finished compile of shader map 0x000002332003E080
+[2017.06.05-13.28.39:998][ 23]LogTemp:Display: Shader map M_Radius_Glow complete, GameThreadShaderMap 0x000002332003E080, marking material M_Radius_Glow as finished
+[2017.06.05-13.28.39:998][ 23]LogTemp:Display: Marking material as finished 0x0000023465234E00
+[2017.06.05-13.28.40:164][ 27]LogTemp:Display: Finished compile of shader map 0x000002345D696780
+[2017.06.05-13.28.40:164][ 27]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000002345D696780, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.06.05-13.28.40:165][ 27]LogTemp:Display: Marking material as finished 0x0000023309F10A00
+[2017.06.05-13.28.40:269][ 30]LogTemp:Display: Finished compile of shader map 0x000002345D694F00
+[2017.06.05-13.28.40:269][ 30]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000002345D694F00, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.06.05-13.28.40:269][ 30]LogTemp:Display: Marking material as finished 0x0000023309F13100
+[2017.06.05-13.28.40:417][ 36]LogTemp:Display: Finished compile of shader map 0x000002345D3D9D00
+[2017.06.05-13.28.40:417][ 36]LogTemp:Display: Shader map M_Radius_Glow complete, GameThreadShaderMap 0x000002345D3D9D00, marking material M_Radius_Glow as finished
+[2017.06.05-13.28.40:417][ 36]LogTemp:Display: Marking material as finished 0x0000023465234E00
+[2017.06.05-13.28.40:440][ 37]MaterialEditorStats: Info Base pass shader without light map: 74 instructions
+[2017.06.05-13.28.40:440][ 37]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.06.05-13.28.40:440][ 37]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.05-13.29.10:653][195]LogMaterial: Missing cached shader map for material M_Radius_Glow, compiling. 
+[2017.06.05-13.29.10:654][195]LogTemp:Display: Added material ShaderMap 0x00000234837B0800 with Material 0x0000023465234E00 to ShaderMapsBeingCompiled
+[2017.06.05-13.29.10:661][195]LogTemp:Display: Kicking off shader compilation for M_Radius_Glow, GameThreadShaderMap 0x00000234837B0800
+[2017.06.05-13.29.10:661][195]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.05-13.29.12:598][259]LogTemp:Display: Finished compile of shader map 0x00000234837B0800
+[2017.06.05-13.29.12:598][259]LogTemp:Display: Shader map M_Radius_Glow complete, GameThreadShaderMap 0x00000234837B0800, marking material M_Radius_Glow as finished
+[2017.06.05-13.29.12:598][259]LogTemp:Display: Marking material as finished 0x0000023465234E00
+[2017.06.05-13.29.12:646][261]MaterialEditorStats: Info Base pass shader without light map: 73 instructions
+[2017.06.05-13.29.12:646][261]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.06.05-13.29.12:646][261]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.05-13.29.14:404][323]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.05-13.29.14:457][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.29.14:457][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.05-13.29.14:457][323]PIE: New page: PIE session: stage (Jun 6, 2017, 7:29:14 AM)
+[2017.06.05-13.29.14:458][323]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_stage
+[2017.06.05-13.29.14:508][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049852s)
+[2017.06.05-13.29.14:509][323]LogAIModule: Creating AISystem for world stage
+[2017.06.05-13.29.14:509][323]LogPlayLevel: PIE: World Init took: (0.001365s)
+[2017.06.05-13.29.14:510][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/stage.stage to /Game/Map/UEDPIE_0_stage.stage (0.051665s)
+[2017.06.05-13.29.14:576][323]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.05-13.29.14:658][323]LogInit: FAudioDevice initialized.
+[2017.06.05-13.29.14:736][323]LogLoad: Game class is 'MyGameMode_C'
+[2017.06.05-13.29.14:760][323]LogWorld: Bringing World /Game/Map/UEDPIE_0_stage.stage up for play (max tick rate 60) at 2017.06.05-22.29.14
+[2017.06.05-13.29.14:761][323]LogWorld: Bringing up level for play took: 0.023344
+[2017.06.05-13.29.14:773][323]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.29.14:773][323]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-13.29.14:773][323]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.29.14:782][323]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-E9BC
+[2017.06.05-13.29.14:787][323]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.06.05-13.29.14:788][323]LogBlueprintUserMessages: [stage_C_2] qweqwe
+[2017.06.05-13.29.14:791][323]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-13.29.14:801][323]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_stage -0.137
+[2017.06.05-13.29.14:802][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.29.14:950][324]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.06.05-13.29.14:956][324]LogBlueprintUserMessages: [CharacterSelect_278] Ribecca_C
+[2017.06.05-13.29.20:434][529]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.29.20:434][529]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.29.20:459][530]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.29.20:459][530]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.29.20:484][531]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
+
+[2017.06.05-13.29.20:484][531]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
+
+[2017.06.05-13.30.34:005][211]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.34:033][212]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.34:033][212]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.34:063][213]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.34:063][213]LogBlueprintUserMessages: [Wolf_C_17] 200
+[2017.06.05-13.30.36:678][303]LogBlueprintUserMessages: [Wolf_C_16] 500
+[2017.06.05-13.30.39:314][394]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.39:314][394]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.40:052][420]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.40:053][420]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.40:934][450]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.40:934][450]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.40:934][450]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.41:256][461]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.41:256][461]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.41:257][461]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.41:257][461]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.41:896][483]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.41:897][483]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.41:897][483]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.41:897][483]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.42:828][515]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.42:828][515]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.42:828][515]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.42:829][515]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.43:175][527]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.43:175][527]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.43:175][527]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.43:176][527]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.43:807][548]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.43:807][548]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.43:808][548]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.43:808][548]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.44:694][578]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.44:695][578]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.44:695][578]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.44:695][578]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.45:093][592]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.45:094][592]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.45:094][592]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.45:094][592]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.45:783][616]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.45:784][616]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.45:784][616]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.45:785][616]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.46:668][646]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.46:668][646]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.46:668][646]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.46:669][646]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.47:039][659]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.47:040][659]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.47:040][659]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.47:041][659]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.47:723][683]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.47:724][683]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.47:724][683]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.47:724][683]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.48:599][713]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.48:600][713]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.48:600][713]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.48:600][713]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.48:969][726]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.48:969][726]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.48:970][726]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.48:970][726]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.49:645][750]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.49:646][750]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.49:646][750]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.49:647][750]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.50:481][779]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.50:481][779]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.50:482][779]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.50:482][779]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.30.56:637][995]LogBlueprintUserMessages: [Wolf_C_19] 200
+[2017.06.05-13.30.56:638][995]LogBlueprintUserMessages: [Wolf_C_15] 200
+[2017.06.05-13.30.56:638][995]LogBlueprintUserMessages: [Wolf_C_16] 200
+[2017.06.05-13.30.56:639][995]LogBlueprintUserMessages: [Wolf_C_18] 200
+[2017.06.05-13.31.34:484][316]LogBlueprintUserMessages: [Wolf_C_7] 200
+[2017.06.05-13.31.34:516][317]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.05-13.31.34:517][317]LogBlueprintUserMessages: [Wolf_C_9] 200
+[2017.06.05-13.31.39:548][494]LogBlueprintUserMessages: [Wolf_C_8] 200
+[2017.06.05-13.31.39:577][495]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.05-13.31.39:607][496]LogBlueprintUserMessages: [Wolf_C_6] 200
+[2017.06.05-13.31.39:634][497]LogBlueprintUserMessages: [Wolf_C_9] 200
+[2017.06.05-13.33.11:880][624]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.05-13.33.13:330][675]LogBlueprintUserMessages: [Wolf_C_8] 500
+[2017.06.05-13.33.13:330][675]LogBlueprintUserMessages: [Wolf_C_6] 500
+[2017.06.05-13.33.13:330][675]LogBlueprintUserMessages: [Wolf_C_5] 500
+[2017.06.05-13.33.13:331][675]LogBlueprintUserMessages: [Wolf_C_9] 500
+[2017.06.05-13.33.13:331][675]LogBlueprintUserMessages: [Wolf_C_7] 500
+[2017.06.05-13.33.14:447][714]LogBlueprintUserMessages: [Wolf_C_8] 200
+[2017.06.05-13.33.14:448][714]LogBlueprintUserMessages: [Wolf_C_6] 200
+[2017.06.05-13.33.14:448][714]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.05-13.33.14:448][714]LogBlueprintUserMessages: [Wolf_C_9] 200
+[2017.06.05-13.33.14:449][714]LogBlueprintUserMessages: [Wolf_C_7] 200
+[2017.06.05-13.33.15:133][736]LogBlueprintUserMessages: [Wolf_C_8] 200
+[2017.06.05-13.33.15:134][736]LogBlueprintUserMessages: [Wolf_C_6] 200
+[2017.06.05-13.33.15:134][736]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.05-13.33.15:134][736]LogBlueprintUserMessages: [Wolf_C_9] 200
+[2017.06.05-13.33.15:135][736]LogBlueprintUserMessages: [Wolf_C_7] 200
+[2017.06.05-13.33.16:338][778]LogBlueprintUserMessages: [Wolf_C_6] 200
+[2017.06.05-13.33.16:338][778]LogBlueprintUserMessages: [Wolf_C_8] 200
+[2017.06.05-13.33.16:339][778]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.05-13.33.16:339][778]LogBlueprintUserMessages: [Wolf_C_9] 200
+[2017.06.05-13.33.16:339][778]LogBlueprintUserMessages: [Wolf_C_7] 200
+[2017.06.05-13.36.37:717][ 99]LogBlueprintUserMessages: [Wolf_C_8] 200
+[2017.06.05-13.36.37:744][100]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.05-13.36.37:744][100]LogBlueprintUserMessages: [Wolf_C_6] 200
+[2017.06.05-13.36.37:771][101]LogBlueprintUserMessages: [Wolf_C_9] 200
+[2017.06.05-13.36.56:268][807]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.36.59:289][924]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.02:296][ 31]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.05:314][132]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.08:604][240]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.11:624][346]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.14:686][461]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.17:935][583]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.20:939][699]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.23:964][817]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.26:987][924]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.30:014][ 28]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.33:029][130]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.36:030][235]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.39:044][353]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.42:063][470]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.45:079][588]LogBlueprintUserMessages: [duek_C_0] 300
+[2017.06.05-13.37.46:859][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.37.46:940][656]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.37.46:941][656]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.06.05-13.37.46:942][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-13.37.47:070][657]LogPlayLevel:Display: Destroying online subsystem :Context_48
+[2017.06.05-13.37.47:070][657]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-13.43.20:316][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/stage" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/Map/stage_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.06.05-13.43.21:303][704]LogSavePackage: Save=952.83ms
+[2017.06.05-13.43.21:303][704]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/stage_Auto244ED650D49E1C721F6DEE3A57EF5265E.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/Map/stage_Auto2.umap'
+[2017.06.05-13.43.22:158][704]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/Map/stage_Auto2.umap
+[2017.06.05-13.43.22:161][704]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/stage' took 1.900
+[2017.06.05-13.43.22:161][704]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.900
+[2017.06.05-13.43.22:164][704]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/PlayerCharacter] ([1] browsable assets)...
+[2017.06.05-13.43.22:164][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/PlayerCharacter]
+[2017.06.05-13.43.22:344][704]LogSavePackage: Save=119.62ms
+[2017.06.05-13.43.22:344][704]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/PlayerCharacter_Auto28004A03A4B7BF299641318838C4ADCC9.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/PlayerCharacter_Auto2.uasset'
+[2017.06.05-13.43.22:348][704]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/PlayerCharacter_Auto2.uasset
+[2017.06.05-13.43.22:349][704]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/stage] ([1] browsable assets)...
+[2017.06.05-13.43.23:032][704]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/stage.stage]
+[2017.06.05-13.43.23:032][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/stage]
+[2017.06.05-13.43.23:033][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/stage" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/stage_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.05-13.43.23:095][704]LogSavePackage: Save=44.22ms
+[2017.06.05-13.43.23:095][704]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/stage_Auto23AAD201E42FD4B5ADED765867BE8F416.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/stage_Auto2.uasset'
+[2017.06.05-13.43.23:098][704]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Autosaves/Game/BP/stage_Auto2.uasset
+[2017.06.05-13.43.23:098][704]LogFileHelpers: Auto-saving content packages took 0.936
+[2017.06.05-14.18.11:589][964]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.05-14.18.11:656][964]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-14.18.11:656][964]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.05-14.18.11:656][964]LogPlayLevel: [PlayLevel] Compiling PlayerCharacter before play...
+[2017.06.05-14.18.12:008][964]LogPlayLevel: [PlayLevel]   Compiling Gasman as a dependent...
+[2017.06.05-14.18.12:143][964]LogPlayLevel: [PlayLevel]   Compiling Ribecca as a dependent...
+[2017.06.05-14.18.12:211][964]LogPlayLevel: [PlayLevel]   Compiling duek as a dependent...
+[2017.06.05-14.18.12:352][964]LogPlayLevel: [PlayLevel]   Compiling Dari as a dependent...
+[2017.06.05-14.18.12:459][964]LogPlayLevel: [PlayLevel]   Compiling duekAni as a dependent...
+[2017.06.05-14.18.12:573][964]LogPlayLevel: [PlayLevel]   Compiling GasmanAniBP as a dependent...
+[2017.06.05-14.18.12:629][964]LogPlayLevel: [PlayLevel]   Compiling DariAniBP as a dependent...
+[2017.06.05-14.18.12:682][964]LogPlayLevel: [PlayLevel]   Compiling RibeccaAniBP as a dependent...
+[2017.06.05-14.18.14:572][964]LogPlayLevel: PlayLevel: Blueprint regeneration took 2916 ms (9 blueprints)
+[2017.06.05-14.18.14:572][964]PIE: New page: PIE session: stage (Jun 6, 2017, 8:18:14 AM)
+[2017.06.05-14.18.14:574][964]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_stage
+[2017.06.05-14.18.14:624][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049984s)
+[2017.06.05-14.18.14:626][964]LogAIModule: Creating AISystem for world stage
+[2017.06.05-14.18.14:626][964]LogPlayLevel: PIE: World Init took: (0.001733s)
+[2017.06.05-14.18.14:626][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/stage.stage to /Game/Map/UEDPIE_0_stage.stage (0.052216s)
+[2017.06.05-14.18.14:673][964]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.05-14.18.14:762][964]LogInit: FAudioDevice initialized.
+[2017.06.05-14.18.14:851][964]LogLoad: Game class is 'MyGameMode_C'
+[2017.06.05-14.18.14:871][964]LogWorld: Bringing World /Game/Map/UEDPIE_0_stage.stage up for play (max tick rate 60) at 2017.06.05-23.18.14
+[2017.06.05-14.18.14:872][964]LogWorld: Bringing up level for play took: 0.018967
+[2017.06.05-14.18.14:885][964]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-14.18.14:885][964]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.05-14.18.14:885][964]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-14.18.14:899][964]LogBlueprintUserMessages: [messageScroll_116] DESKTOP-5I3HB32-FB69
+[2017.06.05-14.18.14:907][964]LogBlueprintUserMessages: [playercon_C_0] 1
+[2017.06.05-14.18.14:908][964]LogBlueprintUserMessages: [stage_C_1] qweqwe
+[2017.06.05-14.18.14:912][964]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.05-14.18.14:931][964]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_stage 3.993
+[2017.06.05-14.18.14:932][964]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-14.18.15:286][965]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.06.05-14.18.15:289][965]LogBlueprintUserMessages: [CharacterSelect_278] Ribecca_C
+[2017.06.05-14.18.25:453][276]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-14.18.25:544][276]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-14.18.25:545][276]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.06.05-14.18.25:546][276]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/stage.stage:PersistentLevel' has LevelScriptBlueprint '/Game/Map/stage.stage:PersistentLevel.stage' with GeneratedClass '/Game/Map/stage.stage_C' with ClassGeneratedBy '/Game/Map/stage.stage:PersistentLevel.stage'
+[2017.06.05-14.18.25:965][277]LogPlayLevel:Display: Destroying online subsystem :Context_49
+[2017.06.05-14.18.25:965][277]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-14.18.32:532][382]LogMaterial: Missing cached shader map for material M_Radius_Glow, compiling. 
+[2017.06.05-14.18.32:533][382]LogTemp:Display: Added material ShaderMap 0x0000023407C8A780 with Material 0x0000023465234E00 to ShaderMapsBeingCompiled
+[2017.06.05-14.18.32:548][382]LogTemp:Display: Kicking off shader compilation for M_Radius_Glow, GameThreadShaderMap 0x0000023407C8A780
+[2017.06.05-14.18.32:549][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.05-14.18.32:623][382]LogMaterial: Missing cached shader map for material M_Radius_Glow, compiling. 
+[2017.06.05-14.18.32:625][382]LogTemp:Display: Added material ShaderMap 0x0000023469801600 with Material 0x0000023475720D00 to ShaderMapsBeingCompiled
+[2017.06.05-14.18.32:651][382]LogTemp:Display: Kicking off shader compilation for M_Radius_Glow, GameThreadShaderMap 0x0000023469801600
+[2017.06.05-14.18.32:658][382]LogMaterial: Missing cached shader map for material M_Radius_Glow, compiling. 
+[2017.06.05-14.18.32:659][382]LogTemp:Display: Added material ShaderMap 0x000002340A1CB200 with Material 0x0000023475720D00 to ShaderMapsBeingCompiled
+[2017.06.05-14.18.32:684][382]LogTemp:Display: Kicking off shader compilation for M_Radius_Glow, GameThreadShaderMap 0x000002340A1CB200
+[2017.06.05-14.18.32:697][382]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.05-14.18.32:766][382]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Radius_Glow, compiling. 
+[2017.06.05-14.18.32:767][382]LogTemp:Display: Added material ShaderMap 0x000002347556D980 with Material 0x00000233C1D10D00 to ShaderMapsBeingCompiled
+[2017.06.05-14.18.33:618][382]LogTemp:Display: Finished compile of shader map 0x000002347556D980
+[2017.06.05-14.18.33:618][382]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Radius_Glow complete, GameThreadShaderMap 0x000002347556D980, marking material FDebugViewModeMaterialProxy M_Radius_Glow as finished
+[2017.06.05-14.18.33:618][382]LogTemp:Display: Marking material as finished 0x00000233C1D10D00
+[2017.06.05-14.18.33:629][382]TextureStreamingBuild:Display: Compiling optional shaders took 0.883 seconds.
+[2017.06.05-14.18.35:745][382]LogTemp:Display: Finished compile of shader map 0x000002340A1CB200
+[2017.06.05-14.18.35:745][382]LogTemp:Display: Shader map M_Radius_Glow complete, GameThreadShaderMap 0x000002340A1CB200, marking material M_Radius_Glow as finished
+[2017.06.05-14.18.35:745][382]LogTemp:Display: Marking material as finished 0x0000023475720D00
+[2017.06.05-14.18.35:754][382]LogTemp:Display: Finished compile of shader map 0x0000023407C8A780
+[2017.06.05-14.18.35:754][382]LogTemp:Display: Shader map M_Radius_Glow complete, GameThreadShaderMap 0x0000023407C8A780, marking material M_Radius_Glow as finished
+[2017.06.05-14.18.35:754][382]LogTemp:Display: Marking material as finished 0x0000023465234E00
+[2017.06.05-14.18.35:794][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/M_Radius_Glow" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/M_Radius_Glow.uasset" SILENT=true
+[2017.06.05-14.18.35:833][382]LogSavePackage: Save=14.42ms
+[2017.06.05-14.18.35:833][382]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/M_Radius_GlowCD274DDA46B32DB3EAA80AACDC1D0714.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/M_Radius_Glow.uasset'
+[2017.06.05-14.18.35:839][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/M_Radius_Glow.uasset
+[2017.06.05-14.18.35:846][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/PlayerCharacter" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/PlayerCharacter.uasset" SILENT=true
+[2017.06.05-14.18.35:998][382]LogSavePackage: Save=128.06ms
+[2017.06.05-14.18.35:998][382]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/PlayerCharacter797547964D23040F2C283092342E108A.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/PlayerCharacter.uasset'
+[2017.06.05-14.18.36:002][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/PlayerCharacter.uasset
+[2017.06.05-14.18.36:021][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/stage" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/stage.uasset" SILENT=true
+[2017.06.05-14.18.36:071][382]LogSavePackage: Save=30.29ms
+[2017.06.05-14.18.36:071][382]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/stage0B9A1287453393516DADC8844BB011A0.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/stage.uasset'
+[2017.06.05-14.18.36:075][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/BP/stage.uasset
+[2017.06.05-14.18.36:471][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/stage" FILE="../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Map/stage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.05-14.18.37:414][382]LogSavePackage: Save=886.52ms
+[2017.06.05-14.18.37:414][382]LogSavePackage: Moving '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/stage6D4A48554B6E2FBF91358B86BD921E5D.tmp' to '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Map/stage.umap'
+[2017.06.05-14.18.37:419][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Map/stage.umap
+[2017.06.05-14.18.37:469][382]LogFileHelpers: Saving map 'stage' took 1.391
+[2017.06.05-14.18.37:898][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.05-14.18.38:201][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.05-14.18.38:381][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.05-14.18.38:472][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.05-14.18.39:374][382]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.05-14.18.39:827][383]Cmd: QUIT_EDITOR
+[2017.06.05-14.18.40:027][383]LogExit: Preparing to exit.
+[2017.06.05-14.18.40:550][383]LogDirectoryWatcher: A directory notification for 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/' was aborted.
+[2017.06.05-14.18.41:149][383]LogExit: Editor shut down
+[2017.06.05-14.18.41:150][383]LogExit: Transaction tracking system shut down
+[2017.06.05-14.18.41:642][383]LogTemp:Display: Removed shader map 0x0000023469801600 from material 0x0000023475720D00
+[2017.06.05-14.18.45:146][383]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.05-14.18.45:148][383]LogExit: Object subsystem successfully closed.
+[2017.06.05-14.18.45:386][383]LogD3D11RHI: Shutdown
+[2017.06.05-14.18.45:386][383]LogD3D11RHI: CleanupD3DDevice
+[2017.06.05-14.18.45:866][383]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.05-14.18.46:626][383]LogModuleManager: Shutting down and abandoning module MaterialEditor (520)
+[2017.06.05-14.18.46:626][383]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (518)
+[2017.06.05-14.18.46:626][383]LogModuleManager: Shutting down and abandoning module Voice (516)
+[2017.06.05-14.18.46:636][383]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (514)
+[2017.06.05-14.18.46:637][383]LogModuleManager: Shutting down and abandoning module SequencerWidgets (512)
+[2017.06.05-14.18.46:637][383]LogModuleManager: Shutting down and abandoning module AnimationEditor (510)
+[2017.06.05-14.18.46:637][383]LogModuleManager: Shutting down and abandoning module SkeletonEditor (508)
+[2017.06.05-14.18.46:637][383]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (506)
+[2017.06.05-14.18.46:640][383]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.06.05-14.18.46:640][383]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.06.05-14.18.46:651][383]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.06.05-14.18.46:652][383]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.06.05-14.18.46:652][383]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.06.05-14.18.46:652][383]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.06.05-14.18.46:659][383]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.05-14.18.46:668][383]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.06.05-14.18.46:668][383]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.06.05-14.18.46:668][383]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.06.05-14.18.46:674][383]LogDirectoryWatcher: A directory notification for 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Collections/' was aborted.
+[2017.06.05-14.18.46:674][383]LogDirectoryWatcher: A directory notification for 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/Developers/jcy/Collections/' was aborted.
+[2017.06.05-14.18.46:674][383]LogDirectoryWatcher: A directory notification for 'C:/Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Saved/Collections/' was aborted.
+[2017.06.05-14.18.46:674][383]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.06.05-14.18.46:683][383]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.06.05-14.18.46:690][383]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.06.05-14.18.46:708][383]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.06.05-14.18.46:708][383]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.06.05-14.18.46:708][383]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.06.05-14.18.46:721][383]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.06.05-14.18.46:721][383]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.06.05-14.18.46:730][383]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.06.05-14.18.46:730][383]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.06.05-14.18.46:731][383]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.06.05-14.18.46:737][383]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.06.05-14.18.46:737][383]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.06.05-14.18.46:780][383]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.06.05-14.18.46:780][383]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.06.05-14.18.46:781][383]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.06.05-14.18.46:781][383]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.06.05-14.18.46:781][383]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.06.05-14.18.46:781][383]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.06.05-14.18.46:781][383]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.06.05-14.18.46:781][383]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.06.05-14.18.46:781][383]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.06.05-14.18.46:781][383]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.06.05-14.18.46:781][383]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.06.05-14.18.46:781][383]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.06.05-14.18.46:781][383]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.06.05-14.18.46:830][383]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.06.05-14.18.46:831][383]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.06.05-14.18.46:831][383]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.06.05-14.18.46:831][383]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.06.05-14.18.46:831][383]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.06.05-14.18.46:856][383]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.06.05-14.18.46:860][383]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.06.05-14.18.46:874][383]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.06.05-14.18.46:875][383]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.06.05-14.18.46:875][383]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.06.05-14.18.46:875][383]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.06.05-14.18.46:883][383]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.06.05-14.18.47:619][383]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.06.05-14.18.47:619][383]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.06.05-14.18.47:619][383]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.06.05-14.18.47:633][383]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.06.05-14.18.47:650][383]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.06.05-14.18.47:657][383]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.06.05-14.18.47:657][383]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.06.05-14.18.47:672][383]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.06.05-14.18.47:672][383]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.06.05-14.18.47:683][383]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.06.05-14.18.47:686][383]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.06.05-14.18.47:690][383]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.06.05-14.18.47:693][383]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.06.05-14.18.47:700][383]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.06.05-14.18.47:700][383]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.06.05-14.18.47:701][383]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.06.05-14.18.47:711][383]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.06.05-14.18.47:711][383]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.06.05-14.18.47:712][383]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.06.05-14.18.47:712][383]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.06.05-14.18.47:722][383]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.06.05-14.18.47:730][383]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.06.05-14.18.47:734][383]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.06.05-14.18.47:749][383]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.06.05-14.18.47:766][383]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.06.05-14.18.47:808][383]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.06.05-14.18.47:812][383]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.06.05-14.18.47:828][383]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.06.05-14.18.47:841][383]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.06.05-14.18.47:841][383]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.06.05-14.18.47:841][383]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.06.05-14.18.47:841][383]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.06.05-14.18.47:841][383]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.06.05-14.18.47:841][383]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.06.05-14.18.47:868][383]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.06.05-14.18.47:868][383]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.06.05-14.18.47:872][383]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.06.05-14.18.47:872][383]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.06.05-14.18.47:880][383]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.06.05-14.18.47:885][383]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.06.05-14.18.47:891][383]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.06.05-14.18.47:896][383]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.06.05-14.18.47:897][383]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.06.05-14.18.47:897][383]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.06.05-14.18.47:897][383]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.06.05-14.18.47:897][383]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.06.05-14.18.47:897][383]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.06.05-14.18.47:897][383]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.06.05-14.18.47:897][383]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.06.05-14.18.47:922][383]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.06.05-14.18.47:930][383]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.06.05-14.18.47:930][383]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.06.05-14.18.48:124][383]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.06.05-14.18.48:137][383]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.06.05-14.18.48:137][383]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.06.05-14.18.48:137][383]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.06.05-14.18.48:137][383]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.06.05-14.18.48:142][383]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.06.05-14.18.48:142][383]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.06.05-14.18.48:142][383]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.06.05-14.18.48:142][383]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.06.05-14.18.48:142][383]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.06.05-14.18.48:142][383]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.06.05-14.18.48:142][383]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (284)
+[2017.06.05-14.18.48:160][383]LogModuleManager: Shutting down and abandoning module HTML5Networking (282)
+[2017.06.05-14.18.48:160][383]LogModuleManager: Shutting down and abandoning module AlembicImporter (280)
+[2017.06.05-14.18.48:170][383]LogModuleManager: Shutting down and abandoning module AlembicLibrary (279)
+[2017.06.05-14.18.48:170][383]LogModuleManager: Shutting down and abandoning module GeometryCache (278)
+[2017.06.05-14.18.48:170][383]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (277)
+[2017.06.05-14.18.48:170][383]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (272)
+[2017.06.05-14.18.48:170][383]LogModuleManager: Shutting down and abandoning module SuperSearch (271)
+[2017.06.05-14.18.48:170][383]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (268)
+[2017.06.05-14.18.48:170][383]LogModuleManager: Shutting down and abandoning module PluginBrowser (266)
+[2017.06.05-14.18.48:179][383]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (264)
+[2017.06.05-14.18.48:187][383]LogModuleManager: Shutting down and abandoning module EpicSurvey (262)
+[2017.06.05-14.18.48:187][383]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (260)
+[2017.06.05-14.18.48:187][383]LogModuleManager: Shutting down and abandoning module DesktopPlatform (259)
+[2017.06.05-14.18.48:187][383]LogModuleManager: Shutting down and abandoning module UObjectPlugin (256)
+[2017.06.05-14.18.48:187][383]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (254)
+[2017.06.05-14.18.48:195][383]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (252)
+[2017.06.05-14.18.48:203][383]LogModuleManager: Shutting down and abandoning module GitSourceControl (250)
+[2017.06.05-14.18.48:207][383]LogModuleManager: Shutting down and abandoning module SourceControl (249)
+[2017.06.05-14.18.48:226][383]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (246)
+[2017.06.05-14.18.48:226][383]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (244)
+[2017.06.05-14.18.48:226][383]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (242)
+[2017.06.05-14.18.48:226][383]LogModuleManager: Shutting down and abandoning module Paper2DEditor (240)
+[2017.06.05-14.18.48:241][383]LogModuleManager: Shutting down and abandoning module MeshPaint (239)
+[2017.06.05-14.18.48:250][383]LogModuleManager: Shutting down and abandoning module LevelEditor (237)
+[2017.06.05-14.18.48:254][383]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (236)
+[2017.06.05-14.18.48:260][383]LogModuleManager: Shutting down and abandoning module MainFrame (234)
+[2017.06.05-14.18.48:261][383]LogModuleManager: Shutting down and abandoning module HotReload (233)
+[2017.06.05-14.18.48:271][383]LogModuleManager: Shutting down and abandoning module ContentBrowser (229)
+[2017.06.05-14.18.48:273][383]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2017.06.05-14.18.48:280][383]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2017.06.05-14.18.48:280][383]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
+[2017.06.05-14.18.48:280][383]LogModuleManager: Shutting down and abandoning module UdpMessaging (220)
+[2017.06.05-14.18.48:381][383]LogModuleManager: Shutting down and abandoning module TcpMessaging (218)
+[2017.06.05-14.18.48:487][383]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (216)
+[2017.06.05-14.18.48:505][383]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (214)
+[2017.06.05-14.18.48:507][383]LogModuleManager: Shutting down and abandoning module FacialAnimation (212)
+[2017.06.05-14.18.48:507][383]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
+[2017.06.05-14.18.48:507][383]LogModuleManager: Shutting down and abandoning module Paper2D (208)
+[2017.06.05-14.18.48:510][383]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (206)
+[2017.06.05-14.18.48:510][383]LogModuleManager: Shutting down and abandoning module WmfMedia (204)
+[2017.06.05-14.18.48:511][383]LogModuleManager: Shutting down and abandoning module MfMedia (202)
+[2017.06.05-14.18.48:511][383]LogModuleManager: Shutting down and abandoning module MediaAssets (200)
+[2017.06.05-14.18.48:511][383]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (198)
+[2017.06.05-14.18.48:520][383]LogModuleManager: Shutting down and abandoning module VREditor (196)
+[2017.06.05-14.18.48:520][383]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2017.06.05-14.18.48:520][383]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2017.06.05-14.18.48:539][383]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2017.06.05-14.18.48:539][383]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2017.06.05-14.18.48:545][383]LogModuleManager: Shutting down and abandoning module UMG (186)
+[2017.06.05-14.18.48:545][383]LogModuleManager: Shutting down and abandoning module UMGEditor (185)
+[2017.06.05-14.18.48:545][383]LogModuleManager: Shutting down and abandoning module Sequencer (184)
+[2017.06.05-14.18.48:554][383]LogModuleManager: Shutting down and abandoning module AssetTools (182)
+[2017.06.05-14.18.48:575][383]LogModuleManager: Shutting down and abandoning module MessageLog (181)
+[2017.06.05-14.18.48:575][383]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (180)
+[2017.06.05-14.18.48:575][383]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2017.06.05-14.18.48:597][383]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2017.06.05-14.18.48:597][383]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2017.06.05-14.18.48:605][383]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (168)
+[2017.06.05-14.18.48:615][383]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (166)
+[2017.06.05-14.18.48:615][383]LogModuleManager: Shutting down and abandoning module XAudio2 (164)
+[2017.06.05-14.18.48:615][383]LogModuleManager: Shutting down and abandoning module Networking (162)
+[2017.06.05-14.18.48:615][383]LogModuleManager: Shutting down and abandoning module Core (160)
+[2017.06.05-14.18.48:615][383]LogModuleManager: Shutting down and abandoning module AssetRegistry (158)
+[2017.06.05-14.18.48:908][383]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.05-14.18.48:909][383]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Content/' was aborted.
+[2017.06.05-14.18.48:909][383]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.05-14.18.48:920][383]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2017.06.05-14.18.48:927][383]LogModuleManager: Shutting down and abandoning module KismetCompiler (154)
+[2017.06.05-14.18.48:927][383]LogModuleManager: Shutting down and abandoning module PhysXFormats (152)
+[2017.06.05-14.18.48:927][383]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2017.06.05-14.18.48:934][383]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (149)
+[2017.06.05-14.18.48:942][383]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (147)
+[2017.06.05-14.18.48:943][383]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (145)
+[2017.06.05-14.18.48:943][383]LogModuleManager: Shutting down and abandoning module PropertyEditor (143)
+[2017.06.05-14.18.48:943][383]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
+[2017.06.05-14.18.49:001][383]LogDerivedDataCache: Shutdown
+[2017.06.05-14.18.49:002][383]LogModuleManager: Shutting down and abandoning module TargetPlatform (138)
+[2017.06.05-14.18.49:002][383]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (137)
+[2017.06.05-14.18.49:012][383]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (135)
+[2017.06.05-14.18.49:020][383]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (133)
+[2017.06.05-14.18.49:020][383]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (131)
+[2017.06.05-14.18.49:028][383]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (129)
+[2017.06.05-14.18.49:029][383]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (127)
+[2017.06.05-14.18.49:029][383]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (125)
+[2017.06.05-14.18.49:029][383]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (123)
+[2017.06.05-14.18.49:029][383]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (121)
+[2017.06.05-14.18.49:029][383]LogModuleManager: Shutting down and abandoning module ImageWrapper (120)
+[2017.06.05-14.18.49:029][383]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (117)
+[2017.06.05-14.18.49:030][383]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (115)
+[2017.06.05-14.18.49:038][383]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (113)
+[2017.06.05-14.18.49:038][383]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (111)
+[2017.06.05-14.18.49:038][383]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (109)
+[2017.06.05-14.18.49:038][383]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (107)
+[2017.06.05-14.18.49:038][383]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (105)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (103)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (101)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module Messaging (99)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (97)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (95)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
+[2017.06.05-14.18.49:039][383]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
+[2017.06.05-14.18.49:040][383]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
+[2017.06.05-14.18.49:040][383]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (69)
+[2017.06.05-14.18.49:040][383]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (67)
+[2017.06.05-14.18.49:040][383]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (65)
+[2017.06.05-14.18.49:040][383]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (63)
+[2017.06.05-14.18.49:040][383]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (61)
+[2017.06.05-14.18.49:040][383]LogModuleManager: Shutting down and abandoning module InputCore (58)
+[2017.06.05-14.18.49:040][383]LogModuleManager: Shutting down and abandoning module Settings (56)
+[2017.06.05-14.18.49:041][383]LogModuleManager: Shutting down and abandoning module OculusRift (54)
+[2017.06.05-14.18.49:051][383]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.05-14.18.49:051][383]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.05-14.18.49:051][383]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.05-14.18.49:051][383]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.05-14.18.49:051][383]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-14.18.49:052][383]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.06.05-14.18.49:080][383]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.05-14.18.49:080][383]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.05-14.18.49:092][383]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.05-14.18.49:099][383]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.05-14.18.49:099][383]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B79121ACC-4E51-C0A9-230C-7D860C6701C7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=a07495f74c58e19515019bb4e70f5d77%7C9b3181ca76214d4d8bfeb8cff36b7c1c%7C26ae4e54-a309-4a23-9817-c1f836c34cfa&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.05-14.18.49:105][383]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.05-14.18.49:124][383]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.05-14.18.49:124][383]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.05-14.18.49:125][383]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.05-14.18.49:125][383]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.05-14.18.49:125][383]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.05-14.18.49:174][383]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.05-14.18.49:184][383]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.05-14.18.49:184][383]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.05-14.18.49:194][383]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.05-14.18.49:194][383]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.05-14.18.49:194][383]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.05-14.18.49:194][383]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.05-14.18.49:194][383]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.05-14.18.49:194][383]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.05-14.18.49:194][383]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.05-14.18.49:207][383]LogExit: Exiting.
+[2017.06.05-14.18.49:218][383]Log file closed, 06/05/17 23:18:49
