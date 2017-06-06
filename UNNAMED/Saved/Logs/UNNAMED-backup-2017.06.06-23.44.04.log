@@ -1,0 +1,755 @@
+﻿Log file open, 06/06/17 23:29:46
+LogInit:Display: Running engine for game: UNNAMED
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-272062055) SRandInit(-272062055).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.131150
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  -game
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.06-14.29.49:202][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.06-14.29.49:202][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.06-14.29.49:254][  0]LogInit: Computer: DESKTOP-5I3HB32
+[2017.06.06-14.29.49:254][  0]LogInit: User: jcy
+[2017.06.06-14.29.49:254][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.06-14.29.49:254][  0]LogInit: High frequency timer resolution =2.533211 MHz
+[2017.06.06-14.29.49:254][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.06.06-14.29.49:254][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.06-14.29.49:254][  0]LogMemory: Process Physical Memory: 304.81 MB used, 304.81 MB peak
+[2017.06.06-14.29.49:254][  0]LogMemory: Process Virtual Memory: 283.18 MB used, 283.18 MB peak
+[2017.06.06-14.29.49:254][  0]LogMemory: Physical Memory: 7020.82 MB used,  5189.04 MB free, 12209.86 MB total
+[2017.06.06-14.29.49:254][  0]LogMemory: Virtual Memory: 751.76 MB used,  5189.04 MB free, 134217728.00 MB total
+[2017.06.06-14.29.49:516][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.06.06-14.29.49:648][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (502993589) Localized String: (내부 시간 누산기 - 이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (319969718) Localized String: (연관성 테스트에 무시 - true 인 경우 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" (연관 애님) 노드가
+이 노드를 무시합니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1232800293) Localized String: (블렌드 웨이트 - 이 노드에 대해 마지막으로 접한 블렌드 웨이트입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝까지 재생되면 반복할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복할까요?)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1865475011) Localized String: (첫 업데이트시 도입 상태에서의 트랜지션을 건너뛸까요? 
+기본은 true 로, 첫 업데이트시에는 트랜지션 데이터를 버립니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1865475011) Localized String: (첫 번째 업데이트 트랜지션 건너뛰기 - 첫 번째 업데이트에서 입력 스테이트의 트랜지션을 건너뜁니까?
+디폴트는 true 고 첫 번째 업데이트의 트랜지션 데이터를 버립니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (블렌드스페이스에서 샘플링할 X 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2060772590) Localized String: (X - 블렌드스페이스 샘플의 X 좌표입니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (블렌드스페이스에서 샘플링할 Y 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (Y - 블렌드스페이스 샘플의 Y 좌표입니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (블렌드스페이스에서 샘플링할 Z 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1728943471) Localized String: (Z - 블렌드스페이스 샘플의 Z 좌표입니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (재생할 블렌드스페이스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1599043277) Localized String: (블렌드스페이스 - 재생할 블렌드스페이스 애셋입니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (이 머신에서 한 프레임 내 '동시에' 취할 수 있는 트랜지션 최대 수입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1567650430) Localized String: (프레임 당 최대 트랜지션 - 한 프레임에서 이 머신이 동시에 취할 수 있는 트랜지션 최대 수입니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 배수입니다. 음수가 되면 애니메이션을 역순으로 재생하게 됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 되면 애니메이션을 거꾸로 재생합니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-207153555) Localized String: (시작 위치 범위는 [0,1] 이며, 재초기화시에만 적용됩니다.
+루핑을 하면, 1 회전 후 0.f 부터 시작할 것입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-207153555) Localized String: (시작 위치 - [0, 1] 범위의 시작 위치로, 재초기화할 때만 적용됩니다.
+반복하면 1회전 후 0.f 부터 시작됩니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1448580153) Localized String: (센서 폭 - 필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1448580153) Localized String: (필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-194807515) Localized String: (센서 종횡비 - 읽기 전용입니다. 센서 치수에서 계산했습니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-194807515) Localized String: (읽기 전용입니다. 센서 크기에서 계산했습니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복시켜야 할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝에 도달하면 계속해서 루핑시킬것인지 입니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (421436424) Localized String: (시퀀스 - 재생할 애니메이션 시퀀스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (421436424) Localized String: (재생할 애니메이션 시퀀스 애셋입니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 될 수 있으며, 그러면 애니메이션이 거꾸로 재생됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1274923958) Localized String: (플레이 속도 배수입니다. 음수가 되면 애니메이션이 역방향으로 재생됩니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (771611000) Localized String: (시작 위치 - 시작 위치로 재초기화할 때만 적용됩니다.
+반복하면, 1회전 후 0.f 부터 시작됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (771611000) Localized String: (시작 위치로, 재초기화시에만 적용됩니다.
+루핑을 하면, 1회전 후 0.f 부터 시작할 것입니다.)
+[2017.06.06-14.29.49:649][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1311569777) Localized String: (센서 높이 - 필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1311569777) Localized String: (필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+[2017.06.06-14.29.50:146][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.06-14.29.51:630][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.06.06-14.29.51:630][  0]LogD3D11RHI:       2019/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.06-14.29.51:767][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.06.06-14.29.51:767][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.06.06-14.29.51:789][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.06-14.29.51:789][  0]LogD3D11RHI:       0/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.06-14.29.51:789][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.06-14.29.51:828][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.06-14.29.51:829][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.06.06-14.29.51:829][  0]LogWindows: EnumDisplayDevices:
+[2017.06.06-14.29.51:832][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.06.06-14.29.51:845][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.06.06-14.29.51:847][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.06.06-14.29.51:848][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.06.06-14.29.51:848][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.06.06-14.29.51:848][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.06.06-14.29.51:848][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.06.06-14.29.51:848][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.06-14.29.53:087][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.06-14.29.53:215][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.06-14.29.53:218][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Intermediate/Shaders/WorkingDirectory/12520/).
+[2017.06.06-14.29.53:218][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jcy/AppData/Local/Temp/UnrealShaderWorkingDir/41E108344ADC5742AA4897A97B08A5D5/'.
+[2017.06.06-14.29.53:218][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.06-14.29.55:506][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.06-14.29.55:610][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.06-14.29.55:722][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.06-14.29.55:804][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.06-14.29.55:804][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.06-14.29.56:800][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.06-14.29.57:390][  0]LogDerivedDataCache: Loaded boot cache 0.59s 50MB C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.06-14.29.57:390][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.06-14.29.57:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.06-14.29.57:390][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.06-14.29.57:391][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.06-14.29.57:391][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.06-14.29.57:439][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.06-14.29.57:452][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jcy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.06-14.29.57:474][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.06-14.29.57:476][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.06-14.29.57:476][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.06-14.29.58:457][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.06.06-14.29.58:514][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.057420 seconds
+[2017.06.06-14.29.58:548][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.06-14.29.58:550][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.06.06-14.29.58:920][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.06-14.29.59:009][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.06-14.29.59:109][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.06-14.29.59:109][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.06-14.29.59:109][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.06-14.30.00:372][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: unnamed, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1184173371
+[2017.06.06-14.30.02:462][  0]LogMoviePlayer: Initializing movie player
+[2017.06.06-14.30.04:272][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.06-14.30.04:272][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.06-14.30.04:398][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.06-14.30.05:989][  0]LogUObjectArray: 34416 objects as part of root set at end of initial load.
+[2017.06.06-14.30.05:989][  0]LogUObjectAllocator: 7853400 out of 0 bytes used by permanent object pool.
+[2017.06.06-14.30.05:989][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.06-14.30.06:254][  0]LogEngine: Initializing Engine...
+[2017.06.06-14.30.06:255][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.06-14.30.06:533][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.06-14.30.06:677][  0]LogInit: FAudioDevice initialized.
+[2017.06.06-14.30.06:781][  0]LogDerivedDataCache: Saved boot cache 0.09s 50MB C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.06-14.30.06:813][  0]LogInit: Texture streaming: Enabled
+[2017.06.06-14.30.06:908][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.06-14.30.08:515][  0]LogClass:Warning: Enum '/Game/BP/E_GameState.E_GameState' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.06.06-14.30.08:898][  0]LogInit:Display: Game Engine Initialized.
+[2017.06.06-14.30.09:446][  0]LogInit:Display: Starting Game.
+[2017.06.06-14.30.09:446][  0]LogNet: Browse: /Game/Map/Main?Name=Player
+[2017.06.06-14.30.09:446][  0]LogLoad: LoadMap: /Game/Map/Main?Name=Player
+[2017.06.06-14.30.09:493][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.06-14.30.09:493][  0]LogMemory: Process Physical Memory: 714.88 MB used, 728.70 MB peak
+[2017.06.06-14.30.09:493][  0]LogMemory: Process Virtual Memory: 766.73 MB used, 766.75 MB peak
+[2017.06.06-14.30.09:493][  0]LogMemory: Physical Memory: 7509.02 MB used,  4700.85 MB free, 12209.86 MB total
+[2017.06.06-14.30.09:493][  0]LogMemory: Virtual Memory: 1434.25 MB used,  4700.85 MB free, 134217728.00 MB total
+[2017.06.06-14.30.09:493][  0]LogMemory: 
+[2017.06.06-14.30.09:493][  0]Allocator Stats for TBB: (not implemented)
+[2017.06.06-14.30.19:381][  0]LogAIModule: Creating AISystem for world Main
+[2017.06.06-14.30.19:382][  0]LogLoad: Game class is 'pregame_C'
+[2017.06.06-14.30.19:387][  0]LogWorld: Bringing World /Game/Map/Main.Main up for play (max tick rate 0) at 2017.06.06-23.30.19
+[2017.06.06-14.30.19:388][  0]LogWorld: Bringing up level for play took: 0.003888
+[2017.06.06-14.30.19:425][  0]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.06-14.30.19:438][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.06-14.30.19:438][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.06-14.30.19:438][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.06-14.30.19:439][  0]r.SetRes = "1920x1080f"
+[2017.06.06-14.30.19:439][  0]LogBlueprintUserMessages: [Main_C_0] 1.0
+[2017.06.06-14.30.19:492][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.06-14.30.19:499][  0]LogLoad: Took 10.052508 seconds to LoadMap(/Game/Map/Main)
+[2017.06.06-14.30.19:546][  0]LogSlate: Took 0.039711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.06.06-14.30.19:562][  0]LogSlate: Took 0.014150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.06-14.30.20:533][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:2).
+[2017.06.06-14.30.21:868][  0]LogLoad: (Engine Initialization) Total time: 38.78 seconds
+[2017.06.06-14.30.21:868][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.97 seconds
+[2017.06.06-14.30.21:868][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.06-14.30.21:868][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.06-14.30.21:924][  0]LogOcInput: OculusInput pre-init called
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 1
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 1
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid 18a44d6d-727b-48a4-864c-1350d44a66d6
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: STEAM: Failed to parse setting from key guid value 18a44d6d-727b-48a4-864c-1350d44a66d6
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data name The Porest Game1111 (kimsw0711)
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: STEAM: Failed to parse setting from key name value The Porest Game1111 (kimsw0711)
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109135728728072
+[2017.06.06-14.34.28:768][992]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109135728728072
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2E450D0]'
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 2
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 2
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid 467594ff-9f2f-4910-98a0-c177515347fe
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: STEAM: Failed to parse setting from key guid value 467594ff-9f2f-4910-98a0-c177515347fe
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data name The Forest Game (liluly)
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: STEAM: Failed to parse setting from key name value The Forest Game (liluly)
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109135735781376
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109135735781376
+[2017.06.06-14.34.28:808][992]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2E44C4F]'
+[2017.06.06-14.34.28:809][992]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: unnamed, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2893060150
+[2017.06.06-14.34.30:236][ 73]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.06.06-14.34.30:236][ 73]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.06.06-14.34.30:236][ 73]LogNet: Browse: steam.76561198348838308//Game/Map/Main
+[2017.06.06-14.34.30:237][ 73]LogNet:Display: SteamNetDriver_0 bound to port 7777
+[2017.06.06-14.34.30:237][ 73]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.06-14.34.30:237][ 73]LogNet: Game client on port 7777, rate 10000
+[2017.06.06-14.34.30:237][ 73]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 76561198348838308:7777, Name: SteamNetConnection_0, Driver: PendingNetDriver SteamNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL
+[2017.06.06-14.34.36:123][438]LogHandshake: SendChallengeResponse. Timestamp: 9.877892, Cookie: 229106068172034076226241090191216044217176023023213141121052
+[2017.06.06-14.34.36:124][438]LogHandshake: SendChallengeResponse. Timestamp: 9.877892, Cookie: 229106068172034076226241090191216044217176023023213141121052
+[2017.06.06-14.34.36:124][438]LogHandshake: SendChallengeResponse. Timestamp: 9.877892, Cookie: 229106068172034076226241090191216044217176023023213141121052
+[2017.06.06-14.34.36:124][438]LogHandshake: SendChallengeResponse. Timestamp: 9.877892, Cookie: 229106068172034076226241090191216044217176023023213141121052
+[2017.06.06-14.34.36:124][438]LogHandshake: SendChallengeResponse. Timestamp: 9.877892, Cookie: 229106068172034076226241090191216044217176023023213141121052
+[2017.06.06-14.34.36:124][438]LogHandshake: SendChallengeResponse. Timestamp: 9.877892, Cookie: 229106068172034076226241090191216044217176023023213141121052
+[2017.06.06-14.34.36:172][441]LogNet: Welcomed by server (Level: /Game/Map/stage, Game: /Game/BP/MyGameMode.MyGameMode_C)
+[2017.06.06-14.34.36:173][441]LogLoad: LoadMap: steam.76561198348838308//Game/Map/stage?game=/Game/BP/MyGameMode.MyGameMode_C
+[2017.06.06-14.34.36:357][441]LogMemory: Platform Memory Stats for Windows
+[2017.06.06-14.34.36:357][441]LogMemory: Process Physical Memory: 904.58 MB used, 914.46 MB peak
+[2017.06.06-14.34.36:357][441]LogMemory: Process Virtual Memory: 1239.71 MB used, 1333.45 MB peak
+[2017.06.06-14.34.36:357][441]LogMemory: Physical Memory: 7200.46 MB used,  5009.41 MB free, 12209.86 MB total
+[2017.06.06-14.34.36:357][441]LogMemory: Virtual Memory: 2028.58 MB used,  5009.41 MB free, 134217728.00 MB total
+[2017.06.06-14.34.36:357][441]LogMemory: 
+[2017.06.06-14.34.36:357][441]Allocator Stats for TBB: (not implemented)
+[2017.06.06-14.34.40:864][441]LogLinker:Warning: '/Game/Landscapes/Materials/sue079' 파일을 찾을 수 없습니다.
+[2017.06.06-14.34.40:864][441]LoadErrors: 정보 로드에 실패했습니다. /Game/Landscapes/Materials/sue079.sue079 레퍼런싱한 것: MaterialExpressionTextureSample_0
+[2017.06.06-14.34.40:864][441]LogUObjectGlobals:Warning: '/Game/Landscapes/Materials/sue079': '/Game/Landscapes/Materials/sue079' 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2017.06.06-14.34.40:871][441]LogLinker:Warning: NULL 로드중 '/Game/Landscapes/Materials/sue079' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.06.06-14.34.40:871][441]LoadErrors: 정보 로드에 실패했습니다. /Game/Landscapes/Materials/sue079.sue079 레퍼런싱한 것: MaterialExpressionTextureSample_0
+[2017.06.06-14.34.40:871][441]LogUObjectGlobals:Warning: '/Game/Landscapes/Materials/sue079': NULL 로드중 '/Game/Landscapes/Materials/sue079' 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2017.06.06-14.34.40:871][441]LogLinker:Warning: '/Game/Landscapes/Materials/sup025' 파일을 찾을 수 없습니다.
+[2017.06.06-14.34.40:871][441]LoadErrors: 정보 로드에 실패했습니다. /Game/Landscapes/Materials/sup025.sup025 레퍼런싱한 것: MaterialExpressionTextureSample_1
+[2017.06.06-14.34.40:871][441]LogUObjectGlobals:Warning: '/Game/Landscapes/Materials/sup025': '/Game/Landscapes/Materials/sup025' 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2017.06.06-14.34.40:871][441]LogLinker:Warning: NULL 로드중 '/Game/Landscapes/Materials/sup025' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.06.06-14.34.40:871][441]LoadErrors: 정보 로드에 실패했습니다. /Game/Landscapes/Materials/sup025.sup025 레퍼런싱한 것: MaterialExpressionTextureSample_1
+[2017.06.06-14.34.40:871][441]LogUObjectGlobals:Warning: '/Game/Landscapes/Materials/sup025': NULL 로드중 '/Game/Landscapes/Materials/sup025' 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2017.06.06-14.34.40:922][441]LogLinker:Warning: '/Game/Landscapes/Materials/sup088' 파일을 찾을 수 없습니다.
+[2017.06.06-14.34.40:923][441]LoadErrors: 정보 로드에 실패했습니다. /Game/Landscapes/Materials/sup088.sup088 레퍼런싱한 것: MaterialExpressionTextureSample_2
+[2017.06.06-14.34.40:923][441]LogUObjectGlobals:Warning: '/Game/Landscapes/Materials/sup088': '/Game/Landscapes/Materials/sup088' 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2017.06.06-14.34.40:923][441]LogLinker:Warning: NULL 로드중 '/Game/Landscapes/Materials/sup088' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.06.06-14.34.40:923][441]LoadErrors: 정보 로드에 실패했습니다. /Game/Landscapes/Materials/sup088.sup088 레퍼런싱한 것: MaterialExpressionTextureSample_2
+[2017.06.06-14.34.40:923][441]LogUObjectGlobals:Warning: '/Game/Landscapes/Materials/sup088': NULL 로드중 '/Game/Landscapes/Materials/sup088' 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2017.06.06-14.34.52:340][441]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.06.06-14.34.52:340][441]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.06.06-14.34.53:073][441]LogPackageName: SearchForPackageOnDisk took   0.720s, but failed to resolve FX_Meshes.
+[2017.06.06-14.34.53:073][441]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2017.06.06-14.35.06:007][441]LogMaterial: Missing cached shader map for material Mat_ground, compiling. 
+[2017.06.06-14.35.06:028][441]LogMaterial:Warning: Failed to compile Material /Game/Landscapes/Materials/Mat_ground.Mat_ground for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.06-14.35.06:028][441]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.06-14.35.11:730][441]LogAIModule: Creating AISystem for world stage
+[2017.06.06-14.35.11:790][441]LogWorld: Bringing World /Game/Map/stage.stage up for play (max tick rate 0) at 2017.06.06-23.35.11
+[2017.06.06-14.35.11:791][441]LogWorld: Bringing up level for play took: 0.058307
+[2017.06.06-14.35.11:793][441]LogLoad: Took 35.620136 seconds to LoadMap(/Game/Map/stage)
+[2017.06.06-14.35.11:793][441]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 0.02, Realtime: 35.62. SteamNetDriver_0
+[2017.06.06-14.35.11:869][442]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 35.70, Realtime: 0.08. SteamNetDriver_0
+[2017.06.06-14.35.11:931][442]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function CRankSpawn will not be processed.
+[2017.06.06-14.35.11:931][442]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function SpawnSrank will not be processed.
+[2017.06.06-14.35.11:931][442]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function SpawnStageLimiter will not be processed.
+[2017.06.06-14.35.11:968][442]PIE:Warning: 경고 위젯이 포커스를 지원하지 않습니다. UserWidget 인 경우, bIsFocusable 을 true 로 설정해야 합니다.
+[2017.06.06-14.35.11:974][442]LogBlueprintUserMessages: [PHUD_C_0] lsk
+[2017.06.06-14.35.21:477][974]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.35.31:485][594]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.35.41:492][214]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.35.51:507][812]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.36.01:517][392]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.36.11:567][994]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.36.21:572][600]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.36.31:587][211]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.36.41:590][828]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.36.51:606][445]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.37.01:617][ 59]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.37.11:622][676]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.37.21:636][291]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.37.31:643][906]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.37.41:656][520]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.37.51:665][133]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.37.56:799][450]LogBlueprintUserMessages: [Wolf_C_0] 200
+[2017.06.06-14.37.56:815][451]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.37.56:815][451]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.37.56:815][451]LogBlueprintUserMessages: [Wolf_C_2] 200
+[2017.06.06-14.37.56:863][454]LogBlueprintUserMessages: [Wolf_C_1] 200
+[2017.06.06-14.37.57:154][472]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.37.57:169][473]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.37.57:836][513]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.37.57:836][513]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.37.58:740][568]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.37.58:740][568]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.37.59:747][630]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.37.59:747][630]LogBlueprintUserMessages: [Wolf_C_0] 200
+[2017.06.06-14.37.59:748][630]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.38.00:425][672]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.38.00:425][672]LogBlueprintUserMessages: [Wolf_C_0] 200
+[2017.06.06-14.38.00:425][672]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.38.01:302][726]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.38.01:302][726]LogBlueprintUserMessages: [Wolf_C_0] 200
+[2017.06.06-14.38.01:302][726]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.38.01:666][748]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.38.02:172][779]LogBlueprintUserMessages: [Wolf_C_0] 200
+[2017.06.06-14.38.02:173][779]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.38.02:188][780]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.38.03:733][875]LogBlueprintUserMessages: [Wolf_C_1] 200
+[2017.06.06-14.38.03:733][875]LogBlueprintUserMessages: [Wolf_C_0] 200
+[2017.06.06-14.38.03:733][875]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.38.03:734][875]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.38.04:411][916]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.38.04:411][916]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.38.04:427][917]LogBlueprintUserMessages: [Wolf_C_0] 200
+[2017.06.06-14.38.04:427][917]LogBlueprintUserMessages: [Wolf_C_1] 200
+[2017.06.06-14.38.05:310][971]LogBlueprintUserMessages: [Wolf_C_1] 200
+[2017.06.06-14.38.05:311][971]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.38.05:311][971]LogBlueprintUserMessages: [Wolf_C_0] 200
+[2017.06.06-14.38.05:311][971]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.38.08:025][139]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.38.08:026][139]LogBlueprintUserMessages: [Wolf_C_2] 200
+[2017.06.06-14.38.08:058][141]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.38.08:844][187]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.38.08:845][187]LogBlueprintUserMessages: [Wolf_C_2] 200
+[2017.06.06-14.38.08:860][188]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.38.08:860][188]LogBlueprintUserMessages: [Wolf_C_0] 200
+[2017.06.06-14.38.09:507][228]LogBlueprintUserMessages: [Wolf_C_2] 200
+[2017.06.06-14.38.09:507][228]LogBlueprintUserMessages: [Wolf_C_0] 200
+[2017.06.06-14.38.09:507][228]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.38.09:508][228]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.38.10:377][282]LogBlueprintUserMessages: [Wolf_C_0] 200
+[2017.06.06-14.38.10:377][282]LogBlueprintUserMessages: [Wolf_C_3] 200
+[2017.06.06-14.38.10:377][282]LogBlueprintUserMessages: [Wolf_C_2] 200
+[2017.06.06-14.38.10:377][282]LogBlueprintUserMessages: [Wolf_C_5] 200
+[2017.06.06-14.38.11:676][362]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.38.21:687][955]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.38.28:510][370]LogBlueprintUserMessages: [Wolf_C_7] 200
+[2017.06.06-14.38.28:510][370]LogBlueprintUserMessages: [Wolf_C_9] 200
+[2017.06.06-14.38.28:511][370]LogBlueprintUserMessages: [Wolf_C_11] 200
+[2017.06.06-14.38.28:511][370]LogBlueprintUserMessages: [Wolf_C_4] 200
+[2017.06.06-14.38.28:511][370]LogBlueprintUserMessages: [Wolf_C_6] 200
+[2017.06.06-14.38.29:155][410]LogBlueprintUserMessages: [Wolf_C_4] 200
+[2017.06.06-14.38.29:155][410]LogBlueprintUserMessages: [Wolf_C_6] 200
+[2017.06.06-14.38.29:155][410]LogBlueprintUserMessages: [Wolf_C_7] 200
+[2017.06.06-14.38.29:156][410]LogBlueprintUserMessages: [Wolf_C_11] 200
+[2017.06.06-14.38.29:171][411]LogBlueprintUserMessages: [Wolf_C_9] 200
+[2017.06.06-14.38.30:049][465]LogBlueprintUserMessages: [Wolf_C_7] 200
+[2017.06.06-14.38.30:050][465]LogBlueprintUserMessages: [Wolf_C_11] 200
+[2017.06.06-14.38.30:050][465]LogBlueprintUserMessages: [Wolf_C_4] 200
+[2017.06.06-14.38.30:050][465]LogBlueprintUserMessages: [Wolf_C_6] 200
+[2017.06.06-14.38.30:050][465]LogBlueprintUserMessages: [Wolf_C_9] 200
+[2017.06.06-14.38.31:702][567]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.38.41:711][180]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.38.51:717][765]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.39.01:726][991]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.39.11:743][221]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.39.21:618][451]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.21:625][451]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.21:668][452]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.21:668][452]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.21:712][453]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.21:712][453]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.21:751][454]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.21:751][454]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.21:755][455]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.39.21:791][455]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.21:791][455]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.21:832][456]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.21:832][456]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.21:875][457]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.21:875][457]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.21:918][458]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.21:918][458]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.21:965][459]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.21:965][459]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.22:009][460]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.22:009][460]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.22:051][461]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.22:051][461]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.22:093][462]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.22:093][462]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.22:131][463]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.22:131][463]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.22:173][464]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.22:173][464]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.22:214][465]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.22:214][465]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.22:254][466]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.22:254][466]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.22:296][467]LogScript:Warning: targetplayer 프로퍼티를 통해 duek_C_0 에 접근하려 하였으나, duek_C_0 는 킬 대기중입니다.
+	observer_C /Game/Map/stage.stage:PersistentLevel.observer_C_0
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer:044D
+[2017.06.06-14.39.22:296][467]LogScript:Warning: Script call stack:
+	Function /Game/BP/observer.observer_C:ReceiveTick
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+	Function /Game/BP/observer.observer_C:followcamera
+	Function /Game/BP/observer.observer_C:ExecuteUbergraph_observer
+
+[2017.06.06-14.39.31:764][692]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.39.41:474][926]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.41:474][926]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.41:474][926]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.41:803][934]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor stage_C_0. Function HealPackSpawn will not be processed.
+[2017.06.06-14.39.44:257][992]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.44:257][992]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.44:257][992]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.44:506][998]LogScriptCore:Warning: Script Msg: Modulo by zero
+[2017.06.06-14.39.44:506][998]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.44:506][998]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.44:506][998]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.44:765][  4]LogScriptCore:Warning: Script Msg: Modulo by zero
+[2017.06.06-14.39.44:765][  4]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.44:765][  4]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.44:765][  4]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:015][ 10]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:015][ 10]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:015][ 10]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:264][ 16]LogScriptCore:Warning: Script Msg: Modulo by zero
+[2017.06.06-14.39.45:264][ 16]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:264][ 16]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:264][ 16]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:429][ 20]LogScriptCore:Warning: Script Msg: Modulo by zero
+[2017.06.06-14.39.45:429][ 20]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:429][ 20]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:429][ 20]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:673][ 26]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:673][ 26]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.45:673][ 26]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.46:053][ 35]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.46:053][ 35]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.46:053][ 35]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.46:297][ 41]LogScriptCore:Warning: Script Msg: Modulo by zero
+[2017.06.06-14.39.46:297][ 41]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.46:297][ 41]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.46:297][ 41]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.47:007][ 58]LogScriptCore:Warning: Script Msg: Modulo by zero
+[2017.06.06-14.39.47:007][ 58]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.47:007][ 58]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.47:007][ 58]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.06.06-14.39.48:273][ 78]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.06-14.39.48:312][ 78]LogEngine: All Windows Closed
+[2017.06.06-14.39.48:312][ 78]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.06.06-14.39.48:333][ 79]LogMoviePlayer: Shutting down movie player
+[2017.06.06-14.39.48:531][ 79]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2017.06.06-14.39.48:532][ 79]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2017.06.06-14.39.48:542][ 79]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198348838308:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: NO, PC: playercon_C_0, Owner: playercon_C_0, Channels: 32, Time: 2017.06.06-14.39.48
+[2017.06.06-14.39.48:542][ 79]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198348838308:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: NO, PC: playercon_C_0, Owner: playercon_C_0
+[2017.06.06-14.39.48:543][ 79]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2017.06.06-14.39.48:646][ 79]LogExit: Preparing to exit.
+[2017.06.06-14.39.49:082][ 79]LogExit: Game engine shut down
+[2017.06.06-14.39.50:054][ 79]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.06-14.39.50:054][ 79]LogExit: Object subsystem successfully closed.
+[2017.06.06-14.39.50:215][ 79]LogD3D11RHI: Shutdown
+[2017.06.06-14.39.50:215][ 79]LogD3D11RHI: CleanupD3DDevice
+[2017.06.06-14.39.50:553][ 79]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.06-14.39.50:870][ 79]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (266)
+[2017.06.06-14.39.50:875][ 79]LogModuleManager: Shutting down and abandoning module SequenceRecorder (264)
+[2017.06.06-14.39.50:876][ 79]LogModuleManager: Shutting down and abandoning module AutomationController (262)
+[2017.06.06-14.39.50:883][ 79]LogModuleManager: Shutting down and abandoning module AutomationWorker (260)
+[2017.06.06-14.39.50:891][ 79]LogModuleManager: Shutting down and abandoning module AIModule (258)
+[2017.06.06-14.39.50:901][ 79]LogModuleManager: Shutting down and abandoning module GameplayDebugger (257)
+[2017.06.06-14.39.50:912][ 79]LogModuleManager: Shutting down and abandoning module AITestSuite (255)
+[2017.06.06-14.39.50:912][ 79]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (252)
+[2017.06.06-14.39.50:912][ 79]LogModuleManager: Shutting down and abandoning module MfMediaFactory (250)
+[2017.06.06-14.39.50:912][ 79]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (248)
+[2017.06.06-14.39.50:912][ 79]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (246)
+[2017.06.06-14.39.50:912][ 79]LogModuleManager: Shutting down and abandoning module Media (245)
+[2017.06.06-14.39.50:912][ 79]LogModuleManager: Shutting down and abandoning module CharacterAI (242)
+[2017.06.06-14.39.50:912][ 79]LogModuleManager: Shutting down and abandoning module SessionServices (240)
+[2017.06.06-14.39.50:912][ 79]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (238)
+[2017.06.06-14.39.50:912][ 79]LogModuleManager: Shutting down and abandoning module GeometryCache (236)
+[2017.06.06-14.39.50:918][ 79]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (235)
+[2017.06.06-14.39.50:918][ 79]LogModuleManager: Shutting down and abandoning module Niagara (232)
+[2017.06.06-14.39.50:918][ 79]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (230)
+[2017.06.06-14.39.50:918][ 79]LogModuleManager: Shutting down and abandoning module PortalServices (228)
+[2017.06.06-14.39.50:918][ 79]LogModuleManager: Shutting down and abandoning module PortalRpc (226)
+[2017.06.06-14.39.50:918][ 79]LogModuleManager: Shutting down and abandoning module MessagingRpc (224)
+[2017.06.06-14.39.50:918][ 79]LogModuleManager: Shutting down and abandoning module ProfilerService (222)
+[2017.06.06-14.39.51:099][ 79]LogModuleManager: Shutting down and abandoning module TaskGraph (220)
+[2017.06.06-14.39.51:119][ 79]LogModuleManager: Shutting down and abandoning module SteamVRController (218)
+[2017.06.06-14.39.51:119][ 79]LogModuleManager: Shutting down and abandoning module SteamVR (216)
+[2017.06.06-14.39.51:119][ 79]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (214)
+[2017.06.06-14.39.51:130][ 79]LogModuleManager: Shutting down and abandoning module OculusLibrary (212)
+[2017.06.06-14.39.51:130][ 79]LogModuleManager: Shutting down and abandoning module OculusInput (210)
+[2017.06.06-14.39.51:130][ 79]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (208)
+[2017.06.06-14.39.51:130][ 79]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (206)
+[2017.06.06-14.39.51:130][ 79]LogModuleManager: Shutting down and abandoning module CableComponent (204)
+[2017.06.06-14.39.51:134][ 79]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (202)
+[2017.06.06-14.39.51:134][ 79]LogModuleManager: Shutting down and abandoning module HTML5Networking (198)
+[2017.06.06-14.39.51:134][ 79]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (196)
+[2017.06.06-14.39.51:134][ 79]LogModuleManager: Shutting down and abandoning module DesktopPlatform (195)
+[2017.06.06-14.39.51:138][ 79]LogModuleManager: Shutting down and abandoning module HotReload (193)
+[2017.06.06-14.39.51:149][ 79]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (192)
+[2017.06.06-14.39.51:179][ 79]LogModuleManager: Shutting down and abandoning module UObjectPlugin (188)
+[2017.06.06-14.39.51:179][ 79]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (186)
+[2017.06.06-14.39.51:198][ 79]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (184)
+[2017.06.06-14.39.51:207][ 79]LogModuleManager: Shutting down and abandoning module SourceControl (183)
+[2017.06.06-14.39.51:215][ 79]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (180)
+[2017.06.06-14.39.51:226][ 79]LogModuleManager: Shutting down and abandoning module PhysXVehicles (178)
+[2017.06.06-14.39.51:226][ 79]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (176)
+[2017.06.06-14.39.51:226][ 79]LogModuleManager: Shutting down and abandoning module UdpMessaging (174)
+[2017.06.06-14.39.51:227][ 79]LogModuleManager: Shutting down and abandoning module TcpMessaging (172)
+[2017.06.06-14.39.51:249][ 79]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (170)
+[2017.06.06-14.39.51:259][ 79]LogModuleManager: Shutting down and abandoning module FacialAnimation (168)
+[2017.06.06-14.39.51:259][ 79]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (166)
+[2017.06.06-14.39.51:259][ 79]LogModuleManager: Shutting down and abandoning module Paper2D (164)
+[2017.06.06-14.39.51:264][ 79]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (162)
+[2017.06.06-14.39.51:271][ 79]LogModuleManager: Shutting down and abandoning module WmfMedia (160)
+[2017.06.06-14.39.51:277][ 79]LogModuleManager: Shutting down and abandoning module MfMedia (158)
+[2017.06.06-14.39.51:277][ 79]LogModuleManager: Shutting down and abandoning module MediaAssets (156)
+[2017.06.06-14.39.51:277][ 79]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (154)
+[2017.06.06-14.39.51:282][ 79]LogModuleManager: Shutting down and abandoning module VREditor (152)
+[2017.06.06-14.39.51:282][ 79]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (150)
+[2017.06.06-14.39.51:282][ 79]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (148)
+[2017.06.06-14.39.51:302][ 79]LogModuleManager: Shutting down and abandoning module FunctionalTesting (146)
+[2017.06.06-14.39.51:309][ 79]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (144)
+[2017.06.06-14.39.51:316][ 79]LogModuleManager: Shutting down and abandoning module UMG (142)
+[2017.06.06-14.39.51:316][ 79]LogModuleManager: Shutting down and abandoning module UMGEditor (141)
+[2017.06.06-14.39.51:358][ 79]LogModuleManager: Shutting down and abandoning module Sequencer (140)
+[2017.06.06-14.39.51:370][ 79]LogModuleManager: Shutting down and abandoning module AssetTools (138)
+[2017.06.06-14.39.51:388][ 79]LogModuleManager: Shutting down and abandoning module MessageLog (137)
+[2017.06.06-14.39.51:388][ 79]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (136)
+[2017.06.06-14.39.51:388][ 79]LogModuleManager: Shutting down and abandoning module SlateReflector (130)
+[2017.06.06-14.39.51:409][ 79]LogModuleManager: Shutting down and abandoning module Slate (128)
+[2017.06.06-14.39.51:409][ 79]LogModuleManager: Shutting down and abandoning module EditorStyle (126)
+[2017.06.06-14.39.51:419][ 79]LogModuleManager: Shutting down and abandoning module Messaging (124)
+[2017.06.06-14.39.51:419][ 79]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (122)
+[2017.06.06-14.39.51:419][ 79]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (120)
+[2017.06.06-14.39.51:419][ 79]LogModuleManager: Shutting down and abandoning module XAudio2 (118)
+[2017.06.06-14.39.51:419][ 79]LogModuleManager: Shutting down and abandoning module Networking (116)
+[2017.06.06-14.39.51:419][ 79]LogModuleManager: Shutting down and abandoning module Core (114)
+[2017.06.06-14.39.51:419][ 79]LogModuleManager: Shutting down and abandoning module KismetCompiler (112)
+[2017.06.06-14.39.51:419][ 79]LogModuleManager: Shutting down and abandoning module PhysXFormats (110)
+[2017.06.06-14.39.51:419][ 79]LogModuleManager: Shutting down and abandoning module MeshUtilities (108)
+[2017.06.06-14.39.51:434][ 79]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (107)
+[2017.06.06-14.39.51:438][ 79]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (105)
+[2017.06.06-14.39.51:438][ 79]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (103)
+[2017.06.06-14.39.51:449][ 79]LogModuleManager: Shutting down and abandoning module PropertyEditor (101)
+[2017.06.06-14.39.51:449][ 79]LogModuleManager: Shutting down and abandoning module AssetRegistry (98)
+[2017.06.06-14.39.51:449][ 79]LogModuleManager: Shutting down and abandoning module DerivedDataCache (96)
+[2017.06.06-14.39.51:493][ 79]LogDerivedDataCache: Shutdown
+[2017.06.06-14.39.51:493][ 79]LogModuleManager: Shutting down and abandoning module TargetPlatform (94)
+[2017.06.06-14.39.51:493][ 79]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (93)
+[2017.06.06-14.39.51:508][ 79]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (91)
+[2017.06.06-14.39.51:516][ 79]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (89)
+[2017.06.06-14.39.51:516][ 79]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (87)
+[2017.06.06-14.39.51:524][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (85)
+[2017.06.06-14.39.51:525][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (83)
+[2017.06.06-14.39.51:525][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (81)
+[2017.06.06-14.39.51:525][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (79)
+[2017.06.06-14.39.51:528][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (77)
+[2017.06.06-14.39.51:528][ 79]LogModuleManager: Shutting down and abandoning module ImageWrapper (76)
+[2017.06.06-14.39.51:528][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (73)
+[2017.06.06-14.39.51:528][ 79]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (71)
+[2017.06.06-14.39.51:532][ 79]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (69)
+[2017.06.06-14.39.51:532][ 79]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (67)
+[2017.06.06-14.39.51:532][ 79]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (65)
+[2017.06.06-14.39.51:532][ 79]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (63)
+[2017.06.06-14.39.51:532][ 79]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (61)
+[2017.06.06-14.39.51:532][ 79]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (59)
+[2017.06.06-14.39.51:532][ 79]LogModuleManager: Shutting down and abandoning module InputCore (56)
+[2017.06.06-14.39.51:533][ 79]LogModuleManager: Shutting down and abandoning module Settings (54)
+[2017.06.06-14.39.51:533][ 79]LogModuleManager: Shutting down and abandoning module OculusRift (52)
+[2017.06.06-14.39.51:539][ 79]LogModuleManager: Shutting down and abandoning module GearVR (50)
+[2017.06.06-14.39.51:539][ 79]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (48)
+[2017.06.06-14.39.51:539][ 79]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (46)
+[2017.06.06-14.39.51:539][ 79]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
+[2017.06.06-14.39.51:539][ 79]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.06.06-14.39.51:670][ 79]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.06.06-14.39.51:681][ 79]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.06.06-14.39.51:681][ 79]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.06-14.39.51:681][ 79]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.06-14.39.51:687][ 79]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.06-14.39.51:704][ 79]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.06-14.39.51:716][ 79]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.06-14.39.51:716][ 79]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.06-14.39.51:727][ 79]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.06-14.39.51:727][ 79]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.06-14.39.51:727][ 79]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.06-14.39.51:750][ 79]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.06-14.39.51:754][ 79]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.06-14.39.51:755][ 79]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.06-14.39.51:765][ 79]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.06-14.39.51:765][ 79]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.06-14.39.51:765][ 79]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.06-14.39.51:765][ 79]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.06-14.39.51:772][ 79]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.06-14.39.51:782][ 79]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.06-14.39.51:782][ 79]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.06-14.39.51:801][ 79]LogExit: Exiting.
+[2017.06.06-14.39.51:804][ 79]Log file closed, 06/06/17 23:39:51
