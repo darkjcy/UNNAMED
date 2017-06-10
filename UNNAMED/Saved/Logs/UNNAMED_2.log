@@ -1,9 +1,9 @@
-﻿Log file open, 06/10/17 07:12:10
+﻿Log file open, 06/10/17 19:59:41
 LogInit:Display: Running engine for game: UNNAMED
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(786511033) SRandInit(786511033).
+LogInit:Display: RandInit(1478597023) SRandInit(1478597023).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.114976
+LogStats: Stats thread started at 0.104723
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -45,460 +45,1022 @@ LogInit: Compiled (64-bit): May 21 2017 11:02:34
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.15
-LogInit: Command line:  /Temp/Autosaves/Game/Map/UEDPCMain -game -PIEVIACONSOLE -WinX=0 -WinY=0 -ResX=1600 -ResY=900  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Command line:  /Temp/Autosaves/Game/Map/UEDPCMainR -game -PIEVIACONSOLE -WinX=100 -WinY=100 -ResX=1600 -ResY=900  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.09-22.12.12:933][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.09-22.12.12:933][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.09-22.12.12:938][  0]LogInit: Computer: DESKTOP-5I3HB32
-[2017.06.09-22.12.12:938][  0]LogInit: User: jcy
-[2017.06.09-22.12.12:938][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.06.09-22.12.12:938][  0]LogInit: High frequency timer resolution =2.533211 MHz
-[2017.06.09-22.12.12:938][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
-[2017.06.09-22.12.12:938][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.09-22.12.12:938][  0]LogMemory: Process Physical Memory: 303.57 MB used, 303.57 MB peak
-[2017.06.09-22.12.12:938][  0]LogMemory: Process Virtual Memory: 283.92 MB used, 283.92 MB peak
-[2017.06.09-22.12.12:938][  0]LogMemory: Physical Memory: 7475.70 MB used,  4734.17 MB free, 12209.86 MB total
-[2017.06.09-22.12.12:938][  0]LogMemory: Virtual Memory: 751.93 MB used,  4734.17 MB free, 134217728.00 MB total
-[2017.06.09-22.12.13:104][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
-[2017.06.09-22.12.13:168][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+[2017.06.10-10.59.43:095][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.10-10.59.43:095][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.10-10.59.43:099][  0]LogInit: Computer: DESKTOP-5I3HB32
+[2017.06.10-10.59.43:099][  0]LogInit: User: jcy
+[2017.06.10-10.59.43:099][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.10-10.59.43:099][  0]LogInit: High frequency timer resolution =2.533211 MHz
+[2017.06.10-10.59.43:100][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.06.10-10.59.43:100][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.10-10.59.43:100][  0]LogMemory: Process Physical Memory: 303.56 MB used, 303.56 MB peak
+[2017.06.10-10.59.43:100][  0]LogMemory: Process Virtual Memory: 283.57 MB used, 283.57 MB peak
+[2017.06.10-10.59.43:100][  0]LogMemory: Physical Memory: 7051.83 MB used,  5158.03 MB free, 12209.86 MB total
+[2017.06.10-10.59.43:100][  0]LogMemory: Virtual Memory: 751.91 MB used,  5158.03 MB free, 134217728.00 MB total
+[2017.06.10-10.59.43:238][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (502993589) Localized String: (내부 시간 누산기 - 이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
  )
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (319969718) Localized String: (연관성 테스트에 무시 - true 인 경우 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" (연관 애님) 노드가
 이 노드를 무시합니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
  )
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1232800293) Localized String: (블렌드 웨이트 - 이 노드에 대해 마지막으로 접한 블렌드 웨이트입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝까지 재생되면 반복할까요?)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복할까요?)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1865475011) Localized String: (첫 업데이트시 도입 상태에서의 트랜지션을 건너뛸까요? 
 기본은 true 로, 첫 업데이트시에는 트랜지션 데이터를 버립니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1865475011) Localized String: (첫 번째 업데이트 트랜지션 건너뛰기 - 첫 번째 업데이트에서 입력 스테이트의 트랜지션을 건너뜁니까?
 디폴트는 true 고 첫 번째 업데이트의 트랜지션 데이터를 버립니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (블렌드스페이스에서 샘플링할 X 좌표입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2060772590) Localized String: (X - 블렌드스페이스 샘플의 X 좌표입니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (블렌드스페이스에서 샘플링할 Y 좌표입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (Y - 블렌드스페이스 샘플의 Y 좌표입니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (블렌드스페이스에서 샘플링할 Z 좌표입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1728943471) Localized String: (Z - 블렌드스페이스 샘플의 Z 좌표입니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (재생할 블렌드스페이스 애셋입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1599043277) Localized String: (블렌드스페이스 - 재생할 블렌드스페이스 애셋입니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (이 머신에서 한 프레임 내 '동시에' 취할 수 있는 트랜지션 최대 수입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1567650430) Localized String: (프레임 당 최대 트랜지션 - 한 프레임에서 이 머신이 동시에 취할 수 있는 트랜지션 최대 수입니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 배수입니다. 음수가 되면 애니메이션을 역순으로 재생하게 됩니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 되면 애니메이션을 거꾸로 재생합니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-207153555) Localized String: (시작 위치 범위는 [0,1] 이며, 재초기화시에만 적용됩니다.
 루핑을 하면, 1 회전 후 0.f 부터 시작할 것입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-207153555) Localized String: (시작 위치 - [0, 1] 범위의 시작 위치로, 재초기화할 때만 적용됩니다.
 반복하면 1회전 후 0.f 부터 시작됩니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1448580153) Localized String: (센서 폭 - 필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1448580153) Localized String: (필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-194807515) Localized String: (센서 종횡비 - 읽기 전용입니다. 센서 치수에서 계산했습니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-194807515) Localized String: (읽기 전용입니다. 센서 크기에서 계산했습니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복시켜야 할까요?)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝에 도달하면 계속해서 루핑시킬것인지 입니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (421436424) Localized String: (시퀀스 - 재생할 애니메이션 시퀀스 애셋입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (421436424) Localized String: (재생할 애니메이션 시퀀스 애셋입니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 될 수 있으며, 그러면 애니메이션이 거꾸로 재생됩니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1274923958) Localized String: (플레이 속도 배수입니다. 음수가 되면 애니메이션이 역방향으로 재생됩니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (771611000) Localized String: (시작 위치 - 시작 위치로 재초기화할 때만 적용됩니다.
 반복하면, 1회전 후 0.f 부터 시작됩니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (771611000) Localized String: (시작 위치로, 재초기화시에만 적용됩니다.
 루핑을 하면, 1회전 후 0.f 부터 시작할 것입니다.)
-[2017.06.09-22.12.13:169][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
+[2017.06.10-10.59.43:299][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1311569777) Localized String: (센서 높이 - 필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1311569777) Localized String: (필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
-[2017.06.09-22.12.13:394][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.09-22.12.14:044][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2017.06.09-22.12.14:044][  0]LogD3D11RHI:       2019/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.06.09-22.12.14:053][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.06.09-22.12.14:053][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.06.09-22.12.14:056][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.09-22.12.14:056][  0]LogD3D11RHI:       0/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.09-22.12.14:056][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.09-22.12.14:065][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.09-22.12.14:066][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2017.06.09-22.12.14:066][  0]LogWindows: EnumDisplayDevices:
-[2017.06.09-22.12.14:066][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:0 D:1)
-[2017.06.09-22.12.14:067][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.06.09-22.12.14:068][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.06.09-22.12.14:069][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.06.09-22.12.14:069][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2017.06.09-22.12.14:069][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.06.09-22.12.14:069][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.06.09-22.12.14:069][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.06.09-22.12.14:675][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.09-22.12.14:971][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.06.09-22.12.14:974][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Intermediate/Shaders/WorkingDirectory/4236/).
-[2017.06.09-22.12.14:974][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jcy/AppData/Local/Temp/UnrealShaderWorkingDir/EC458CE7475995AF044DB5ADD034102A/'.
-[2017.06.09-22.12.14:974][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.09-22.12.16:380][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.09-22.12.16:457][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.09-22.12.16:531][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.09-22.12.16:596][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.09-22.12.16:596][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.09-22.12.17:200][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.09-22.12.17:254][  0]LogDerivedDataCache: Loaded boot cache 0.05s 52MB C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.06.09-22.12.17:254][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.06.09-22.12.17:254][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.09-22.12.17:254][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.09-22.12.17:254][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.09-22.12.17:255][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.09-22.12.17:273][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.09-22.12.17:285][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jcy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.09-22.12.17:295][  0]LogSlate: Using Freetype 2.6.0
-[2017.06.09-22.12.17:297][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.09-22.12.17:297][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.09-22.12.17:818][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
-[2017.06.09-22.12.17:825][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.007417 seconds
-[2017.06.09-22.12.17:843][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.09-22.12.17:845][  0]LogContentStreaming: Texture pool size is 1000.00 MB
-[2017.06.09-22.12.18:100][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.06.09-22.12.18:160][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.06.09-22.12.18:234][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.06.09-22.12.18:234][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.06.09-22.12.18:234][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.09-22.12.18:813][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: unnamed, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1184173371
-[2017.06.09-22.12.20:035][  0]LogMoviePlayer: Initializing movie player
-[2017.06.09-22.12.20:143][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.06.09-22.12.20:617][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.06.09-22.12.20:672][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.09-22.12.21:098][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.06.09-22.12.21:098][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.06.09-22.12.21:169][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.06.09-22.12.22:172][  0]LogUObjectArray: 34415 objects as part of root set at end of initial load.
-[2017.06.09-22.12.22:172][  0]LogUObjectAllocator: 7853176 out of 0 bytes used by permanent object pool.
-[2017.06.09-22.12.22:172][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.09-22.12.22:301][  0]LogEngine: Initializing Engine...
-[2017.06.09-22.12.22:303][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.06.09-22.12.22:409][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.09-22.12.22:409][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.09-22.12.22:438][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-22.12.22:517][  0]LogInit: FAudioDevice initialized.
-[2017.06.09-22.12.22:536][  0]LogInit: Texture streaming: Enabled
-[2017.06.09-22.12.22:548][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.06.09-22.12.23:059][  0]LogBlueprint:Warning: [W_mainMenu] '방만들기' variable not found. Base class was probably changed.
-[2017.06.09-22.12.23:059][  0]LogBlueprint:Warning: [W_mainMenu] '방만들기' variable not found. Base class was probably changed.
-[2017.06.09-22.12.23:059][  0]LogBlueprint:Warning: [W_mainMenu] '방만들기' variable not found. Base class was probably changed.
-[2017.06.09-22.12.23:083][  0]LogClass:Warning: Enum '/Game/BP/E_GameState.E_GameState' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2017.06.09-22.12.23:286][  0]LogInit:Display: Game Engine Initialized.
-[2017.06.09-22.12.23:537][  0]LogInit:Display: Starting Game.
-[2017.06.09-22.12.23:537][  0]LogNet: Browse: /Temp/Autosaves/Game/Map/UEDPCMain?Name=Player
-[2017.06.09-22.12.23:537][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Map/UEDPCMain?Name=Player
-[2017.06.09-22.12.23:562][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.09-22.12.23:562][  0]LogMemory: Process Physical Memory: 714.04 MB used, 725.45 MB peak
-[2017.06.09-22.12.23:562][  0]LogMemory: Process Virtual Memory: 766.43 MB used, 766.45 MB peak
-[2017.06.09-22.12.23:562][  0]LogMemory: Physical Memory: 7908.71 MB used,  4301.16 MB free, 12209.86 MB total
-[2017.06.09-22.12.23:562][  0]LogMemory: Virtual Memory: 1433.15 MB used,  4301.16 MB free, 134217728.00 MB total
-[2017.06.09-22.12.23:562][  0]LogMemory: 
-[2017.06.09-22.12.23:562][  0]Allocator Stats for TBB: (not implemented)
-[2017.06.09-22.12.25:485][  0]LogAIModule: Creating AISystem for world Main
-[2017.06.09-22.12.25:485][  0]LogLoad: Game class is 'pregame_C'
-[2017.06.09-22.12.25:488][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Map/UEDPCMain.Main up for play (max tick rate 0) at 2017.06.10-07.12.25
-[2017.06.09-22.12.25:489][  0]LogWorld: Bringing up level for play took: 0.001271
-[2017.06.09-22.12.25:490][  0]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2017.06.09-22.12.25:490][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.09-22.12.25:490][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.09-22.12.25:490][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.06.09-22.12.25:491][  0]LogBlueprintUserMessages: [Main_C_1] 1.0
-[2017.06.09-22.12.25:491][  0]LogBlueprintUserMessages: [MyGameinstance_C_0] 스타트업
-[2017.06.09-22.12.25:496][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.06.09-22.12.25:496][  0]LogLoad: Took 1.958192 seconds to LoadMap(/Temp/Autosaves/Game/Map/UEDPCMain)
-[2017.06.09-22.12.25:500][  0]LogSlate: Took 0.003131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2017.06.09-22.12.25:782][  0]LogRenderer: Reallocating scene render targets to support 1600x900 NumSamples 1 (Frame:2).
-[2017.06.09-22.12.25:782][  0]LogLoad: (Engine Initialization) Total time: 16.98 seconds
-[2017.06.09-22.12.25:782][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.21 seconds
-[2017.06.09-22.12.25:782][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.06.09-22.12.25:782][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.06.09-22.12.25:800][  0]LogOcInput: OculusInput pre-init called
-[2017.06.09-22.12.26:284][ 31]LogAudio:Warning: Detected orphaned looping sound '메인화면'.
-[2017.06.09-22.12.28:752][183]LogBlueprintUserMessages: [MyGameinstance_C_0] 메인메뉴
-[2017.06.09-22.12.28:753][183]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: unnamed, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2893060150
-[2017.06.09-22.12.29:919][200]LogPackageName: SearchForPackageOnDisk took   0.194s to resolve stage.umap.
-[2017.06.09-22.12.29:920][200]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
-[2017.06.09-22.12.29:920][200]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.06.09-22.12.30:116][200]LogPackageName: SearchForPackageOnDisk took   0.196s to resolve stage.umap.
-[2017.06.09-22.12.30:116][200]LogNet: Browse: /Game/Map/stage?listen
-[2017.06.09-22.12.30:116][200]LogLoad: LoadMap: /Game/Map/stage?listen
-[2017.06.09-22.12.30:208][200]LogMemory: Platform Memory Stats for Windows
-[2017.06.09-22.12.30:208][200]LogMemory: Process Physical Memory: 900.98 MB used, 907.08 MB peak
-[2017.06.09-22.12.30:208][200]LogMemory: Process Virtual Memory: 1159.87 MB used, 1227.49 MB peak
-[2017.06.09-22.12.30:208][200]LogMemory: Physical Memory: 8109.90 MB used,  4099.96 MB free, 12209.86 MB total
-[2017.06.09-22.12.30:208][200]LogMemory: Virtual Memory: 1849.25 MB used,  4099.96 MB free, 134217728.00 MB total
-[2017.06.09-22.12.30:208][200]LogMemory: 
-[2017.06.09-22.12.30:208][200]Allocator Stats for TBB: (not implemented)
-[2017.06.09-22.12.32:789][200]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2017.06.09-22.12.32:789][200]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
-[2017.06.09-22.12.33:089][200]LogPackageName: SearchForPackageOnDisk took   0.299s, but failed to resolve FX_Meshes.
-[2017.06.09-22.12.33:089][200]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
-[2017.06.09-22.12.34:589][200]LogAIModule: Creating AISystem for world stage
-[2017.06.09-22.12.34:590][200]LogLoad: Game class is 'MyGameMode_C'
-[2017.06.09-22.12.34:591][200]LogNet:Display: SteamNetDriver_0 bound to port 7777
-[2017.06.09-22.12.34:591][200]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2017.06.09-22.12.34:591][200]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
-[2017.06.09-22.12.34:620][200]LogWorld: Bringing World /Game/Map/stage.stage up for play (max tick rate 0) at 2017.06.10-07.12.34
-[2017.06.09-22.12.34:622][200]LogWorld: Bringing up level for play took: 0.030020
-[2017.06.09-22.12.34:623][200]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.09-22.12.34:623][200]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.09-22.12.34:623][200]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.06.09-22.12.34:634][200]LogBlueprintUserMessages: [messageScroll_116] darkjcy
-[2017.06.09-22.12.34:638][200]LogBlueprintUserMessages: [playercon_C_0] 1
-[2017.06.09-22.12.34:639][200]LogBlueprintUserMessages: [MyGameinstance_C_0] 로딩스크린
-[2017.06.09-22.12.34:639][200]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.06.09-22.12.34:641][200]LogLoad: Took 4.525163 seconds to LoadMap(/Game/Map/stage)
-[2017.06.09-22.12.34:643][200]PIE:Warning: 경고 위젯이 포커스를 지원하지 않습니다. UserWidget 인 경우, bIsFocusable 을 true 로 설정해야 합니다.
-[2017.06.09-22.12.34:688][200]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.09-22.12.36:539][314]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
-
-[2017.06.09-22.12.36:539][314]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
-
-[2017.06.09-22.12.36:553][315]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
-
-[2017.06.09-22.12.36:553][315]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
-
-[2017.06.09-22.12.36:568][316]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
-
-[2017.06.09-22.12.36:568][316]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
-
-[2017.06.09-22.12.36:584][317]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
-
-[2017.06.09-22.12.36:584][317]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
-
-[2017.06.09-22.12.36:601][318]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
-
-[2017.06.09-22.12.36:601][318]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
-
-[2017.06.09-22.12.36:617][319]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:RMouseSkillCoolTimeBar
-
-[2017.06.09-22.12.36:617][319]LogScriptCore:Warning: Script Msg: Divide by zero
-Script call stack:
-	Function /Game/Widget/PHUD.PHUD_C:ShiftSkillCoolTimeBar
-
-[2017.06.09-22.12.38:431][419]LogPackageName: SearchForPackageOnDisk took   0.196s to resolve Main.umap.
-[2017.06.09-22.12.38:431][419]LogBlueprintUserMessages: [MyGameinstance_C_0] 플레잉
-[2017.06.09-22.12.38:434][419]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
-[2017.06.09-22.12.38:434][419]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.06.09-22.12.38:629][419]LogPackageName: SearchForPackageOnDisk took   0.195s to resolve Main.umap.
-[2017.06.09-22.12.38:629][419]LogNet: Browse: /Game/Map/Main
-[2017.06.09-22.12.38:629][419]LogLoad: LoadMap: /Game/Map/Main
-[2017.06.09-22.12.38:630][419]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
-[2017.06.09-22.12.38:630][419]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
-[2017.06.09-22.12.38:630][419]LogExit: GameNetDriver SteamNetDriver_0 shut down
-[2017.06.09-22.12.38:818][419]LogMemory: Platform Memory Stats for Windows
-[2017.06.09-22.12.38:818][419]LogMemory: Process Physical Memory: 1413.57 MB used, 1555.96 MB peak
-[2017.06.09-22.12.38:818][419]LogMemory: Process Virtual Memory: 1829.93 MB used, 2014.30 MB peak
-[2017.06.09-22.12.38:818][419]LogMemory: Physical Memory: 8668.63 MB used,  3541.23 MB free, 12209.86 MB total
-[2017.06.09-22.12.38:818][419]LogMemory: Virtual Memory: 2579.82 MB used,  3541.23 MB free, 134217728.00 MB total
-[2017.06.09-22.12.38:818][419]LogMemory: 
-[2017.06.09-22.12.38:818][419]Allocator Stats for TBB: (not implemented)
-[2017.06.09-22.12.40:578][419]LogAIModule: Creating AISystem for world Main
-[2017.06.09-22.12.40:578][419]LogLoad: Game class is 'pregame_C'
-[2017.06.09-22.12.40:583][419]LogWorld: Bringing World /Game/Map/Main.Main up for play (max tick rate 0) at 2017.06.10-07.12.40
-[2017.06.09-22.12.40:583][419]LogWorld: Bringing up level for play took: 0.001423
-[2017.06.09-22.12.40:584][419]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2017.06.09-22.12.40:584][419]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.09-22.12.40:584][419]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.06.09-22.12.40:584][419]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2017.06.09-22.12.40:586][419]LogBlueprintUserMessages: [Main_C_0] 1.0
-[2017.06.09-22.12.40:586][419]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.06.09-22.12.40:586][419]LogLoad: Took 1.956603 seconds to LoadMap(/Game/Map/Main)
-[2017.06.09-22.12.40:595][420]LogSlate: Took 0.004204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2017.06.09-22.12.40:679][426]LogAudio:Warning: Detected orphaned looping sound '메인화면'.
-[2017.06.09-22.12.40:745][429]LogScriptCore:Warning: Script Msg: DestroySessionCallback - Invalid player state
-[2017.06.09-22.12.47:138][823]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.06.09-22.12.47:145][823]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.06.09-22.12.47:153][823]LogEngine: All Windows Closed
-[2017.06.09-22.12.47:153][823]LogWindows: FPlatformMisc::RequestExit(0)
-[2017.06.09-22.12.47:153][824]LogMoviePlayer: Shutting down movie player
-[2017.06.09-22.12.47:318][824]LogExit: Preparing to exit.
-[2017.06.09-22.12.47:845][824]LogExit: Game engine shut down
-[2017.06.09-22.12.47:925][824]LogObj: Freed 0b from 0 cluster array pools.
-[2017.06.09-22.12.47:925][824]LogExit: Object subsystem successfully closed.
-[2017.06.09-22.12.47:946][824]LogD3D11RHI: Shutdown
-[2017.06.09-22.12.47:946][824]LogD3D11RHI: CleanupD3DDevice
-[2017.06.09-22.12.48:002][824]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (266)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module SequenceRecorder (264)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module AutomationController (262)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module AutomationWorker (260)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module AIModule (258)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module GameplayDebugger (257)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module AITestSuite (255)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (252)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module MfMediaFactory (250)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (248)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (246)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module Media (245)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module CharacterAI (242)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module SessionServices (240)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (238)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module GeometryCache (236)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (235)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module Niagara (232)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (230)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module PortalServices (228)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module PortalRpc (226)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module MessagingRpc (224)
-[2017.06.09-22.12.48:017][824]LogModuleManager: Shutting down and abandoning module ProfilerService (222)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module TaskGraph (220)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module SteamVRController (218)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module SteamVR (216)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (214)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module OculusLibrary (212)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module OculusInput (210)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (208)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (206)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module CableComponent (204)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (202)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module HTML5Networking (198)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (196)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module DesktopPlatform (195)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module HotReload (193)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (192)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module UObjectPlugin (188)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (186)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (184)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module SourceControl (183)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (180)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module PhysXVehicles (178)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (176)
-[2017.06.09-22.12.48:045][824]LogModuleManager: Shutting down and abandoning module UdpMessaging (174)
-[2017.06.09-22.12.48:146][824]LogModuleManager: Shutting down and abandoning module TcpMessaging (172)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (170)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module FacialAnimation (168)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (166)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module Paper2D (164)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (162)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module WmfMedia (160)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module MfMedia (158)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module MediaAssets (156)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (154)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module VREditor (152)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (150)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (148)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module FunctionalTesting (146)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (144)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module UMG (142)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module UMGEditor (141)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module Sequencer (140)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module AssetTools (138)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module MessageLog (137)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (136)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module SlateReflector (130)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module Slate (128)
-[2017.06.09-22.12.48:628][824]LogModuleManager: Shutting down and abandoning module EditorStyle (126)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module Messaging (124)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (122)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (120)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module XAudio2 (118)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module Networking (116)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module Core (114)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module KismetCompiler (112)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module PhysXFormats (110)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module MeshUtilities (108)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (107)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (105)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (103)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module PropertyEditor (101)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module AssetRegistry (98)
-[2017.06.09-22.12.48:631][824]LogModuleManager: Shutting down and abandoning module DerivedDataCache (96)
-[2017.06.09-22.12.48:798][824]LogDerivedDataCache: Shutdown
-[2017.06.09-22.12.48:798][824]LogModuleManager: Shutting down and abandoning module TargetPlatform (94)
-[2017.06.09-22.12.48:798][824]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (93)
-[2017.06.09-22.12.48:798][824]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (91)
-[2017.06.09-22.12.48:798][824]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (89)
-[2017.06.09-22.12.48:798][824]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (87)
-[2017.06.09-22.12.48:798][824]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (85)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (83)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (81)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (79)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (77)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module ImageWrapper (76)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (73)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (71)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (69)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (67)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (65)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (63)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (61)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (59)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module InputCore (56)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module Settings (54)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module OculusRift (52)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module GearVR (50)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (48)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (46)
-[2017.06.09-22.12.48:799][824]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
-[2017.06.09-22.12.48:799][824]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2017.06.09-22.12.48:844][824]LogOnline:Display: Unloading online subsystem: STEAM
-[2017.06.09-22.12.48:844][824]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2017.06.09-22.12.48:844][824]LogOnline:Display: Unloading online subsystem: NULL
-[2017.06.09-22.12.48:844][824]LogModuleManager: Shutting down and abandoning module XMPP (37)
-[2017.06.09-22.12.48:844][824]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2017.06.09-22.12.48:846][824]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2017.06.09-22.12.48:847][824]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.06.09-22.12.48:847][824]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.06.09-22.12.48:847][824]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.06.09-22.12.48:847][824]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.06.09-22.12.48:847][824]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.06.09-22.12.48:848][824]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.06.09-22.12.48:848][824]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.06.09-22.12.48:848][824]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.06.09-22.12.48:848][824]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.06.09-22.12.48:848][824]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.06.09-22.12.48:848][824]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.06.09-22.12.48:848][824]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.06.09-22.12.48:848][824]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.06.09-22.12.48:848][824]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.06.09-22.12.48:848][824]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.06.09-22.12.48:849][824]LogExit: Exiting.
-[2017.06.09-22.12.48:851][824]Log file closed, 06/10/17 07:12:48
+[2017.06.10-10.59.43:503][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.10-10.59.44:161][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.06.10-10.59.44:161][  0]LogD3D11RHI:       2019/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.10-10.59.44:170][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.06.10-10.59.44:170][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.06.10-10.59.44:173][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.10-10.59.44:173][  0]LogD3D11RHI:       0/0/6104 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.10-10.59.44:173][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.10-10.59.44:182][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.10-10.59.44:182][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.06.10-10.59.44:182][  0]LogWindows: EnumDisplayDevices:
+[2017.06.10-10.59.44:183][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.06.10-10.59.44:183][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.06.10-10.59.44:184][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.06.10-10.59.44:185][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.06.10-10.59.44:185][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.06.10-10.59.44:185][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.06.10-10.59.44:185][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.06.10-10.59.44:185][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.10-10.59.44:758][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.10-10.59.45:071][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.10-10.59.45:074][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/Intermediate/Shaders/WorkingDirectory/17364/).
+[2017.06.10-10.59.45:075][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jcy/AppData/Local/Temp/UnrealShaderWorkingDir/15AE38E148FAB0306042688E35D99217/'.
+[2017.06.10-10.59.45:075][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.10-10.59.46:420][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.10-10.59.46:492][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.10-10.59.46:564][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.10-10.59.46:627][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.10-10.59.46:627][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.10-10.59.47:233][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.10-10.59.47:293][  0]LogDerivedDataCache: Loaded boot cache 0.06s 60MB C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.10-10.59.47:293][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jcy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.10-10.59.47:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.10-10.59.47:293][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.10-10.59.47:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jcy/Documents/GitHub/UNNAMED/UNNAMED/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.10-10.59.47:293][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.10-10.59.47:310][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.10-10.59.47:321][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jcy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.10-10.59.47:331][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.10-10.59.47:332][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.10-10.59.47:332][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.10-10.59.47:853][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.06.10-10.59.47:860][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.006647 seconds
+[2017.06.10-10.59.47:877][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.10-10.59.47:879][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.06.10-10.59.48:133][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.10-10.59.48:196][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.10-10.59.48:269][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.10-10.59.48:269][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.10-10.59.48:269][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.10-10.59.48:826][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: unnamed, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1184173371
+[2017.06.10-10.59.50:025][  0]LogMoviePlayer: Initializing movie player
+[2017.06.10-10.59.50:121][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.10-10.59.50:558][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.10-10.59.50:609][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.10-10.59.51:021][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.10-10.59.51:021][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.10-10.59.51:092][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.10-10.59.52:056][  0]LogUObjectArray: 34415 objects as part of root set at end of initial load.
+[2017.06.10-10.59.52:056][  0]LogUObjectAllocator: 7853176 out of 0 bytes used by permanent object pool.
+[2017.06.10-10.59.52:056][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.10-10.59.52:187][  0]LogEngine: Initializing Engine...
+[2017.06.10-10.59.52:188][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.10-10.59.52:290][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.10-10.59.52:290][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.10-10.59.52:308][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.10-10.59.52:387][  0]LogInit: FAudioDevice initialized.
+[2017.06.10-10.59.52:408][  0]LogInit: Texture streaming: Enabled
+[2017.06.10-10.59.52:420][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.10-10.59.53:870][  0]LogClass:Warning: Enum '/Game/BP/E_GameState.E_GameState' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.06.10-10.59.54:796][  0]LogInit:Display: Game Engine Initialized.
+[2017.06.10-10.59.55:045][  0]LogInit:Display: Starting Game.
+[2017.06.10-10.59.55:045][  0]LogNet: Browse: /Temp/Autosaves/Game/Map/UEDPCMainR?Name=Player
+[2017.06.10-10.59.55:045][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Map/UEDPCMainR?Name=Player
+[2017.06.10-10.59.55:122][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.10-10.59.55:122][  0]LogMemory: Process Physical Memory: 855.30 MB used, 855.30 MB peak
+[2017.06.10-10.59.55:122][  0]LogMemory: Process Virtual Memory: 924.98 MB used, 924.99 MB peak
+[2017.06.10-10.59.55:122][  0]LogMemory: Physical Memory: 7546.18 MB used,  4663.68 MB free, 12209.86 MB total
+[2017.06.10-10.59.55:122][  0]LogMemory: Virtual Memory: 1585.55 MB used,  4663.68 MB free, 134217728.00 MB total
+[2017.06.10-10.59.55:122][  0]LogMemory: 
+[2017.06.10-10.59.55:122][  0]Allocator Stats for TBB: (not implemented)
+[2017.06.10-10.59.55:351][  0]LogAIModule: Creating AISystem for world MainR
+[2017.06.10-10.59.55:351][  0]LogLoad: Game class is 'pregame_C'
+[2017.06.10-10.59.55:353][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Map/UEDPCMainR.MainR up for play (max tick rate 0) at 2017.06.10-19.59.55
+[2017.06.10-10.59.55:353][  0]LogWorld: Bringing up level for play took: 0.001122
+[2017.06.10-10.59.55:354][  0]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.06.10-10.59.55:354][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.10-10.59.55:354][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.10-10.59.55:354][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.10-10.59.55:360][  0]r.SetRes = "1600x900"
+[2017.06.10-10.59.55:360][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.10-10.59.55:360][  0]LogLoad: Took 0.315323 seconds to LoadMap(/Temp/Autosaves/Game/Map/UEDPCMainR)
+[2017.06.10-10.59.55:364][  0]LogSlate: Took 0.003183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.06.10-10.59.55:642][  0]LogRenderer: Reallocating scene render targets to support 1600x900 NumSamples 1 (Frame:2).
+[2017.06.10-10.59.55:642][  0]LogLoad: (Engine Initialization) Total time: 16.11 seconds
+[2017.06.10-10.59.55:642][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.17 seconds
+[2017.06.10-10.59.55:642][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.10-10.59.55:642][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.10-10.59.55:660][  0]LogOcInput: OculusInput pre-init called
+[2017.06.10-10.59.58:652][176]LogBlueprintUserMessages: [MainR_C_1] 1.0
+[2017.06.10-10.59.59:152][208]LogAudio:Warning: Detected orphaned looping sound '메인화면'.
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 0 1
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key 0 value 1
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1 0
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key 1 value 0
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2 1
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key 2 value 1
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 3 38
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key 3 value 38
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 4 1
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key 4 value 1
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 5 1
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key 5 value 1
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 6 30663
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key 6 value 30663
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 7 0
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key 7 value 0
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data data 73997c18d7df|1|0|1|1|38|1| | | | | | | | | | | | | |
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key data value 73997c18d7df|1|0|1|1|38|1| | | | | | | | | | | | | |
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Harsh.Man.SJ
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key name value Harsh.Man.SJ
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 76561198151223748
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 76561198151223748
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D1DE5A]'
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks4s_searchable_int_atter 131105
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks4s_searchable_int_atter value 131105
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_area 1
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_area value 1
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_disconnect_num 0
+[2017.06.10-11.00.18:897][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_disconnect_num value 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_fighter.win_count 3
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_fighter.win_count value 3
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_max 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_max value 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_num 1
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_num value 1
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_slot_num 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_slot_num value 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_match_type 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_match_type value 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_max_rank_fighter.win_count 14
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_max_rank_fighter.win_count value 14
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_nat_type 2
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_nat_type value 2
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_owner_player_name cdwpw
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_owner_player_name value cdwpw
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_practice 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_practice value 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_rounds 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_rounds value 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_session_name 0
+[2017.06.10-11.00.18:898][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_session_name value 0
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID 76561198393213784
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID value 76561198393213784
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID2 791
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID2 value 791
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D26BAC]'
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 7
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 7
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid 24dae229-a28a-42c5-8e15-361984d03f5d
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key guid value 24dae229-a28a-42c5-8e15-361984d03f5d
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data name sex (Primeum Apex)
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key name value sex (Primeum Apex)
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109207376900102
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109207376900102
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D1F6D4]'
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 3
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 3
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid 98029468-819a-4a09-b1e6-3c5532738b4f
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key guid value 98029468-819a-4a09-b1e6-3c5532738b4f
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data name 555 (B<3)
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key name value 555 (B<3)
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109205042733058
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109205042733058
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2CEEFAA]'
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 0 1
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key 0 value 1
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1 1
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key 1 value 1
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2 1
+[2017.06.10-11.00.18:899][431]LogOnline:Warning: STEAM: Failed to parse setting from key 2 value 1
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 3 38
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key 3 value 38
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 4 1
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key 4 value 1
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 5 1
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key 5 value 1
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 6 30663
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key 6 value 30663
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data 7 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key 7 value 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data data 73997c18d7df|1|0|1|1|38|1|planet_36|0|0|3|120|20|0|0|1273102003|52|0000| |115,175|
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key data value 73997c18d7df|1|0|1|1|38|1|planet_36|0|0|3|120|20|0|0|1273102003|52|0000| |115,175|
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data name ????????????
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key name value ????????????
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 76561198174215575
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 76561198174215575
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D1928D]'
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks4s_searchable_int_atter 131105
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks4s_searchable_int_atter value 131105
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_area 1
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_area value 1
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_disconnect_num 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_disconnect_num value 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_fighter.win_count 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_fighter.win_count value 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_max 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_max value 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_num 1
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_num value 1
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_slot_num 0
+[2017.06.10-11.00.18:900][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_slot_num value 0
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_match_type 0
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_match_type value 0
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_max_rank_fighter.win_count 0
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_max_rank_fighter.win_count value 0
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_nat_type 2
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_nat_type value 2
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_owner_player_name waberken
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_owner_player_name value waberken
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_practice 0
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_practice value 0
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_rounds 0
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_rounds value 0
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_session_name 0
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_session_name value 0
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID 76561198395083109
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID value 76561198395083109
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID2 773
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID2 value 773
+[2017.06.10-11.00.18:901][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D268E3]'
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 2
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 2
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid b76d6631-a57a-44dd-b53c-76f4d42c2b48
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key guid value b76d6631-a57a-44dd-b53c-76f4d42c2b48
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data name iphone7 (yongpyo8231)
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key name value iphone7 (yongpyo8231)
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109207251591174
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109207251591174
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D1C37F]'
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 3
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 3
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid db239e1f-402a-4c1c-8b71-bc45c5a8be1d
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key guid value db239e1f-402a-4c1c-8b71-bc45c5a8be1d
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data name The Forest Game (????????????)
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key name value The Forest Game (????????????)
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109207676590085
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109207676590085
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D239B5]'
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks4s_searchable_int_atter 131108
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks4s_searchable_int_atter value 131108
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks4s_session_type 0
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks4s_session_type value 0
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_area 1
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_area value 1
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_disconnect_num 0
+[2017.06.10-11.00.18:902][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_disconnect_num value 0
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_fighter.win_count 0
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_fighter.win_count value 0
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_max 4
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_max value 4
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_num 2
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_num value 2
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_slot_num 0
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_slot_num value 0
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_match_type 2
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_match_type value 2
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_max_rank_fighter.win_count 1
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_max_rank_fighter.win_count value 1
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_nat_type 2
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_nat_type value 2
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_owner_player_name SHINHWA
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_owner_player_name value SHINHWA
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_practice 0
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_practice value 0
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_rounds 1
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_rounds value 1
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_session_name 0
+[2017.06.10-11.00.18:903][431]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_session_name value 0
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID 76561198107807564,76561198142357896
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID value 76561198107807564,76561198142357896
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID2 771,773
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID2 value 771,773
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_area 1
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks_area value 1
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_a_member_rest 0,0,0,0,0,0,0,0
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks_a_member_rest value 0,0,0,0,0,0,0,0
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_connection_quality 3
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks_connection_quality value 3
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_host_win_count 0
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks_host_win_count value 0
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_member_id_winner 0
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks_member_id_winner value 0
+[2017.06.10-11.00.18:904][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_plactice_end 0
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks_plactice_end value 0
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_room_data_type 1
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks_room_data_type value 1
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_rounds 1
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks_rounds value 1
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_session_join_max 4
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks_session_join_max value 4
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_session_name 0
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks_session_name value 0
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_update_count 177
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key tks_update_count value 177
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D16A37]'
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data allowcustomfactions True
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key allowcustomfactions value True
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data allowspacebattlerewatch True
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key allowspacebattlerewatch value True
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data animationspeedmultiplier 1
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key animationspeedmultiplier value 1
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data battleautostarttimer False
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key battleautostarttimer value False
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data battleautostarttimerduration 20
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key battleautostarttimerduration value 20
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data competitorcount 12
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key competitorcount value 12
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data economy True
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key economy value True
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data endturntimer False
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key endturntimer value False
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data endturntimerduration 60
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key endturntimerduration value 60
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data galaxyshape Ovoid
+[2017.06.10-11.00.18:905][431]LogOnline:Warning: STEAM: Failed to parse setting from key galaxyshape value Ovoid
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data galaxysize Colossal
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key galaxysize value Colossal
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data gamedifficulty Normal
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key gamedifficulty value Normal
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameSpeed Normal
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key GameSpeed value Normal
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data groundbattleautostarttimer False
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key groundbattleautostarttimer value False
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data groundbattleautostarttimerduration 15
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key groundbattleautostarttimerduration value 15
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data metaplotprobability True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key metaplotprobability value True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data military True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key military value True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data multiplayerquestseventsprobability True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key multiplayerquestseventsprobability value True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data owner 76561198015284571
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key owner value 76561198015284571
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data piratesenabled True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key piratesenabled value True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data runtimeconfiguration Endless Space 2
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key runtimeconfiguration value Endless Space 2
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data runtimehash 90FA430FD6747508A396765A28586AE5
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key runtimehash value 90FA430FD6747508A396765A28586AE5
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data sbs 28
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key sbs value 28
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data science True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key science value True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data score True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key score value True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data sessionmode Protected
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key sessionmode value Protected
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data sessionname RS?????????
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key sessionname value RS?????????
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data version 281474980118533
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key version value 281474980118533
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data versionlabel GOLD-Public
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key versionlabel value GOLD-Public
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data withrandomevents True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key withrandomevents value True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data wonder True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key wonder value True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data _gameinprogress True
+[2017.06.10-11.00.18:906][431]LogOnline:Warning: STEAM: Failed to parse setting from key _gameinprogress value True
+[2017.06.10-11.00.18:907][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data _turn 67
+[2017.06.10-11.00.18:907][431]LogOnline:Warning: STEAM: Failed to parse setting from key _turn value 67
+[2017.06.10-11.00.18:907][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.18:907][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.18:907][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.18:907][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.18:907][431]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109205389529089
+[2017.06.10-11.00.18:907][431]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109205389529089
+[2017.06.10-11.00.18:907][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2CF3930]'
+[2017.06.10-11.00.18:907][431]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: unnamed, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2893060150
+[2017.06.10-11.00.18:907][431]LogOnline:Warning: STEAM: Removed incompatible build: ServerBuildUniqueId = 0x325e4c19, GetBuildUniqueId() = 0x042a847a
+[2017.06.10-11.00.18:907][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D25596]'
+[2017.06.10-11.00.18:908][431]LogOnline:Warning: STEAM: Removed incompatible build: ServerBuildUniqueId = 0x3f332627, GetBuildUniqueId() = 0x042a847a
+[2017.06.10-11.00.18:908][431]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D267A3]'
+[2017.06.10-11.00.24:785][795]LogBlueprintUserMessages: [Setting_114] lsk
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 0 1
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key 0 value 1
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1 0
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key 1 value 0
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2 1
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key 2 value 1
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 3 38
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key 3 value 38
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 4 1
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key 4 value 1
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 5 1
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key 5 value 1
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 6 30663
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key 6 value 30663
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 7 0
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key 7 value 0
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data data 73997c18d7df|1|0|1|1|38|1| | | | | | | | | | | | | |
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key data value 73997c18d7df|1|0|1|1|38|1| | | | | | | | | | | | | |
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Harsh.Man.SJ
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key name value Harsh.Man.SJ
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 76561198151223748
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 76561198151223748
+[2017.06.10-11.00.31:955][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D1DE5A]'
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks4s_searchable_int_atter 131105
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks4s_searchable_int_atter value 131105
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_area 1
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_area value 1
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_disconnect_num 0
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_disconnect_num value 0
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_fighter.win_count 3
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_fighter.win_count value 3
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_max 0
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_max value 0
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_num 1
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_num value 1
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_slot_num 0
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_slot_num value 0
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_match_type 0
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_match_type value 0
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_max_rank_fighter.win_count 14
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_max_rank_fighter.win_count value 14
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_nat_type 2
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_nat_type value 2
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_owner_player_name cdwpw
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_owner_player_name value cdwpw
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_practice 0
+[2017.06.10-11.00.31:956][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_practice value 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_rounds 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_rounds value 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_session_name 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_session_name value 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID 76561198393213784
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID value 76561198393213784
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID2 791
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID2 value 791
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D26BAC]'
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 7
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 7
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid 24dae229-a28a-42c5-8e15-361984d03f5d
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key guid value 24dae229-a28a-42c5-8e15-361984d03f5d
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data name sex (Primeum Apex)
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key name value sex (Primeum Apex)
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109207376900102
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109207376900102
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D1F6D4]'
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 3
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 3
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid 98029468-819a-4a09-b1e6-3c5532738b4f
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key guid value 98029468-819a-4a09-b1e6-3c5532738b4f
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data name 555 (B<3)
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key name value 555 (B<3)
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109205042733058
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109205042733058
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2CEEFAA]'
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 0 1
+[2017.06.10-11.00.31:957][239]LogOnline:Warning: STEAM: Failed to parse setting from key 0 value 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key 1 value 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key 2 value 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 3 38
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key 3 value 38
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 4 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key 4 value 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 5 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key 5 value 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 6 30663
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key 6 value 30663
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data 7 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key 7 value 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data data 73997c18d7df|1|0|1|1|38|1|planet_36|0|0|3|120|20|0|0|1273102003|80|0000| |121,170|
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key data value 73997c18d7df|1|0|1|1|38|1|planet_36|0|0|3|120|20|0|0|1273102003|80|0000| |121,170|
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data name ????????????
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key name value ????????????
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 76561198174215575
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 76561198174215575
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D1928D]'
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks4s_searchable_int_atter 131105
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks4s_searchable_int_atter value 131105
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_area 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_area value 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_disconnect_num 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_disconnect_num value 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_fighter.win_count 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_fighter.win_count value 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_max 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_max value 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_num 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_num value 1
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_slot_num 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_slot_num value 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_match_type 0
+[2017.06.10-11.00.31:958][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_match_type value 0
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_max_rank_fighter.win_count 0
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_max_rank_fighter.win_count value 0
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_nat_type 2
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_nat_type value 2
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_owner_player_name waberken
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_owner_player_name value waberken
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_practice 0
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_practice value 0
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_rounds 0
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_rounds value 0
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_session_name 0
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_session_name value 0
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID 76561198395083109
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID value 76561198395083109
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID2 774
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID2 value 774
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D26F46]'
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks4s_searchable_int_atter 131106
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks4s_searchable_int_atter value 131106
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_area 1
+[2017.06.10-11.00.31:959][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_area value 1
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_disconnect_num 0
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_disconnect_num value 0
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_fighter.win_count 29
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_fighter.win_count value 29
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_max 0
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_max value 0
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_num 1
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_num value 1
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_slot_num 0
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_slot_num value 0
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_match_type 1
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_match_type value 1
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_max_rank_fighter.win_count 45
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_max_rank_fighter.win_count value 45
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_nat_type 2
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_nat_type value 2
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_owner_player_name geer1234
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_owner_player_name value geer1234
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_practice 0
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_practice value 0
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_rounds 0
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_rounds value 0
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_session_name 0
+[2017.06.10-11.00.31:960][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_session_name value 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID 76561198394320730
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID value 76561198394320730
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID2 772
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID2 value 772
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D26EA8]'
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 2
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 2
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid b76d6631-a57a-44dd-b53c-76f4d42c2b48
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key guid value b76d6631-a57a-44dd-b53c-76f4d42c2b48
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data name iphone7 (yongpyo8231)
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key name value iphone7 (yongpyo8231)
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109207251591174
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109207251591174
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D1C37F]'
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 3
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 3
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid db239e1f-402a-4c1c-8b71-bc45c5a8be1d
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key guid value db239e1f-402a-4c1c-8b71-bc45c5a8be1d
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data name The Forest Game (????????????)
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key name value The Forest Game (????????????)
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109207676590085
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109207676590085
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D239B5]'
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks4s_searchable_int_atter 131108
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks4s_searchable_int_atter value 131108
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks4s_session_type 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks4s_session_type value 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_area 1
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_area value 1
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_disconnect_num 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_disconnect_num value 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_fighter.win_count 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_fighter.win_count value 0
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_max 4
+[2017.06.10-11.00.31:961][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_max value 4
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_num 3
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_num value 3
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_slot_num 0
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_slot_num value 0
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_match_type 2
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_match_type value 2
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_max_rank_fighter.win_count 1
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_max_rank_fighter.win_count value 1
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_nat_type 2
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_nat_type value 2
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_owner_player_name SHINHWA
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_owner_player_name value SHINHWA
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_practice 0
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_practice value 0
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_rounds 1
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_rounds value 1
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_session_name 0
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_session_name value 0
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID 76561198107807564,76561198142357896,76561198319766449
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID value 76561198107807564,76561198142357896,76561198319766449
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID2 771,773,777
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID2 value 771,773,777
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_area 1
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks_area value 1
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_a_member_rest 0,0,0,0,0,0,0,0
+[2017.06.10-11.00.31:962][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks_a_member_rest value 0,0,0,0,0,0,0,0
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_connection_quality 3
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks_connection_quality value 3
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_host_win_count 0
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks_host_win_count value 0
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_member_id_winner 0
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks_member_id_winner value 0
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_plactice_end 0
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks_plactice_end value 0
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_room_data_type 1
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks_room_data_type value 1
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_rounds 1
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks_rounds value 1
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_session_join_max 4
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks_session_join_max value 4
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_session_name 0
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks_session_name value 0
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks_update_count 178
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks_update_count value 178
+[2017.06.10-11.00.31:963][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D16A37]'
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data allowcustomfactions True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key allowcustomfactions value True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data allowspacebattlerewatch True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key allowspacebattlerewatch value True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data animationspeedmultiplier 1
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key animationspeedmultiplier value 1
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data battleautostarttimer False
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key battleautostarttimer value False
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data battleautostarttimerduration 20
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key battleautostarttimerduration value 20
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data competitorcount 12
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key competitorcount value 12
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data economy True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key economy value True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data endturntimer False
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key endturntimer value False
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data endturntimerduration 60
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key endturntimerduration value 60
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data galaxyshape Ovoid
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key galaxyshape value Ovoid
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data galaxysize Colossal
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key galaxysize value Colossal
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data gamedifficulty Normal
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key gamedifficulty value Normal
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameSpeed Normal
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key GameSpeed value Normal
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data groundbattleautostarttimer False
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key groundbattleautostarttimer value False
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data groundbattleautostarttimerduration 15
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key groundbattleautostarttimerduration value 15
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data metaplotprobability True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key metaplotprobability value True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data military True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key military value True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data multiplayerquestseventsprobability True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key multiplayerquestseventsprobability value True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data owner 76561198015284571
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key owner value 76561198015284571
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data piratesenabled True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key piratesenabled value True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data runtimeconfiguration Endless Space 2
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key runtimeconfiguration value Endless Space 2
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data runtimehash 90FA430FD6747508A396765A28586AE5
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key runtimehash value 90FA430FD6747508A396765A28586AE5
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data sbs 28
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key sbs value 28
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data science True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key science value True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data score True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: STEAM: Failed to parse setting from key score value True
+[2017.06.10-11.00.31:964][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data sessionmode Protected
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key sessionmode value Protected
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data sessionname RS?????????
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key sessionname value RS?????????
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data version 281474980118533
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key version value 281474980118533
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data versionlabel GOLD-Public
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key versionlabel value GOLD-Public
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data withrandomevents True
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key withrandomevents value True
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data wonder True
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key wonder value True
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data _gameinprogress True
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key _gameinprogress value True
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data _turn 67
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key _turn value 67
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90109205389529089
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90109205389529089
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2CF3930]'
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tks4s_searchable_int_atter 131106
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key tks4s_searchable_int_atter value 131106
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_area 1
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_area value 1
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_disconnect_num 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_disconnect_num value 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_fighter.win_count 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_fighter.win_count value 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_max 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_max value 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_num 1
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_num value 1
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_join_slot_num 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_join_slot_num value 0
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_match_type 1
+[2017.06.10-11.00.31:965][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_match_type value 1
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_max_rank_fighter.win_count 0
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_max_rank_fighter.win_count value 0
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_nat_type 2
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_nat_type value 2
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_owner_player_name asizawa5859
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_owner_player_name value asizawa5859
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_practice 0
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_practice value 0
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_rounds 0
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_rounds value 0
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tksex_session_name 0
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: STEAM: Failed to parse setting from key tksex_session_name value 0
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID 76561198394452410
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID value 76561198394452410
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: Unknown or unsupported data type from Steam key data tkstma_ID2 771
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: STEAM: Failed to parse setting from key tkstma_ID2 value 771
+[2017.06.10-11.00.31:966][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D26F23]'
+[2017.06.10-11.00.31:967][239]LogOnline:Warning: STEAM: Removed incompatible build: ServerBuildUniqueId = 0x325e4c19, GetBuildUniqueId() = 0x042a847a
+[2017.06.10-11.00.31:967][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D25596]'
+[2017.06.10-11.00.31:967][239]LogOnline:Warning: STEAM: Removed incompatible build: ServerBuildUniqueId = 0x3f332627, GetBuildUniqueId() = 0x042a847a
+[2017.06.10-11.00.31:967][239]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x1860000C2D267A3]'
+[2017.06.10-11.00.36:324][509]Closing by request
+[2017.06.10-11.00.36:324][509]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.06.10-11.00.36:325][510]LogMoviePlayer: Shutting down movie player
+[2017.06.10-11.00.37:234][510]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.10-11.00.37:239][510]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.10-11.00.37:244][510]LogExit: Preparing to exit.
+[2017.06.10-11.00.37:773][510]LogExit: Game engine shut down
+[2017.06.10-11.00.37:834][510]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.10-11.00.37:834][510]LogExit: Object subsystem successfully closed.
+[2017.06.10-11.00.37:846][510]LogD3D11RHI: Shutdown
+[2017.06.10-11.00.37:846][510]LogD3D11RHI: CleanupD3DDevice
+[2017.06.10-11.00.37:881][510]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (266)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module SequenceRecorder (264)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module AutomationController (262)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module AutomationWorker (260)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module AIModule (258)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module GameplayDebugger (257)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module AITestSuite (255)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (252)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module MfMediaFactory (250)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (248)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (246)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module Media (245)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module CharacterAI (242)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module SessionServices (240)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (238)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module GeometryCache (236)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (235)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module Niagara (232)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (230)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module PortalServices (228)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module PortalRpc (226)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module MessagingRpc (224)
+[2017.06.10-11.00.37:896][510]LogModuleManager: Shutting down and abandoning module ProfilerService (222)
+[2017.06.10-11.00.37:960][510]LogModuleManager: Shutting down and abandoning module TaskGraph (220)
+[2017.06.10-11.00.37:960][510]LogModuleManager: Shutting down and abandoning module SteamVRController (218)
+[2017.06.10-11.00.37:960][510]LogModuleManager: Shutting down and abandoning module SteamVR (216)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (214)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module OculusLibrary (212)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module OculusInput (210)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (208)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (206)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module CableComponent (204)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (202)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module HTML5Networking (198)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (196)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module DesktopPlatform (195)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module HotReload (193)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (192)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module UObjectPlugin (188)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (186)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (184)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module SourceControl (183)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (180)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module PhysXVehicles (178)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (176)
+[2017.06.10-11.00.37:961][510]LogModuleManager: Shutting down and abandoning module UdpMessaging (174)
+[2017.06.10-11.00.38:061][510]LogModuleManager: Shutting down and abandoning module TcpMessaging (172)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (170)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module FacialAnimation (168)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (166)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module Paper2D (164)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (162)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module WmfMedia (160)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module MfMedia (158)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module MediaAssets (156)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (154)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module VREditor (152)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (150)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (148)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module FunctionalTesting (146)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (144)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module UMG (142)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module UMGEditor (141)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module Sequencer (140)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module AssetTools (138)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module MessageLog (137)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (136)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module SlateReflector (130)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module Slate (128)
+[2017.06.10-11.00.38:575][510]LogModuleManager: Shutting down and abandoning module EditorStyle (126)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module Messaging (124)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (122)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (120)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module XAudio2 (118)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module Networking (116)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module Core (114)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module KismetCompiler (112)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module PhysXFormats (110)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module MeshUtilities (108)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (107)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (105)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (103)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module PropertyEditor (101)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module AssetRegistry (98)
+[2017.06.10-11.00.38:578][510]LogModuleManager: Shutting down and abandoning module DerivedDataCache (96)
+[2017.06.10-11.00.38:859][510]LogDerivedDataCache: Shutdown
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module TargetPlatform (94)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (93)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (91)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (89)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (87)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (85)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (83)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (81)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (79)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (77)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module ImageWrapper (76)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (73)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (71)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (69)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (67)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (65)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (63)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (61)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (59)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module InputCore (56)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module Settings (54)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module OculusRift (52)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module GearVR (50)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (48)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (46)
+[2017.06.10-11.00.38:859][510]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
+[2017.06.10-11.00.38:859][510]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.06.10-11.00.38:884][510]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.06.10-11.00.38:884][510]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.06.10-11.00.38:884][510]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.10-11.00.38:884][510]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.10-11.00.38:884][510]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.10-11.00.38:912][510]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.10-11.00.38:914][510]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.10-11.00.38:914][510]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.10-11.00.38:914][510]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.10-11.00.38:914][510]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.10-11.00.38:914][510]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.10-11.00.38:915][510]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.10-11.00.38:915][510]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.10-11.00.38:915][510]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.10-11.00.38:915][510]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.10-11.00.38:915][510]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.10-11.00.38:915][510]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.10-11.00.38:915][510]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.10-11.00.38:915][510]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.10-11.00.38:915][510]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.10-11.00.38:915][510]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.10-11.00.38:916][510]LogExit: Exiting.
+[2017.06.10-11.00.38:919][510]Log file closed, 06/10/17 20:00:38
